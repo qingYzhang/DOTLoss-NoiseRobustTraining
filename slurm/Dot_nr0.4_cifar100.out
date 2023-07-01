@@ -1,0 +1,318 @@
+Files already downloaded and verified
+20000 Noisy samples
+Class 0, number of noisy  200
+Class 1, number of noisy  200
+Class 2, number of noisy  200
+Class 3, number of noisy  200
+Class 4, number of noisy  200
+Class 5, number of noisy  200
+Class 6, number of noisy  200
+Class 7, number of noisy  200
+Class 8, number of noisy  200
+Class 9, number of noisy  200
+Class 10, number of noisy  200
+Class 11, number of noisy  200
+Class 12, number of noisy  200
+Class 13, number of noisy  200
+Class 14, number of noisy  200
+Class 15, number of noisy  200
+Class 16, number of noisy  200
+Class 17, number of noisy  200
+Class 18, number of noisy  200
+Class 19, number of noisy  200
+Class 20, number of noisy  200
+Class 21, number of noisy  200
+Class 22, number of noisy  200
+Class 23, number of noisy  200
+Class 24, number of noisy  200
+Class 25, number of noisy  200
+Class 26, number of noisy  200
+Class 27, number of noisy  200
+Class 28, number of noisy  200
+Class 29, number of noisy  200
+Class 30, number of noisy  200
+Class 31, number of noisy  200
+Class 32, number of noisy  200
+Class 33, number of noisy  200
+Class 34, number of noisy  200
+Class 35, number of noisy  200
+Class 36, number of noisy  200
+Class 37, number of noisy  200
+Class 38, number of noisy  200
+Class 39, number of noisy  200
+Class 40, number of noisy  200
+Class 41, number of noisy  200
+Class 42, number of noisy  200
+Class 43, number of noisy  200
+Class 44, number of noisy  200
+Class 45, number of noisy  200
+Class 46, number of noisy  200
+Class 47, number of noisy  200
+Class 48, number of noisy  200
+Class 49, number of noisy  200
+Class 50, number of noisy  200
+Class 51, number of noisy  200
+Class 52, number of noisy  200
+Class 53, number of noisy  200
+Class 54, number of noisy  200
+Class 55, number of noisy  200
+Class 56, number of noisy  200
+Class 57, number of noisy  200
+Class 58, number of noisy  200
+Class 59, number of noisy  200
+Class 60, number of noisy  200
+Class 61, number of noisy  200
+Class 62, number of noisy  200
+Class 63, number of noisy  200
+Class 64, number of noisy  200
+Class 65, number of noisy  200
+Class 66, number of noisy  200
+Class 67, number of noisy  200
+Class 68, number of noisy  200
+Class 69, number of noisy  200
+Class 70, number of noisy  200
+Class 71, number of noisy  200
+Class 72, number of noisy  200
+Class 73, number of noisy  200
+Class 74, number of noisy  200
+Class 75, number of noisy  200
+Class 76, number of noisy  200
+Class 77, number of noisy  200
+Class 78, number of noisy  200
+Class 79, number of noisy  200
+Class 80, number of noisy  200
+Class 81, number of noisy  200
+Class 82, number of noisy  200
+Class 83, number of noisy  200
+Class 84, number of noisy  200
+Class 85, number of noisy  200
+Class 86, number of noisy  200
+Class 87, number of noisy  200
+Class 88, number of noisy  200
+Class 89, number of noisy  200
+Class 90, number of noisy  200
+Class 91, number of noisy  200
+Class 92, number of noisy  200
+Class 93, number of noisy  200
+Class 94, number of noisy  200
+Class 95, number of noisy  200
+Class 96, number of noisy  200
+Class 97, number of noisy  200
+Class 98, number of noisy  200
+Class 99, number of noisy  200
+20000
+Print noisy label generation statistics:
+Noisy class 0, has 510 samples.
+Noisy class 1, has 490 samples.
+Noisy class 2, has 493 samples.
+Noisy class 3, has 500 samples.
+Noisy class 4, has 497 samples.
+Noisy class 5, has 516 samples.
+Noisy class 6, has 487 samples.
+Noisy class 7, has 518 samples.
+Noisy class 8, has 503 samples.
+Noisy class 9, has 507 samples.
+Noisy class 10, has 513 samples.
+Noisy class 11, has 476 samples.
+Noisy class 12, has 486 samples.
+Noisy class 13, has 497 samples.
+Noisy class 14, has 513 samples.
+Noisy class 15, has 477 samples.
+Noisy class 16, has 513 samples.
+Noisy class 17, has 480 samples.
+Noisy class 18, has 516 samples.
+Noisy class 19, has 562 samples.
+Noisy class 20, has 509 samples.
+Noisy class 21, has 512 samples.
+Noisy class 22, has 536 samples.
+Noisy class 23, has 505 samples.
+Noisy class 24, has 478 samples.
+Noisy class 25, has 495 samples.
+Noisy class 26, has 501 samples.
+Noisy class 27, has 500 samples.
+Noisy class 28, has 508 samples.
+Noisy class 29, has 506 samples.
+Noisy class 30, has 502 samples.
+Noisy class 31, has 494 samples.
+Noisy class 32, has 484 samples.
+Noisy class 33, has 489 samples.
+Noisy class 34, has 505 samples.
+Noisy class 35, has 494 samples.
+Noisy class 36, has 511 samples.
+Noisy class 37, has 492 samples.
+Noisy class 38, has 503 samples.
+Noisy class 39, has 501 samples.
+Noisy class 40, has 492 samples.
+Noisy class 41, has 510 samples.
+Noisy class 42, has 500 samples.
+Noisy class 43, has 506 samples.
+Noisy class 44, has 490 samples.
+Noisy class 45, has 496 samples.
+Noisy class 46, has 490 samples.
+Noisy class 47, has 486 samples.
+Noisy class 48, has 486 samples.
+Noisy class 49, has 500 samples.
+Noisy class 50, has 502 samples.
+Noisy class 51, has 487 samples.
+Noisy class 52, has 509 samples.
+Noisy class 53, has 514 samples.
+Noisy class 54, has 478 samples.
+Noisy class 55, has 517 samples.
+Noisy class 56, has 510 samples.
+Noisy class 57, has 481 samples.
+Noisy class 58, has 479 samples.
+Noisy class 59, has 501 samples.
+Noisy class 60, has 494 samples.
+Noisy class 61, has 497 samples.
+Noisy class 62, has 515 samples.
+Noisy class 63, has 499 samples.
+Noisy class 64, has 497 samples.
+Noisy class 65, has 478 samples.
+Noisy class 66, has 490 samples.
+Noisy class 67, has 492 samples.
+Noisy class 68, has 524 samples.
+Noisy class 69, has 488 samples.
+Noisy class 70, has 490 samples.
+Noisy class 71, has 496 samples.
+Noisy class 72, has 490 samples.
+Noisy class 73, has 496 samples.
+Noisy class 74, has 496 samples.
+Noisy class 75, has 503 samples.
+Noisy class 76, has 506 samples.
+Noisy class 77, has 489 samples.
+Noisy class 78, has 505 samples.
+Noisy class 79, has 494 samples.
+Noisy class 80, has 515 samples.
+Noisy class 81, has 488 samples.
+Noisy class 82, has 520 samples.
+Noisy class 83, has 517 samples.
+Noisy class 84, has 475 samples.
+Noisy class 85, has 491 samples.
+Noisy class 86, has 482 samples.
+Noisy class 87, has 483 samples.
+Noisy class 88, has 498 samples.
+Noisy class 89, has 482 samples.
+Noisy class 90, has 494 samples.
+Noisy class 91, has 497 samples.
+Noisy class 92, has 514 samples.
+Noisy class 93, has 508 samples.
+Noisy class 94, has 500 samples.
+Noisy class 95, has 503 samples.
+Noisy class 96, has 509 samples.
+Noisy class 97, has 514 samples.
+Noisy class 98, has 519 samples.
+Noisy class 99, has 539 samples.
+Files already downloaded and verified
+Num of train 50000
+Num of test 10000
+module.conv1.weight
+module.bn1.weight
+module.bn1.bias
+module.layer1.0.conv1.weight
+module.layer1.0.bn1.weight
+module.layer1.0.bn1.bias
+module.layer1.0.conv2.weight
+module.layer1.0.bn2.weight
+module.layer1.0.bn2.bias
+module.layer1.1.conv1.weight
+module.layer1.1.bn1.weight
+module.layer1.1.bn1.bias
+module.layer1.1.conv2.weight
+module.layer1.1.bn2.weight
+module.layer1.1.bn2.bias
+module.layer1.2.conv1.weight
+module.layer1.2.bn1.weight
+module.layer1.2.bn1.bias
+module.layer1.2.conv2.weight
+module.layer1.2.bn2.weight
+module.layer1.2.bn2.bias
+module.layer2.0.conv1.weight
+module.layer2.0.bn1.weight
+module.layer2.0.bn1.bias
+module.layer2.0.conv2.weight
+module.layer2.0.bn2.weight
+module.layer2.0.bn2.bias
+module.layer2.0.shortcut.0.weight
+module.layer2.0.shortcut.1.weight
+module.layer2.0.shortcut.1.bias
+module.layer2.1.conv1.weight
+module.layer2.1.bn1.weight
+module.layer2.1.bn1.bias
+module.layer2.1.conv2.weight
+module.layer2.1.bn2.weight
+module.layer2.1.bn2.bias
+module.layer2.2.conv1.weight
+module.layer2.2.bn1.weight
+module.layer2.2.bn1.bias
+module.layer2.2.conv2.weight
+module.layer2.2.bn2.weight
+module.layer2.2.bn2.bias
+module.layer2.3.conv1.weight
+module.layer2.3.bn1.weight
+module.layer2.3.bn1.bias
+module.layer2.3.conv2.weight
+module.layer2.3.bn2.weight
+module.layer2.3.bn2.bias
+module.layer3.0.conv1.weight
+module.layer3.0.bn1.weight
+module.layer3.0.bn1.bias
+module.layer3.0.conv2.weight
+module.layer3.0.bn2.weight
+module.layer3.0.bn2.bias
+module.layer3.0.shortcut.0.weight
+module.layer3.0.shortcut.1.weight
+module.layer3.0.shortcut.1.bias
+module.layer3.1.conv1.weight
+module.layer3.1.bn1.weight
+module.layer3.1.bn1.bias
+module.layer3.1.conv2.weight
+module.layer3.1.bn2.weight
+module.layer3.1.bn2.bias
+module.layer3.2.conv1.weight
+module.layer3.2.bn1.weight
+module.layer3.2.bn1.bias
+module.layer3.2.conv2.weight
+module.layer3.2.bn2.weight
+module.layer3.2.bn2.bias
+module.layer3.3.conv1.weight
+module.layer3.3.bn1.weight
+module.layer3.3.bn1.bias
+module.layer3.3.conv2.weight
+module.layer3.3.bn2.weight
+module.layer3.3.bn2.bias
+module.layer3.4.conv1.weight
+module.layer3.4.bn1.weight
+module.layer3.4.bn1.bias
+module.layer3.4.conv2.weight
+module.layer3.4.bn2.weight
+module.layer3.4.bn2.bias
+module.layer3.5.conv1.weight
+module.layer3.5.bn1.weight
+module.layer3.5.bn1.bias
+module.layer3.5.conv2.weight
+module.layer3.5.bn2.weight
+module.layer3.5.bn2.bias
+module.layer4.0.conv1.weight
+module.layer4.0.bn1.weight
+module.layer4.0.bn1.bias
+module.layer4.0.conv2.weight
+module.layer4.0.bn2.weight
+module.layer4.0.bn2.bias
+module.layer4.0.shortcut.0.weight
+module.layer4.0.shortcut.1.weight
+module.layer4.0.shortcut.1.bias
+module.layer4.1.conv1.weight
+module.layer4.1.bn1.weight
+module.layer4.1.bn1.bias
+module.layer4.1.conv2.weight
+module.layer4.1.bn2.weight
+module.layer4.1.bn2.bias
+module.layer4.2.conv1.weight
+module.layer4.2.bn1.weight
+module.layer4.2.bn1.bias
+module.layer4.2.conv2.weight
+module.layer4.2.bn2.weight
+module.layer4.2.bn2.bias
+module.linear.weight
+module.linear.bias
+[]

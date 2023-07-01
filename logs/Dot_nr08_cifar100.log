@@ -1,0 +1,2017 @@
+2023-07-01 13:45:56,298 lr: 0.01
+2023-07-01 13:45:56,298 l2_reg: 0.0005
+2023-07-01 13:45:56,298 grad_bound: 5.0
+2023-07-01 13:45:56,298 train_log_every: 100
+2023-07-01 13:45:56,298 resume: False
+2023-07-01 13:45:56,298 batch_size: 128
+2023-07-01 13:45:56,298 data_path: ../dataset
+2023-07-01 13:45:56,298 checkpoint_path: checkpoints
+2023-07-01 13:45:56,298 data_nums_workers: 8
+2023-07-01 13:45:56,298 epoch: 120
+2023-07-01 13:45:56,298 nr: 0.8
+2023-07-01 13:45:56,298 loss: DOT
+2023-07-01 13:45:56,298 alpha: 1.0
+2023-07-01 13:45:56,298 beta: 1.0
+2023-07-01 13:45:56,298 version: Dot_nr08_cifar100
+2023-07-01 13:45:56,298 dataset_type: cifar100
+2023-07-01 13:45:56,298 asym: False
+2023-07-01 13:45:56,298 seed: 123
+2023-07-01 13:45:56,298 Using CUDA!
+2023-07-01 13:45:59,752 DOTLoss
+2023-07-01 13:45:59,753 Number of Trainable Parameters 21.3283
+2023-07-01 13:46:02,356 ====================Training====================
+2023-07-01 13:46:20,112 epoch=0	global_step=100	loss=-117.58743	loss_avg=-36.26624	acc=0.02344	acc_top1_avg=0.00961	acc_top5_avg=0.05086	lr=0.01000	gn=8.05377	time=12.46it/s
+2023-07-01 13:46:28,262 epoch=0	global_step=200	loss=-468.32986	loss_avg=-155.75990	acc=0.00781	acc_top1_avg=0.00918	acc_top5_avg=0.05063	lr=0.01000	gn=14.39357	time=12.40it/s
+2023-07-01 13:46:36,333 epoch=0	global_step=300	loss=-1035.92224	loss_avg=-348.60618	acc=0.00781	acc_top1_avg=0.00932	acc_top5_avg=0.04961	lr=0.01000	gn=20.72851	time=12.45it/s
+2023-07-01 13:46:44,559 ====================Eval====================
+2023-07-01 13:46:47,626 epoch=0	global_step=391	loss=175.29256	test_loss_avg=174.09962	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=10.45it/s
+2023-07-01 13:46:47,626 curr_acc	0.0098
+2023-07-01 13:46:47,626 BEST_ACC	0.0000
+2023-07-01 13:46:47,626 curr_acc_top5	0.0488
+2023-07-01 13:46:47,626 BEST_ACC_top5	0.0000
+2023-07-01 13:46:47,626 Model Saved!
+
+2023-07-01 13:46:47,626 ====================Training====================
+2023-07-01 13:46:48,972 epoch=1	global_step=400	loss=-1825.88513	loss_avg=-1782.40584	acc=0.03125	acc_top1_avg=0.01302	acc_top5_avg=0.05208	lr=0.01000	gn=28.11904	time=12.46it/s
+2023-07-01 13:46:57,037 epoch=1	global_step=500	loss=-2808.01978	loss_avg=-2260.22358	acc=0.01562	acc_top1_avg=0.01118	acc_top5_avg=0.05211	lr=0.01000	gn=36.32499	time=12.47it/s
+2023-07-01 13:47:05,102 epoch=1	global_step=600	loss=-3977.68018	loss_avg=-2803.90969	acc=0.00781	acc_top1_avg=0.01062	acc_top5_avg=0.05312	lr=0.01000	gn=43.97287	time=12.46it/s
+2023-07-01 13:47:13,171 epoch=1	global_step=700	loss=-5398.43115	loss_avg=-3413.66128	acc=0.00000	acc_top1_avg=0.01067	acc_top5_avg=0.05256	lr=0.01000	gn=50.74636	time=12.43it/s
+2023-07-01 13:47:19,916 ====================Eval====================
+2023-07-01 13:47:22,646 epoch=1	global_step=782	loss=666.94440	test_loss_avg=672.97687	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=193.93it/s
+2023-07-01 13:47:22,646 curr_acc	0.0098
+2023-07-01 13:47:22,646 BEST_ACC	0.0098
+2023-07-01 13:47:22,646 curr_acc_top5	0.0488
+2023-07-01 13:47:22,646 BEST_ACC_top5	0.0488
+2023-07-01 13:47:22,646 Model Saved!
+
+2023-07-01 13:47:22,646 ====================Training====================
+2023-07-01 13:47:24,698 epoch=2	global_step=800	loss=-6937.91162	loss_avg=-6829.69520	acc=0.02344	acc_top1_avg=0.01128	acc_top5_avg=0.05773	lr=0.01000	gn=57.57318	time=12.47it/s
+2023-07-01 13:47:32,793 epoch=2	global_step=900	loss=-8800.67090	loss_avg=-7694.83585	acc=0.02344	acc_top1_avg=0.01119	acc_top5_avg=0.05634	lr=0.01000	gn=63.54164	time=12.46it/s
+2023-07-01 13:47:40,888 epoch=2	global_step=1000	loss=-10705.91797	loss_avg=-8620.04147	acc=0.01562	acc_top1_avg=0.01046	acc_top5_avg=0.05429	lr=0.01000	gn=71.43150	time=12.35it/s
+2023-07-01 13:47:48,996 epoch=2	global_step=1100	loss=-12812.28320	loss_avg=-9596.82369	acc=0.01562	acc_top1_avg=0.01066	acc_top5_avg=0.05456	lr=0.01000	gn=77.79069	time=12.32it/s
+2023-07-01 13:47:55,068 ====================Eval====================
+2023-07-01 13:47:56,671 epoch=2	global_step=1173	loss=1422.54785	test_loss_avg=1475.23810	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05195	time=21.59it/s
+2023-07-01 13:47:57,731 epoch=2	global_step=1173	loss=1456.97961	test_loss_avg=1476.10481	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.64it/s
+2023-07-01 13:47:57,731 curr_acc	0.0098
+2023-07-01 13:47:57,731 BEST_ACC	0.0098
+2023-07-01 13:47:57,731 curr_acc_top5	0.0488
+2023-07-01 13:47:57,731 BEST_ACC_top5	0.0488
+2023-07-01 13:47:57,731 Model Saved!
+
+2023-07-01 13:47:57,731 ====================Training====================
+2023-07-01 13:48:00,593 epoch=3	global_step=1200	loss=-15098.92773	loss_avg=-14771.45736	acc=0.00000	acc_top1_avg=0.00810	acc_top5_avg=0.05122	lr=0.01000	gn=89.19253	time=12.31it/s
+2023-07-01 13:48:08,741 epoch=3	global_step=1300	loss=-17543.70898	loss_avg=-15999.67414	acc=0.00000	acc_top1_avg=0.01021	acc_top5_avg=0.05364	lr=0.01000	gn=93.63055	time=12.37it/s
+2023-07-01 13:48:16,893 epoch=3	global_step=1400	loss=-20268.56055	loss_avg=-17268.45374	acc=0.00000	acc_top1_avg=0.01039	acc_top5_avg=0.05348	lr=0.01000	gn=106.80547	time=12.34it/s
+2023-07-01 13:48:25,044 epoch=3	global_step=1500	loss=-22905.17773	loss_avg=-18586.14004	acc=0.00781	acc_top1_avg=0.01070	acc_top5_avg=0.05275	lr=0.01000	gn=103.72874	time=12.33it/s
+2023-07-01 13:48:30,404 ====================Eval====================
+2023-07-01 13:48:33,145 epoch=3	global_step=1564	loss=2474.15503	test_loss_avg=2510.10187	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.62it/s
+2023-07-01 13:48:33,145 curr_acc	0.0098
+2023-07-01 13:48:33,145 BEST_ACC	0.0098
+2023-07-01 13:48:33,145 curr_acc_top5	0.0488
+2023-07-01 13:48:33,145 BEST_ACC_top5	0.0488
+2023-07-01 13:48:33,145 Model Saved!
+
+2023-07-01 13:48:33,145 ====================Training====================
+2023-07-01 13:48:36,738 epoch=4	global_step=1600	loss=-25954.42188	loss_avg=-25411.92643	acc=0.00781	acc_top1_avg=0.01128	acc_top5_avg=0.05512	lr=0.01000	gn=116.44747	time=12.35it/s
+2023-07-01 13:48:44,892 epoch=4	global_step=1700	loss=-29152.75000	loss_avg=-26934.33822	acc=0.00000	acc_top1_avg=0.01063	acc_top5_avg=0.05492	lr=0.01000	gn=124.38231	time=12.35it/s
+2023-07-01 13:48:53,057 epoch=4	global_step=1800	loss=-32254.28516	loss_avg=-28525.49893	acc=0.02344	acc_top1_avg=0.01066	acc_top5_avg=0.05350	lr=0.01000	gn=127.32637	time=12.35it/s
+2023-07-01 13:49:01,221 epoch=4	global_step=1900	loss=-35638.52344	loss_avg=-30162.06512	acc=0.00000	acc_top1_avg=0.01067	acc_top5_avg=0.05413	lr=0.01000	gn=134.31921	time=12.30it/s
+2023-07-01 13:49:05,853 ====================Eval====================
+2023-07-01 13:49:08,418 epoch=4	global_step=1955	loss=3778.15552	test_loss_avg=3843.44298	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.77it/s
+2023-07-01 13:49:08,578 epoch=4	global_step=1955	loss=3778.15552	test_loss_avg=3843.44298	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.77it/s
+2023-07-01 13:49:08,578 curr_acc	0.0098
+2023-07-01 13:49:08,578 BEST_ACC	0.0098
+2023-07-01 13:49:08,578 curr_acc_top5	0.0488
+2023-07-01 13:49:08,578 BEST_ACC_top5	0.0488
+2023-07-01 13:49:08,578 Model Saved!
+
+2023-07-01 13:49:08,578 ====================Training====================
+2023-07-01 13:49:12,851 epoch=5	global_step=2000	loss=-39131.39844	loss_avg=-38523.69158	acc=0.00781	acc_top1_avg=0.01215	acc_top5_avg=0.05781	lr=0.01000	gn=140.41893	time=12.27it/s
+2023-07-01 13:49:21,020 epoch=5	global_step=2100	loss=-43145.42188	loss_avg=-40355.15059	acc=0.00781	acc_top1_avg=0.01164	acc_top5_avg=0.05614	lr=0.01000	gn=149.10637	time=12.29it/s
+2023-07-01 13:49:29,194 epoch=5	global_step=2200	loss=-46958.77344	loss_avg=-42227.16365	acc=0.01562	acc_top1_avg=0.01129	acc_top5_avg=0.05494	lr=0.01000	gn=152.13475	time=12.32it/s
+2023-07-01 13:49:37,366 epoch=5	global_step=2300	loss=-50888.64844	loss_avg=-44155.50144	acc=0.00781	acc_top1_avg=0.01112	acc_top5_avg=0.05437	lr=0.01000	gn=166.14641	time=12.31it/s
+2023-07-01 13:49:41,261 ====================Eval====================
+2023-07-01 13:49:44,036 epoch=5	global_step=2346	loss=5223.31250	test_loss_avg=5331.35417	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.76it/s
+2023-07-01 13:49:44,036 curr_acc	0.0098
+2023-07-01 13:49:44,036 BEST_ACC	0.0098
+2023-07-01 13:49:44,036 curr_acc_top5	0.0488
+2023-07-01 13:49:44,036 BEST_ACC_top5	0.0488
+2023-07-01 13:49:44,036 Model Saved!
+
+2023-07-01 13:49:44,036 ====================Training====================
+2023-07-01 13:49:49,066 epoch=6	global_step=2400	loss=-54888.03125	loss_avg=-53900.06047	acc=0.02344	acc_top1_avg=0.01143	acc_top5_avg=0.05266	lr=0.01000	gn=166.58553	time=12.33it/s
+2023-07-01 13:49:57,233 epoch=6	global_step=2500	loss=-59341.43750	loss_avg=-56054.29031	acc=0.00000	acc_top1_avg=0.01106	acc_top5_avg=0.05428	lr=0.01000	gn=176.48126	time=12.33it/s
+2023-07-01 13:50:05,400 epoch=6	global_step=2600	loss=-63517.15234	loss_avg=-58190.49597	acc=0.01562	acc_top1_avg=0.01070	acc_top5_avg=0.05336	lr=0.01000	gn=174.75206	time=12.31it/s
+2023-07-01 13:50:13,567 epoch=6	global_step=2700	loss=-68358.08594	loss_avg=-60402.56027	acc=0.03125	acc_top1_avg=0.01110	acc_top5_avg=0.05389	lr=0.01000	gn=183.16924	time=12.30it/s
+2023-07-01 13:50:16,727 ====================Eval====================
+2023-07-01 13:50:19,512 epoch=6	global_step=2737	loss=6987.68066	test_loss_avg=7147.75889	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.13it/s
+2023-07-01 13:50:19,512 curr_acc	0.0098
+2023-07-01 13:50:19,512 BEST_ACC	0.0098
+2023-07-01 13:50:19,512 curr_acc_top5	0.0488
+2023-07-01 13:50:19,512 BEST_ACC_top5	0.0488
+2023-07-01 13:50:19,512 Model Saved!
+
+2023-07-01 13:50:19,512 ====================Training====================
+2023-07-01 13:50:25,263 epoch=7	global_step=2800	loss=-72908.04688	loss_avg=-71443.69928	acc=0.00000	acc_top1_avg=0.01178	acc_top5_avg=0.05146	lr=0.01000	gn=194.63914	time=12.29it/s
+2023-07-01 13:50:33,437 epoch=7	global_step=2900	loss=-77902.32812	loss_avg=-73879.13924	acc=0.00781	acc_top1_avg=0.01122	acc_top5_avg=0.05306	lr=0.01000	gn=208.02264	time=12.29it/s
+2023-07-01 13:50:41,620 epoch=7	global_step=3000	loss=-82506.46875	loss_avg=-76283.37539	acc=0.00000	acc_top1_avg=0.01087	acc_top5_avg=0.05362	lr=0.01000	gn=200.91603	time=12.28it/s
+2023-07-01 13:50:49,790 epoch=7	global_step=3100	loss=-87451.02344	loss_avg=-78735.45069	acc=0.00781	acc_top1_avg=0.01093	acc_top5_avg=0.05344	lr=0.01000	gn=214.50813	time=12.26it/s
+2023-07-01 13:50:52,220 ====================Eval====================
+2023-07-01 13:50:53,839 epoch=7	global_step=3128	loss=8742.60254	test_loss_avg=9029.26719	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=21.29it/s
+2023-07-01 13:50:54,921 epoch=7	global_step=3128	loss=8830.47461	test_loss_avg=9031.50210	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.49it/s
+2023-07-01 13:50:54,922 curr_acc	0.0098
+2023-07-01 13:50:54,922 BEST_ACC	0.0098
+2023-07-01 13:50:54,922 curr_acc_top5	0.0488
+2023-07-01 13:50:54,922 BEST_ACC_top5	0.0488
+2023-07-01 13:50:54,922 Model Saved!
+
+2023-07-01 13:50:54,922 ====================Training====================
+2023-07-01 13:51:01,476 epoch=8	global_step=3200	loss=-93002.27344	loss_avg=-91063.15712	acc=0.00000	acc_top1_avg=0.01053	acc_top5_avg=0.05328	lr=0.01000	gn=220.43739	time=12.31it/s
+2023-07-01 13:51:09,643 epoch=8	global_step=3300	loss=-98424.26562	loss_avg=-93685.96171	acc=0.00000	acc_top1_avg=0.01054	acc_top5_avg=0.05364	lr=0.01000	gn=225.11877	time=12.30it/s
+2023-07-01 13:51:17,812 epoch=8	global_step=3400	loss=-104132.62500	loss_avg=-96335.47740	acc=0.00000	acc_top1_avg=0.01068	acc_top5_avg=0.05317	lr=0.01000	gn=241.08406	time=12.34it/s
+2023-07-01 13:51:25,985 epoch=8	global_step=3500	loss=-109154.71094	loss_avg=-99034.76810	acc=0.00781	acc_top1_avg=0.01115	acc_top5_avg=0.05437	lr=0.01000	gn=238.34352	time=12.30it/s
+2023-07-01 13:51:27,681 ====================Eval====================
+2023-07-01 13:51:30,396 epoch=8	global_step=3519	loss=11082.85059	test_loss_avg=11344.24900	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.97it/s
+2023-07-01 13:51:30,396 curr_acc	0.0098
+2023-07-01 13:51:30,396 BEST_ACC	0.0098
+2023-07-01 13:51:30,396 curr_acc_top5	0.0488
+2023-07-01 13:51:30,396 BEST_ACC_top5	0.0488
+2023-07-01 13:51:30,396 Model Saved!
+
+2023-07-01 13:51:30,397 ====================Training====================
+2023-07-01 13:51:37,630 epoch=9	global_step=3600	loss=-114923.50000	loss_avg=-112494.73794	acc=0.00000	acc_top1_avg=0.00955	acc_top5_avg=0.05285	lr=0.01000	gn=242.12762	time=12.33it/s
+2023-07-01 13:51:45,802 epoch=9	global_step=3700	loss=-120437.46094	loss_avg=-115347.57377	acc=0.02344	acc_top1_avg=0.01049	acc_top5_avg=0.05439	lr=0.01000	gn=248.28470	time=12.30it/s
+2023-07-01 13:51:53,991 epoch=9	global_step=3800	loss=-126328.65625	loss_avg=-118209.11722	acc=0.02344	acc_top1_avg=0.01054	acc_top5_avg=0.05366	lr=0.01000	gn=257.11282	time=12.31it/s
+2023-07-01 13:52:02,186 epoch=9	global_step=3900	loss=-132723.50000	loss_avg=-121144.01380	acc=0.03906	acc_top1_avg=0.01087	acc_top5_avg=0.05430	lr=0.01000	gn=258.96799	time=12.29it/s
+2023-07-01 13:52:03,136 ====================Eval====================
+2023-07-01 13:52:05,733 epoch=9	global_step=3910	loss=13189.32422	test_loss_avg=13495.91426	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.42it/s
+2023-07-01 13:52:05,894 epoch=9	global_step=3910	loss=13189.32422	test_loss_avg=13495.91426	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.42it/s
+2023-07-01 13:52:05,895 curr_acc	0.0098
+2023-07-01 13:52:05,895 BEST_ACC	0.0098
+2023-07-01 13:52:05,895 curr_acc_top5	0.0488
+2023-07-01 13:52:05,895 BEST_ACC_top5	0.0488
+2023-07-01 13:52:05,895 Model Saved!
+
+2023-07-01 13:52:05,895 ====================Training====================
+2023-07-01 13:52:13,860 epoch=10	global_step=4000	loss=-138086.53125	loss_avg=-135689.67500	acc=0.01562	acc_top1_avg=0.01068	acc_top5_avg=0.05738	lr=0.01000	gn=267.04663	time=12.29it/s
+2023-07-01 13:52:22,038 epoch=10	global_step=4100	loss=-144827.93750	loss_avg=-138736.50419	acc=0.00781	acc_top1_avg=0.01077	acc_top5_avg=0.05448	lr=0.01000	gn=273.00204	time=12.27it/s
+2023-07-01 13:52:30,219 epoch=10	global_step=4200	loss=-151563.03125	loss_avg=-141809.08281	acc=0.01562	acc_top1_avg=0.01110	acc_top5_avg=0.05428	lr=0.01000	gn=274.64407	time=12.31it/s
+2023-07-01 13:52:38,393 epoch=10	global_step=4300	loss=-157235.96875	loss_avg=-144926.80421	acc=0.02344	acc_top1_avg=0.01106	acc_top5_avg=0.05439	lr=0.01000	gn=278.56778	time=12.30it/s
+2023-07-01 13:52:38,605 ====================Eval====================
+2023-07-01 13:52:41,399 epoch=10	global_step=4301	loss=15796.37207	test_loss_avg=16097.98154	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.30it/s
+2023-07-01 13:52:41,399 curr_acc	0.0098
+2023-07-01 13:52:41,399 BEST_ACC	0.0098
+2023-07-01 13:52:41,399 curr_acc_top5	0.0488
+2023-07-01 13:52:41,399 BEST_ACC_top5	0.0488
+2023-07-01 13:52:41,399 Model Saved!
+
+2023-07-01 13:52:41,400 ====================Training====================
+2023-07-01 13:52:50,069 epoch=11	global_step=4400	loss=-163854.90625	loss_avg=-160528.41477	acc=0.00000	acc_top1_avg=0.01089	acc_top5_avg=0.05587	lr=0.01000	gn=292.10895	time=12.31it/s
+2023-07-01 13:52:58,245 epoch=11	global_step=4500	loss=-169773.28125	loss_avg=-163728.82310	acc=0.00781	acc_top1_avg=0.01119	acc_top5_avg=0.05492	lr=0.01000	gn=301.04996	time=12.29it/s
+2023-07-01 13:53:06,417 epoch=11	global_step=4600	loss=-175958.96875	loss_avg=-166995.93165	acc=0.01562	acc_top1_avg=0.01108	acc_top5_avg=0.05508	lr=0.01000	gn=300.33850	time=12.30it/s
+2023-07-01 13:53:14,083 ====================Eval====================
+2023-07-01 13:53:16,845 epoch=11	global_step=4692	loss=18197.10156	test_loss_avg=18653.22925	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=187.98it/s
+2023-07-01 13:53:16,845 curr_acc	0.0098
+2023-07-01 13:53:16,845 BEST_ACC	0.0098
+2023-07-01 13:53:16,845 curr_acc_top5	0.0488
+2023-07-01 13:53:16,845 BEST_ACC_top5	0.0488
+2023-07-01 13:53:16,845 Model Saved!
+
+2023-07-01 13:53:16,845 ====================Training====================
+2023-07-01 13:53:18,094 epoch=12	global_step=4700	loss=-183767.60938	loss_avg=-183240.18555	acc=0.00781	acc_top1_avg=0.01172	acc_top5_avg=0.05762	lr=0.01000	gn=309.94778	time=12.31it/s
+2023-07-01 13:53:26,261 epoch=12	global_step=4800	loss=-190065.50000	loss_avg=-186839.20703	acc=0.01562	acc_top1_avg=0.01230	acc_top5_avg=0.05339	lr=0.01000	gn=316.82764	time=12.31it/s
+2023-07-01 13:53:34,433 epoch=12	global_step=4900	loss=-197238.51562	loss_avg=-190163.65550	acc=0.00781	acc_top1_avg=0.01221	acc_top5_avg=0.05330	lr=0.01000	gn=315.68695	time=12.29it/s
+2023-07-01 13:53:42,615 epoch=12	global_step=5000	loss=-204274.84375	loss_avg=-193622.76705	acc=0.00781	acc_top1_avg=0.01144	acc_top5_avg=0.05431	lr=0.01000	gn=326.11932	time=12.33it/s
+2023-07-01 13:53:49,530 ====================Eval====================
+2023-07-01 13:53:51,194 epoch=12	global_step=5083	loss=21041.35938	test_loss_avg=21705.14639	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=21.40it/s
+2023-07-01 13:53:52,258 epoch=12	global_step=5083	loss=21227.62109	test_loss_avg=21708.17271	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.05it/s
+2023-07-01 13:53:52,258 curr_acc	0.0098
+2023-07-01 13:53:52,258 BEST_ACC	0.0098
+2023-07-01 13:53:52,258 curr_acc_top5	0.0488
+2023-07-01 13:53:52,258 BEST_ACC_top5	0.0488
+2023-07-01 13:53:52,259 Model Saved!
+
+2023-07-01 13:53:52,259 ====================Training====================
+2023-07-01 13:53:54,291 epoch=13	global_step=5100	loss=-211859.87500	loss_avg=-210716.97794	acc=0.01562	acc_top1_avg=0.00781	acc_top5_avg=0.05836	lr=0.01000	gn=325.36215	time=12.30it/s
+2023-07-01 13:54:02,463 epoch=13	global_step=5200	loss=-251758.00000	loss_avg=-222827.23825	acc=0.02344	acc_top1_avg=0.01128	acc_top5_avg=0.05662	lr=0.01000	gn=13682.60449	time=12.27it/s
+2023-07-01 13:54:10,633 epoch=13	global_step=5300	loss=-247954.43750	loss_avg=-235911.93217	acc=0.00781	acc_top1_avg=0.01094	acc_top5_avg=0.05598	lr=0.01000	gn=125401.33594	time=12.31it/s
+2023-07-01 13:54:18,833 epoch=13	global_step=5400	loss=-247638.14062	loss_avg=-240093.50380	acc=0.01562	acc_top1_avg=0.01055	acc_top5_avg=0.05530	lr=0.01000	gn=19701.16016	time=12.31it/s
+2023-07-01 13:54:25,042 ====================Eval====================
+2023-07-01 13:54:27,822 epoch=13	global_step=5474	loss=27275.52148	test_loss_avg=27318.70347	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.53it/s
+2023-07-01 13:54:27,822 curr_acc	0.0098
+2023-07-01 13:54:27,822 BEST_ACC	0.0098
+2023-07-01 13:54:27,822 curr_acc_top5	0.0488
+2023-07-01 13:54:27,822 BEST_ACC_top5	0.0488
+2023-07-01 13:54:27,822 Model Saved!
+
+2023-07-01 13:54:27,822 ====================Training====================
+2023-07-01 13:54:30,602 epoch=14	global_step=5500	loss=-246802.06250	loss_avg=-246280.96635	acc=0.01562	acc_top1_avg=0.00901	acc_top5_avg=0.04597	lr=0.01000	gn=28328.50586	time=12.31it/s
+2023-07-01 13:54:38,782 epoch=14	global_step=5600	loss=-241750.25000	loss_avg=-245481.81721	acc=0.00000	acc_top1_avg=0.01073	acc_top5_avg=0.05345	lr=0.01000	gn=1433.49512	time=12.32it/s
+2023-07-01 13:54:46,953 epoch=14	global_step=5700	loss=-242686.20312	loss_avg=-244257.64941	acc=0.00000	acc_top1_avg=0.01085	acc_top5_avg=0.05524	lr=0.01000	gn=10321.17480	time=12.33it/s
+2023-07-01 13:54:55,150 epoch=14	global_step=5800	loss=-238006.75000	loss_avg=-243304.26591	acc=0.00000	acc_top1_avg=0.01110	acc_top5_avg=0.05469	lr=0.01000	gn=61271.48828	time=12.26it/s
+2023-07-01 13:55:00,588 ====================Eval====================
+2023-07-01 13:55:03,202 epoch=14	global_step=5865	loss=25913.85547	test_loss_avg=23981.33062	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.72it/s
+2023-07-01 13:55:03,369 epoch=14	global_step=5865	loss=25913.85547	test_loss_avg=23981.33062	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.72it/s
+2023-07-01 13:55:03,370 curr_acc	0.0098
+2023-07-01 13:55:03,370 BEST_ACC	0.0098
+2023-07-01 13:55:03,370 curr_acc_top5	0.0488
+2023-07-01 13:55:03,370 BEST_ACC_top5	0.0488
+2023-07-01 13:55:03,370 Model Saved!
+
+2023-07-01 13:55:03,370 ====================Training====================
+2023-07-01 13:55:06,808 epoch=15	global_step=5900	loss=-237318.53125	loss_avg=-238183.42946	acc=0.00781	acc_top1_avg=0.01228	acc_top5_avg=0.05848	lr=0.01000	gn=20602.35547	time=12.30it/s
+2023-07-01 13:55:14,984 epoch=15	global_step=6000	loss=-234521.14062	loss_avg=-237456.55671	acc=0.01562	acc_top1_avg=0.01233	acc_top5_avg=0.05764	lr=0.01000	gn=14192.11719	time=12.31it/s
+2023-07-01 13:55:23,162 epoch=15	global_step=6100	loss=-234949.43750	loss_avg=-236702.44428	acc=0.01562	acc_top1_avg=0.01184	acc_top5_avg=0.05622	lr=0.01000	gn=12953.18652	time=12.29it/s
+2023-07-01 13:55:31,356 epoch=15	global_step=6200	loss=-233185.75000	loss_avg=-235829.68759	acc=0.00000	acc_top1_avg=0.01105	acc_top5_avg=0.05487	lr=0.01000	gn=1371.87805	time=12.29it/s
+2023-07-01 13:55:36,058 ====================Eval====================
+2023-07-01 13:55:38,821 epoch=15	global_step=6256	loss=20679.24609	test_loss_avg=20061.26157	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=187.74it/s
+2023-07-01 13:55:38,821 curr_acc	0.0098
+2023-07-01 13:55:38,821 BEST_ACC	0.0098
+2023-07-01 13:55:38,821 curr_acc_top5	0.0488
+2023-07-01 13:55:38,821 BEST_ACC_top5	0.0488
+2023-07-01 13:55:38,821 Model Saved!
+
+2023-07-01 13:55:38,821 ====================Training====================
+2023-07-01 13:55:43,047 epoch=16	global_step=6300	loss=-231162.31250	loss_avg=-231823.45739	acc=0.00781	acc_top1_avg=0.01065	acc_top5_avg=0.05859	lr=0.01000	gn=7550.54199	time=12.30it/s
+2023-07-01 13:55:51,216 epoch=16	global_step=6400	loss=-229517.37500	loss_avg=-231186.85579	acc=0.00781	acc_top1_avg=0.01166	acc_top5_avg=0.05485	lr=0.01000	gn=6532.22461	time=12.31it/s
+2023-07-01 13:55:59,391 epoch=16	global_step=6500	loss=-230509.51562	loss_avg=-230433.40311	acc=0.02344	acc_top1_avg=0.01169	acc_top5_avg=0.05376	lr=0.01000	gn=26122.13086	time=12.29it/s
+2023-07-01 13:56:07,562 epoch=16	global_step=6600	loss=-228694.03125	loss_avg=-230037.01885	acc=0.00781	acc_top1_avg=0.01095	acc_top5_avg=0.05417	lr=0.01000	gn=2565.86523	time=12.32it/s
+2023-07-01 13:56:11,548 ====================Eval====================
+2023-07-01 13:56:14,277 epoch=16	global_step=6647	loss=23198.04492	test_loss_avg=19725.96016	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=188.96it/s
+2023-07-01 13:56:14,277 curr_acc	0.0098
+2023-07-01 13:56:14,277 BEST_ACC	0.0098
+2023-07-01 13:56:14,277 curr_acc_top5	0.0488
+2023-07-01 13:56:14,277 BEST_ACC_top5	0.0488
+2023-07-01 13:56:14,277 Model Saved!
+
+2023-07-01 13:56:14,277 ====================Training====================
+2023-07-01 13:56:19,187 epoch=17	global_step=6700	loss=-225129.31250	loss_avg=-227156.13090	acc=0.00781	acc_top1_avg=0.01209	acc_top5_avg=0.05646	lr=0.01000	gn=1357.47583	time=12.31it/s
+2023-07-01 13:56:27,358 epoch=17	global_step=6800	loss=-225476.68750	loss_avg=-226464.34886	acc=0.01562	acc_top1_avg=0.01164	acc_top5_avg=0.05448	lr=0.01000	gn=4863.58594	time=12.32it/s
+2023-07-01 13:56:35,532 epoch=17	global_step=6900	loss=-222738.67188	loss_avg=-225809.94281	acc=0.00000	acc_top1_avg=0.01118	acc_top5_avg=0.05497	lr=0.01000	gn=3557.34717	time=12.30it/s
+2023-07-01 13:56:43,703 epoch=17	global_step=7000	loss=-223989.12500	loss_avg=-225211.15010	acc=0.00000	acc_top1_avg=0.01113	acc_top5_avg=0.05520	lr=0.01000	gn=599.67731	time=12.27it/s
+2023-07-01 13:56:46,939 ====================Eval====================
+2023-07-01 13:56:48,581 epoch=17	global_step=7038	loss=23699.23438	test_loss_avg=23792.78008	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=21.57it/s
+2023-07-01 13:56:49,652 epoch=17	global_step=7038	loss=24762.21484	test_loss_avg=23744.78809	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.51it/s
+2023-07-01 13:56:49,652 curr_acc	0.0098
+2023-07-01 13:56:49,652 BEST_ACC	0.0098
+2023-07-01 13:56:49,652 curr_acc_top5	0.0488
+2023-07-01 13:56:49,652 BEST_ACC_top5	0.0488
+2023-07-01 13:56:49,652 Model Saved!
+
+2023-07-01 13:56:49,652 ====================Training====================
+2023-07-01 13:56:55,315 epoch=18	global_step=7100	loss=-224930.03125	loss_avg=-224069.54360	acc=0.01562	acc_top1_avg=0.01096	acc_top5_avg=0.05557	lr=0.01000	gn=32342.53516	time=12.33it/s
+2023-07-01 13:57:03,483 epoch=18	global_step=7200	loss=-224562.03125	loss_avg=-223991.22299	acc=0.01562	acc_top1_avg=0.01138	acc_top5_avg=0.05478	lr=0.01000	gn=1202.29504	time=12.31it/s
+2023-07-01 13:57:11,664 epoch=18	global_step=7300	loss=-222730.82812	loss_avg=-223642.88746	acc=0.00781	acc_top1_avg=0.01160	acc_top5_avg=0.05439	lr=0.01000	gn=3201.99683	time=12.30it/s
+2023-07-01 13:57:19,846 epoch=18	global_step=7400	loss=-222910.82812	loss_avg=-223334.82838	acc=0.01562	acc_top1_avg=0.01109	acc_top5_avg=0.05432	lr=0.01000	gn=4990.22949	time=12.33it/s
+2023-07-01 13:57:22,344 ====================Eval====================
+2023-07-01 13:57:25,117 epoch=18	global_step=7429	loss=23794.74219	test_loss_avg=23867.15903	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.78it/s
+2023-07-01 13:57:25,117 curr_acc	0.0098
+2023-07-01 13:57:25,117 BEST_ACC	0.0098
+2023-07-01 13:57:25,117 curr_acc_top5	0.0488
+2023-07-01 13:57:25,117 BEST_ACC_top5	0.0488
+2023-07-01 13:57:25,117 Model Saved!
+
+2023-07-01 13:57:25,117 ====================Training====================
+2023-07-01 13:57:31,482 epoch=19	global_step=7500	loss=-224354.43750	loss_avg=-224309.62346	acc=0.00000	acc_top1_avg=0.01056	acc_top5_avg=0.05513	lr=0.01000	gn=13507.95508	time=12.31it/s
+2023-07-01 13:57:39,653 epoch=19	global_step=7600	loss=-223659.96875	loss_avg=-223552.94280	acc=0.03125	acc_top1_avg=0.01110	acc_top5_avg=0.05556	lr=0.01000	gn=15799.51172	time=12.32it/s
+2023-07-01 13:57:47,835 epoch=19	global_step=7700	loss=-222103.57812	loss_avg=-223303.97763	acc=0.00781	acc_top1_avg=0.01119	acc_top5_avg=0.05552	lr=0.01000	gn=10845.40527	time=12.31it/s
+2023-07-01 13:57:56,006 epoch=19	global_step=7800	loss=-222299.37500	loss_avg=-223278.74276	acc=0.00781	acc_top1_avg=0.01080	acc_top5_avg=0.05431	lr=0.01000	gn=7627.65771	time=12.30it/s
+2023-07-01 13:57:57,782 ====================Eval====================
+2023-07-01 13:58:00,395 epoch=19	global_step=7820	loss=22301.13477	test_loss_avg=21898.11436	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.87it/s
+2023-07-01 13:58:00,546 epoch=19	global_step=7820	loss=22301.13477	test_loss_avg=21898.11436	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.87it/s
+2023-07-01 13:58:00,546 curr_acc	0.0098
+2023-07-01 13:58:00,546 BEST_ACC	0.0098
+2023-07-01 13:58:00,546 curr_acc_top5	0.0488
+2023-07-01 13:58:00,546 BEST_ACC_top5	0.0488
+2023-07-01 13:58:00,546 Model Saved!
+
+2023-07-01 13:58:00,546 ====================Training====================
+2023-07-01 13:58:07,616 epoch=20	global_step=7900	loss=-222406.95312	loss_avg=-222851.09453	acc=0.00000	acc_top1_avg=0.01123	acc_top5_avg=0.05117	lr=0.01000	gn=899.91675	time=12.32it/s
+2023-07-01 13:58:15,783 epoch=20	global_step=8000	loss=-222866.00000	loss_avg=-222857.86493	acc=0.01562	acc_top1_avg=0.01181	acc_top5_avg=0.05525	lr=0.01000	gn=3644.12109	time=12.30it/s
+2023-07-01 13:58:23,950 epoch=20	global_step=8100	loss=-221825.20312	loss_avg=-222755.04196	acc=0.00000	acc_top1_avg=0.01105	acc_top5_avg=0.05485	lr=0.01000	gn=433.98001	time=12.29it/s
+2023-07-01 13:58:32,122 epoch=20	global_step=8200	loss=-221696.53125	loss_avg=-222518.47693	acc=0.01562	acc_top1_avg=0.01112	acc_top5_avg=0.05442	lr=0.01000	gn=1097.94434	time=12.31it/s
+2023-07-01 13:58:33,171 ====================Eval====================
+2023-07-01 13:58:35,925 epoch=20	global_step=8211	loss=25792.52539	test_loss_avg=21689.85098	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.71it/s
+2023-07-01 13:58:35,925 curr_acc	0.0098
+2023-07-01 13:58:35,925 BEST_ACC	0.0098
+2023-07-01 13:58:35,925 curr_acc_top5	0.0488
+2023-07-01 13:58:35,925 BEST_ACC_top5	0.0488
+2023-07-01 13:58:35,925 Model Saved!
+
+2023-07-01 13:58:35,925 ====================Training====================
+2023-07-01 13:58:43,771 epoch=21	global_step=8300	loss=-224648.59375	loss_avg=-222439.95874	acc=0.00000	acc_top1_avg=0.01097	acc_top5_avg=0.05355	lr=0.01000	gn=543.17645	time=12.34it/s
+2023-07-01 13:58:51,936 epoch=21	global_step=8400	loss=-224068.46875	loss_avg=-223310.56729	acc=0.02344	acc_top1_avg=0.01166	acc_top5_avg=0.05502	lr=0.01000	gn=3872.45435	time=12.31it/s
+2023-07-01 13:59:00,102 epoch=21	global_step=8500	loss=-228153.31250	loss_avg=-224340.34835	acc=0.00000	acc_top1_avg=0.01171	acc_top5_avg=0.05496	lr=0.01000	gn=1391.48730	time=12.32it/s
+2023-07-01 13:59:08,284 epoch=21	global_step=8600	loss=-230469.68750	loss_avg=-225462.32335	acc=0.01562	acc_top1_avg=0.01101	acc_top5_avg=0.05453	lr=0.01000	gn=465.39850	time=12.32it/s
+2023-07-01 13:59:08,579 ====================Eval====================
+2023-07-01 13:59:11,287 epoch=21	global_step=8602	loss=25515.73438	test_loss_avg=22786.06987	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.41it/s
+2023-07-01 13:59:11,287 curr_acc	0.0098
+2023-07-01 13:59:11,287 BEST_ACC	0.0098
+2023-07-01 13:59:11,287 curr_acc_top5	0.0488
+2023-07-01 13:59:11,288 BEST_ACC_top5	0.0488
+2023-07-01 13:59:11,288 Model Saved!
+
+2023-07-01 13:59:11,288 ====================Training====================
+2023-07-01 13:59:19,881 epoch=22	global_step=8700	loss=-231356.92188	loss_avg=-231360.98948	acc=0.00781	acc_top1_avg=0.01188	acc_top5_avg=0.05453	lr=0.01000	gn=8144.57959	time=12.35it/s
+2023-07-01 13:59:28,045 epoch=22	global_step=8800	loss=-234676.65625	loss_avg=-232590.13116	acc=0.01562	acc_top1_avg=0.01125	acc_top5_avg=0.05536	lr=0.01000	gn=387.74661	time=12.27it/s
+2023-07-01 13:59:36,225 epoch=22	global_step=8900	loss=-238300.03125	loss_avg=-233658.09375	acc=0.00781	acc_top1_avg=0.01117	acc_top5_avg=0.05453	lr=0.01000	gn=4858.17139	time=12.31it/s
+2023-07-01 13:59:43,953 ====================Eval====================
+2023-07-01 13:59:45,600 epoch=22	global_step=8993	loss=21998.72656	test_loss_avg=22703.41025	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=17.36it/s
+2023-07-01 13:59:46,673 epoch=22	global_step=8993	loss=22863.39453	test_loss_avg=22799.50449	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.35it/s
+2023-07-01 13:59:46,673 curr_acc	0.0098
+2023-07-01 13:59:46,673 BEST_ACC	0.0098
+2023-07-01 13:59:46,673 curr_acc_top5	0.0488
+2023-07-01 13:59:46,673 BEST_ACC_top5	0.0488
+2023-07-01 13:59:46,673 Model Saved!
+
+2023-07-01 13:59:46,673 ====================Training====================
+2023-07-01 13:59:47,822 epoch=23	global_step=9000	loss=-239500.46875	loss_avg=-239483.85714	acc=0.00000	acc_top1_avg=0.00781	acc_top5_avg=0.06027	lr=0.01000	gn=384.57437	time=12.31it/s
+2023-07-01 13:59:55,988 epoch=23	global_step=9100	loss=-244055.37500	loss_avg=-241723.87310	acc=0.00000	acc_top1_avg=0.01059	acc_top5_avg=0.05498	lr=0.01000	gn=387.83218	time=12.29it/s
+2023-07-01 14:00:04,154 epoch=23	global_step=9200	loss=-248730.31250	loss_avg=-243647.33175	acc=0.00000	acc_top1_avg=0.01132	acc_top5_avg=0.05427	lr=0.01000	gn=12647.58008	time=12.28it/s
+2023-07-01 14:00:12,326 epoch=23	global_step=9300	loss=-252218.28125	loss_avg=-245687.04077	acc=0.01562	acc_top1_avg=0.01140	acc_top5_avg=0.05499	lr=0.01000	gn=3892.45288	time=12.28it/s
+2023-07-01 14:00:19,341 ====================Eval====================
+2023-07-01 14:00:22,062 epoch=23	global_step=9384	loss=25123.95898	test_loss_avg=24555.33926	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.77it/s
+2023-07-01 14:00:22,062 curr_acc	0.0098
+2023-07-01 14:00:22,062 BEST_ACC	0.0098
+2023-07-01 14:00:22,062 curr_acc_top5	0.0488
+2023-07-01 14:00:22,062 BEST_ACC_top5	0.0488
+2023-07-01 14:00:22,062 Model Saved!
+
+2023-07-01 14:00:22,062 ====================Training====================
+2023-07-01 14:00:23,992 epoch=24	global_step=9400	loss=-255401.03125	loss_avg=-253987.82910	acc=0.00000	acc_top1_avg=0.00879	acc_top5_avg=0.04932	lr=0.01000	gn=1386.09949	time=12.34it/s
+2023-07-01 14:00:32,172 epoch=24	global_step=9500	loss=-258211.60938	loss_avg=-257203.52398	acc=0.00000	acc_top1_avg=0.00936	acc_top5_avg=0.05388	lr=0.01000	gn=23820.98633	time=12.30it/s
+2023-07-01 14:00:40,340 epoch=24	global_step=9600	loss=-262487.62500	loss_avg=-258983.56966	acc=0.00000	acc_top1_avg=0.01034	acc_top5_avg=0.05472	lr=0.01000	gn=381.02655	time=12.30it/s
+2023-07-01 14:00:48,521 epoch=24	global_step=9700	loss=-270087.31250	loss_avg=-261514.62772	acc=0.00781	acc_top1_avg=0.01063	acc_top5_avg=0.05451	lr=0.01000	gn=3295.16406	time=12.27it/s
+2023-07-01 14:00:54,780 ====================Eval====================
+2023-07-01 14:00:57,370 epoch=24	global_step=9775	loss=29365.65039	test_loss_avg=27047.44385	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.73it/s
+2023-07-01 14:00:57,539 epoch=24	global_step=9775	loss=29365.65039	test_loss_avg=27047.44385	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.73it/s
+2023-07-01 14:00:57,539 curr_acc	0.0098
+2023-07-01 14:00:57,539 BEST_ACC	0.0098
+2023-07-01 14:00:57,539 curr_acc_top5	0.0488
+2023-07-01 14:00:57,539 BEST_ACC_top5	0.0488
+2023-07-01 14:00:57,539 Model Saved!
+
+2023-07-01 14:00:57,539 ====================Training====================
+2023-07-01 14:01:00,167 epoch=25	global_step=9800	loss=-271723.62500	loss_avg=-270751.88125	acc=0.01562	acc_top1_avg=0.00875	acc_top5_avg=0.05187	lr=0.01000	gn=6108.56641	time=12.32it/s
+2023-07-01 14:01:08,334 epoch=25	global_step=9900	loss=-272712.06250	loss_avg=-272586.09275	acc=0.00000	acc_top1_avg=0.01050	acc_top5_avg=0.05475	lr=0.01000	gn=1668.72693	time=12.27it/s
+2023-07-01 14:01:16,528 epoch=25	global_step=10000	loss=-277628.21875	loss_avg=-274332.82542	acc=0.01562	acc_top1_avg=0.01104	acc_top5_avg=0.05427	lr=0.01000	gn=436.46478	time=12.29it/s
+2023-07-01 14:01:24,719 epoch=25	global_step=10100	loss=-287026.50000	loss_avg=-276833.01135	acc=0.01562	acc_top1_avg=0.01099	acc_top5_avg=0.05464	lr=0.01000	gn=41405.64453	time=12.29it/s
+2023-07-01 14:01:30,257 ====================Eval====================
+2023-07-01 14:01:32,969 epoch=25	global_step=10166	loss=28506.34766	test_loss_avg=26717.35283	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=188.00it/s
+2023-07-01 14:01:32,969 curr_acc	0.0098
+2023-07-01 14:01:32,969 BEST_ACC	0.0098
+2023-07-01 14:01:32,969 curr_acc_top5	0.0488
+2023-07-01 14:01:32,969 BEST_ACC_top5	0.0488
+2023-07-01 14:01:32,969 Model Saved!
+
+2023-07-01 14:01:32,969 ====================Training====================
+2023-07-01 14:01:36,357 epoch=26	global_step=10200	loss=-291083.50000	loss_avg=-290123.53860	acc=0.00781	acc_top1_avg=0.01149	acc_top5_avg=0.05836	lr=0.01000	gn=445.02039	time=12.31it/s
+2023-07-01 14:01:44,525 epoch=26	global_step=10300	loss=-298430.18750	loss_avg=-293000.50606	acc=0.01562	acc_top1_avg=0.01108	acc_top5_avg=0.05644	lr=0.01000	gn=6795.08105	time=12.30it/s
+2023-07-01 14:01:52,697 epoch=26	global_step=10400	loss=-303621.28125	loss_avg=-295622.85938	acc=0.00781	acc_top1_avg=0.01068	acc_top5_avg=0.05452	lr=0.01000	gn=430.99503	time=12.29it/s
+2023-07-01 14:02:00,867 epoch=26	global_step=10500	loss=-308479.65625	loss_avg=-298405.85067	acc=0.00781	acc_top1_avg=0.01113	acc_top5_avg=0.05476	lr=0.01000	gn=447.83276	time=12.29it/s
+2023-07-01 14:02:05,645 ====================Eval====================
+2023-07-01 14:02:08,349 epoch=26	global_step=10557	loss=30184.93359	test_loss_avg=29494.64492	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.83it/s
+2023-07-01 14:02:08,349 curr_acc	0.0098
+2023-07-01 14:02:08,349 BEST_ACC	0.0098
+2023-07-01 14:02:08,349 curr_acc_top5	0.0488
+2023-07-01 14:02:08,349 BEST_ACC_top5	0.0488
+2023-07-01 14:02:08,349 Model Saved!
+
+2023-07-01 14:02:08,349 ====================Training====================
+2023-07-01 14:02:12,453 epoch=27	global_step=10600	loss=-312704.93750	loss_avg=-313496.85320	acc=0.01562	acc_top1_avg=0.01072	acc_top5_avg=0.05614	lr=0.01000	gn=408.72641	time=12.30it/s
+2023-07-01 14:02:20,619 epoch=27	global_step=10700	loss=-323656.43750	loss_avg=-316825.65647	acc=0.00000	acc_top1_avg=0.01054	acc_top5_avg=0.05376	lr=0.01000	gn=415.76791	time=12.32it/s
+2023-07-01 14:02:28,787 epoch=27	global_step=10800	loss=-327163.43750	loss_avg=-320375.14108	acc=0.00781	acc_top1_avg=0.01096	acc_top5_avg=0.05485	lr=0.01000	gn=433.64951	time=12.28it/s
+2023-07-01 14:02:36,951 epoch=27	global_step=10900	loss=-332659.37500	loss_avg=-323645.25282	acc=0.00781	acc_top1_avg=0.01091	acc_top5_avg=0.05473	lr=0.01000	gn=467.67087	time=12.31it/s
+2023-07-01 14:02:41,011 ====================Eval====================
+2023-07-01 14:02:42,675 epoch=27	global_step=10948	loss=29421.51172	test_loss_avg=30646.17344	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05156	time=21.49it/s
+2023-07-01 14:02:43,741 epoch=27	global_step=10948	loss=32746.46875	test_loss_avg=30688.05098	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.75it/s
+2023-07-01 14:02:43,741 curr_acc	0.0098
+2023-07-01 14:02:43,741 BEST_ACC	0.0098
+2023-07-01 14:02:43,741 curr_acc_top5	0.0488
+2023-07-01 14:02:43,741 BEST_ACC_top5	0.0488
+2023-07-01 14:02:43,741 Model Saved!
+
+2023-07-01 14:02:43,742 ====================Training====================
+2023-07-01 14:02:48,566 epoch=28	global_step=11000	loss=-335190.25000	loss_avg=-336286.60036	acc=0.01562	acc_top1_avg=0.01172	acc_top5_avg=0.05604	lr=0.01000	gn=560.31281	time=12.32it/s
+2023-07-01 14:02:56,738 epoch=28	global_step=11100	loss=-340363.12500	loss_avg=-338591.69716	acc=0.00781	acc_top1_avg=0.01151	acc_top5_avg=0.05525	lr=0.01000	gn=721.29974	time=12.29it/s
+2023-07-01 14:03:04,904 epoch=28	global_step=11200	loss=-342809.50000	loss_avg=-340045.54241	acc=0.00781	acc_top1_avg=0.01097	acc_top5_avg=0.05419	lr=0.01000	gn=442.45123	time=12.25it/s
+2023-07-01 14:03:13,070 epoch=28	global_step=11300	loss=-351715.21875	loss_avg=-341957.20561	acc=0.00781	acc_top1_avg=0.01094	acc_top5_avg=0.05424	lr=0.01000	gn=12738.83789	time=12.33it/s
+2023-07-01 14:03:16,384 ====================Eval====================
+2023-07-01 14:03:19,118 epoch=28	global_step=11339	loss=32433.86328	test_loss_avg=32085.56182	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.95it/s
+2023-07-01 14:03:19,119 curr_acc	0.0098
+2023-07-01 14:03:19,119 BEST_ACC	0.0098
+2023-07-01 14:03:19,119 curr_acc_top5	0.0488
+2023-07-01 14:03:19,119 BEST_ACC_top5	0.0488
+2023-07-01 14:03:19,119 Model Saved!
+
+2023-07-01 14:03:19,119 ====================Training====================
+2023-07-01 14:03:24,708 epoch=29	global_step=11400	loss=-356778.00000	loss_avg=-354059.09734	acc=0.00000	acc_top1_avg=0.01050	acc_top5_avg=0.05379	lr=0.01000	gn=4836.59766	time=12.31it/s
+2023-07-01 14:03:32,876 epoch=29	global_step=11500	loss=-359428.00000	loss_avg=-356134.73059	acc=0.00781	acc_top1_avg=0.01111	acc_top5_avg=0.05648	lr=0.01000	gn=446.62573	time=12.36it/s
+2023-07-01 14:03:41,041 epoch=29	global_step=11600	loss=-366028.06250	loss_avg=-358645.12284	acc=0.00000	acc_top1_avg=0.01116	acc_top5_avg=0.05550	lr=0.01000	gn=522.58020	time=12.34it/s
+2023-07-01 14:03:49,207 epoch=29	global_step=11700	loss=-371126.31250	loss_avg=-361246.97819	acc=0.00781	acc_top1_avg=0.01104	acc_top5_avg=0.05490	lr=0.01000	gn=9481.71973	time=12.30it/s
+2023-07-01 14:03:51,785 ====================Eval====================
+2023-07-01 14:03:54,350 epoch=29	global_step=11730	loss=33091.57031	test_loss_avg=33383.55317	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.44it/s
+2023-07-01 14:03:54,511 epoch=29	global_step=11730	loss=33091.57031	test_loss_avg=33383.55317	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.44it/s
+2023-07-01 14:03:54,511 curr_acc	0.0098
+2023-07-01 14:03:54,511 BEST_ACC	0.0098
+2023-07-01 14:03:54,511 curr_acc_top5	0.0488
+2023-07-01 14:03:54,511 BEST_ACC_top5	0.0488
+2023-07-01 14:03:54,511 Model Saved!
+
+2023-07-01 14:03:54,511 ====================Training====================
+2023-07-01 14:04:00,832 epoch=30	global_step=11800	loss=-376754.12500	loss_avg=-373718.37857	acc=0.00781	acc_top1_avg=0.01004	acc_top5_avg=0.05792	lr=0.01000	gn=12194.96289	time=12.35it/s
+2023-07-01 14:04:08,993 epoch=30	global_step=11900	loss=-379951.93750	loss_avg=-376088.83235	acc=0.00781	acc_top1_avg=0.01043	acc_top5_avg=0.05423	lr=0.01000	gn=759.81519	time=12.31it/s
+2023-07-01 14:04:17,158 epoch=30	global_step=12000	loss=-388121.00000	loss_avg=-378833.18819	acc=0.00781	acc_top1_avg=0.01111	acc_top5_avg=0.05486	lr=0.01000	gn=747.00250	time=12.34it/s
+2023-07-01 14:04:25,322 epoch=30	global_step=12100	loss=-393757.34375	loss_avg=-381619.66917	acc=0.01562	acc_top1_avg=0.01106	acc_top5_avg=0.05496	lr=0.01000	gn=4071.25708	time=12.30it/s
+2023-07-01 14:04:27,176 ====================Eval====================
+2023-07-01 14:04:29,899 epoch=30	global_step=12121	loss=37099.00000	test_loss_avg=36560.93672	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=188.87it/s
+2023-07-01 14:04:29,899 curr_acc	0.0098
+2023-07-01 14:04:29,899 BEST_ACC	0.0098
+2023-07-01 14:04:29,899 curr_acc_top5	0.0488
+2023-07-01 14:04:29,899 BEST_ACC_top5	0.0488
+2023-07-01 14:04:29,899 Model Saved!
+
+2023-07-01 14:04:29,899 ====================Training====================
+2023-07-01 14:04:36,975 epoch=31	global_step=12200	loss=-392803.81250	loss_avg=-393212.46400	acc=0.01562	acc_top1_avg=0.01058	acc_top5_avg=0.05558	lr=0.01000	gn=928.12457	time=12.26it/s
+2023-07-01 14:04:45,133 epoch=31	global_step=12300	loss=-397808.84375	loss_avg=-394443.97084	acc=0.01562	acc_top1_avg=0.01157	acc_top5_avg=0.05443	lr=0.01000	gn=561.66479	time=12.32it/s
+2023-07-01 14:04:53,296 epoch=31	global_step=12400	loss=-399094.50000	loss_avg=-395647.83132	acc=0.00000	acc_top1_avg=0.01120	acc_top5_avg=0.05486	lr=0.01000	gn=575.94464	time=12.32it/s
+2023-07-01 14:05:01,459 epoch=31	global_step=12500	loss=-399528.71875	loss_avg=-396839.32058	acc=0.00781	acc_top1_avg=0.01109	acc_top5_avg=0.05440	lr=0.01000	gn=2578.16187	time=12.31it/s
+2023-07-01 14:05:02,566 ====================Eval====================
+2023-07-01 14:05:05,312 epoch=31	global_step=12512	loss=39537.32031	test_loss_avg=38166.27236	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.37it/s
+2023-07-01 14:05:05,312 curr_acc	0.0098
+2023-07-01 14:05:05,312 BEST_ACC	0.0098
+2023-07-01 14:05:05,312 curr_acc_top5	0.0488
+2023-07-01 14:05:05,312 BEST_ACC_top5	0.0488
+2023-07-01 14:05:05,312 Model Saved!
+
+2023-07-01 14:05:05,312 ====================Training====================
+2023-07-01 14:05:13,133 epoch=32	global_step=12600	loss=-402711.00000	loss_avg=-401975.00284	acc=0.00000	acc_top1_avg=0.00968	acc_top5_avg=0.05451	lr=0.01000	gn=1961.53650	time=12.30it/s
+2023-07-01 14:05:21,325 epoch=32	global_step=12700	loss=-401426.12500	loss_avg=-403003.46775	acc=0.00000	acc_top1_avg=0.01039	acc_top5_avg=0.05352	lr=0.01000	gn=7994.96289	time=12.29it/s
+2023-07-01 14:05:29,494 epoch=32	global_step=12800	loss=-405092.93750	loss_avg=-403625.72971	acc=0.00781	acc_top1_avg=0.01088	acc_top5_avg=0.05442	lr=0.01000	gn=585.29492	time=12.30it/s
+2023-07-01 14:05:37,661 epoch=32	global_step=12900	loss=-409289.06250	loss_avg=-404756.00813	acc=0.00781	acc_top1_avg=0.01103	acc_top5_avg=0.05461	lr=0.01000	gn=3812.91748	time=12.32it/s
+2023-07-01 14:05:38,051 ====================Eval====================
+2023-07-01 14:05:39,793 epoch=32	global_step=12903	loss=35199.91797	test_loss_avg=37006.44043	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=21.12it/s
+2023-07-01 14:05:40,853 epoch=32	global_step=12903	loss=36231.53516	test_loss_avg=37032.57217	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.28it/s
+2023-07-01 14:05:40,853 curr_acc	0.0098
+2023-07-01 14:05:40,853 BEST_ACC	0.0098
+2023-07-01 14:05:40,853 curr_acc_top5	0.0488
+2023-07-01 14:05:40,853 BEST_ACC_top5	0.0488
+2023-07-01 14:05:40,853 Model Saved!
+
+2023-07-01 14:05:40,853 ====================Training====================
+2023-07-01 14:05:49,412 epoch=33	global_step=13000	loss=-412989.78125	loss_avg=-409998.32474	acc=0.01562	acc_top1_avg=0.01144	acc_top5_avg=0.05469	lr=0.01000	gn=6955.54980	time=12.33it/s
+2023-07-01 14:05:57,593 epoch=33	global_step=13100	loss=-417278.03125	loss_avg=-411465.65228	acc=0.00000	acc_top1_avg=0.01067	acc_top5_avg=0.05393	lr=0.01000	gn=18376.93945	time=12.28it/s
+2023-07-01 14:06:05,760 epoch=33	global_step=13200	loss=-416648.93750	loss_avg=-412688.52957	acc=0.01562	acc_top1_avg=0.01057	acc_top5_avg=0.05437	lr=0.01000	gn=756.90198	time=12.33it/s
+2023-07-01 14:06:13,571 ====================Eval====================
+2023-07-01 14:06:16,332 epoch=33	global_step=13294	loss=35649.04688	test_loss_avg=38315.12402	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=188.08it/s
+2023-07-01 14:06:16,332 curr_acc	0.0098
+2023-07-01 14:06:16,332 BEST_ACC	0.0098
+2023-07-01 14:06:16,332 curr_acc_top5	0.0488
+2023-07-01 14:06:16,332 BEST_ACC_top5	0.0488
+2023-07-01 14:06:16,333 Model Saved!
+
+2023-07-01 14:06:16,333 ====================Training====================
+2023-07-01 14:06:17,470 epoch=34	global_step=13300	loss=-423013.06250	loss_avg=-424333.25521	acc=0.02344	acc_top1_avg=0.02734	acc_top5_avg=0.06641	lr=0.01000	gn=904.05774	time=12.29it/s
+2023-07-01 14:06:25,635 epoch=34	global_step=13400	loss=-424810.43750	loss_avg=-422033.90065	acc=0.01562	acc_top1_avg=0.01179	acc_top5_avg=0.05513	lr=0.01000	gn=2210.19409	time=12.29it/s
+2023-07-01 14:06:33,801 epoch=34	global_step=13500	loss=-429737.71875	loss_avg=-423449.44387	acc=0.02344	acc_top1_avg=0.01149	acc_top5_avg=0.05378	lr=0.01000	gn=1197.82849	time=12.32it/s
+2023-07-01 14:06:41,964 epoch=34	global_step=13600	loss=-430466.84375	loss_avg=-425584.96252	acc=0.00781	acc_top1_avg=0.01126	acc_top5_avg=0.05504	lr=0.01000	gn=555.91064	time=12.31it/s
+2023-07-01 14:06:49,053 ====================Eval====================
+2023-07-01 14:06:51,665 epoch=34	global_step=13685	loss=39110.60938	test_loss_avg=38616.04756	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.71it/s
+2023-07-01 14:06:51,823 epoch=34	global_step=13685	loss=39110.60938	test_loss_avg=38616.04756	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.71it/s
+2023-07-01 14:06:51,823 curr_acc	0.0098
+2023-07-01 14:06:51,823 BEST_ACC	0.0098
+2023-07-01 14:06:51,823 curr_acc_top5	0.0488
+2023-07-01 14:06:51,823 BEST_ACC_top5	0.0488
+2023-07-01 14:06:51,823 Model Saved!
+
+2023-07-01 14:06:51,824 ====================Training====================
+2023-07-01 14:06:53,632 epoch=35	global_step=13700	loss=-438083.93750	loss_avg=-436609.07292	acc=0.02344	acc_top1_avg=0.01719	acc_top5_avg=0.05937	lr=0.01000	gn=1658.45264	time=12.31it/s
+2023-07-01 14:07:01,794 epoch=35	global_step=13800	loss=-443112.65625	loss_avg=-438380.90734	acc=0.00000	acc_top1_avg=0.01148	acc_top5_avg=0.05584	lr=0.01000	gn=22681.05664	time=12.29it/s
+2023-07-01 14:07:09,960 epoch=35	global_step=13900	loss=-446578.75000	loss_avg=-439887.90291	acc=0.00781	acc_top1_avg=0.01152	acc_top5_avg=0.05501	lr=0.01000	gn=2520.59399	time=12.31it/s
+2023-07-01 14:07:18,135 epoch=35	global_step=14000	loss=-450451.25000	loss_avg=-442539.71210	acc=0.03125	acc_top1_avg=0.01131	acc_top5_avg=0.05533	lr=0.01000	gn=1642.04626	time=12.33it/s
+2023-07-01 14:07:24,487 ====================Eval====================
+2023-07-01 14:07:27,206 epoch=35	global_step=14076	loss=42012.95703	test_loss_avg=40215.59424	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.74it/s
+2023-07-01 14:07:27,206 curr_acc	0.0098
+2023-07-01 14:07:27,206 BEST_ACC	0.0098
+2023-07-01 14:07:27,207 curr_acc_top5	0.0488
+2023-07-01 14:07:27,207 BEST_ACC_top5	0.0488
+2023-07-01 14:07:27,207 Model Saved!
+
+2023-07-01 14:07:27,207 ====================Training====================
+2023-07-01 14:07:29,701 epoch=36	global_step=14100	loss=-456160.93750	loss_avg=-455535.19531	acc=0.01562	acc_top1_avg=0.01237	acc_top5_avg=0.05208	lr=0.01000	gn=798.42737	time=12.34it/s
+2023-07-01 14:07:37,861 epoch=36	global_step=14200	loss=-459226.31250	loss_avg=-458425.89163	acc=0.02344	acc_top1_avg=0.01065	acc_top5_avg=0.05721	lr=0.01000	gn=1274.81921	time=12.30it/s
+2023-07-01 14:07:46,021 epoch=36	global_step=14300	loss=-470697.59375	loss_avg=-462027.43094	acc=0.00000	acc_top1_avg=0.01029	acc_top5_avg=0.05476	lr=0.01000	gn=511.58188	time=12.37it/s
+2023-07-01 14:07:54,179 epoch=36	global_step=14400	loss=-481393.31250	loss_avg=-466087.27315	acc=0.00000	acc_top1_avg=0.01037	acc_top5_avg=0.05392	lr=0.01000	gn=11829.97852	time=12.33it/s
+2023-07-01 14:07:59,779 ====================Eval====================
+2023-07-01 14:08:02,540 epoch=36	global_step=14467	loss=41207.93359	test_loss_avg=43012.83320	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.87it/s
+2023-07-01 14:08:02,540 curr_acc	0.0098
+2023-07-01 14:08:02,541 BEST_ACC	0.0098
+2023-07-01 14:08:02,541 curr_acc_top5	0.0488
+2023-07-01 14:08:02,541 BEST_ACC_top5	0.0488
+2023-07-01 14:08:02,541 Model Saved!
+
+2023-07-01 14:08:02,541 ====================Training====================
+2023-07-01 14:08:05,787 epoch=37	global_step=14500	loss=-487598.93750	loss_avg=-486619.63068	acc=0.00000	acc_top1_avg=0.00947	acc_top5_avg=0.05658	lr=0.01000	gn=535.74323	time=12.29it/s
+2023-07-01 14:08:13,948 epoch=37	global_step=14600	loss=-489335.43750	loss_avg=-488493.55146	acc=0.01562	acc_top1_avg=0.01069	acc_top5_avg=0.05422	lr=0.01000	gn=1664.45056	time=12.28it/s
+2023-07-01 14:08:22,118 epoch=37	global_step=14700	loss=-494158.21875	loss_avg=-490290.40343	acc=0.00781	acc_top1_avg=0.01070	acc_top5_avg=0.05445	lr=0.01000	gn=1037.44006	time=12.33it/s
+2023-07-01 14:08:30,280 epoch=37	global_step=14800	loss=-503070.62500	loss_avg=-492380.19313	acc=0.03125	acc_top1_avg=0.01077	acc_top5_avg=0.05431	lr=0.01000	gn=665.86621	time=12.36it/s
+2023-07-01 14:08:35,165 ====================Eval====================
+2023-07-01 14:08:36,833 epoch=37	global_step=14858	loss=45605.42578	test_loss_avg=47361.00547	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05156	time=19.99it/s
+2023-07-01 14:08:37,907 epoch=37	global_step=14858	loss=44581.40234	test_loss_avg=47278.88701	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.36it/s
+2023-07-01 14:08:37,907 curr_acc	0.0098
+2023-07-01 14:08:37,907 BEST_ACC	0.0098
+2023-07-01 14:08:37,907 curr_acc_top5	0.0488
+2023-07-01 14:08:37,907 BEST_ACC_top5	0.0488
+2023-07-01 14:08:37,907 Model Saved!
+
+2023-07-01 14:08:37,907 ====================Training====================
+2023-07-01 14:08:41,912 epoch=38	global_step=14900	loss=-508013.81250	loss_avg=-505274.02753	acc=0.00781	acc_top1_avg=0.01135	acc_top5_avg=0.05357	lr=0.01000	gn=3583.06763	time=12.29it/s
+2023-07-01 14:08:50,075 epoch=38	global_step=15000	loss=-511145.87500	loss_avg=-508297.40075	acc=0.00781	acc_top1_avg=0.01084	acc_top5_avg=0.05496	lr=0.01000	gn=708.59570	time=12.29it/s
+2023-07-01 14:08:58,238 epoch=38	global_step=15100	loss=-521154.84375	loss_avg=-511282.45532	acc=0.00781	acc_top1_avg=0.01098	acc_top5_avg=0.05430	lr=0.01000	gn=568.81226	time=12.28it/s
+2023-07-01 14:09:06,401 epoch=38	global_step=15200	loss=-522409.37500	loss_avg=-513963.70906	acc=0.00781	acc_top1_avg=0.01138	acc_top5_avg=0.05482	lr=0.01000	gn=760.11847	time=12.31it/s
+2023-07-01 14:09:10,534 ====================Eval====================
+2023-07-01 14:09:13,257 epoch=38	global_step=15249	loss=45044.82812	test_loss_avg=48855.87568	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.15it/s
+2023-07-01 14:09:13,257 curr_acc	0.0098
+2023-07-01 14:09:13,257 BEST_ACC	0.0098
+2023-07-01 14:09:13,257 curr_acc_top5	0.0488
+2023-07-01 14:09:13,257 BEST_ACC_top5	0.0488
+2023-07-01 14:09:13,257 Model Saved!
+
+2023-07-01 14:09:13,257 ====================Training====================
+2023-07-01 14:09:18,005 epoch=39	global_step=15300	loss=-525776.00000	loss_avg=-525910.13419	acc=0.02344	acc_top1_avg=0.01026	acc_top5_avg=0.05607	lr=0.01000	gn=591.93420	time=12.29it/s
+2023-07-01 14:09:26,164 epoch=39	global_step=15400	loss=-534182.75000	loss_avg=-528493.89673	acc=0.01562	acc_top1_avg=0.01092	acc_top5_avg=0.05396	lr=0.01000	gn=1113.50684	time=12.32it/s
+2023-07-01 14:09:34,351 epoch=39	global_step=15500	loss=-535821.50000	loss_avg=-530622.02515	acc=0.00781	acc_top1_avg=0.01096	acc_top5_avg=0.05391	lr=0.01000	gn=608.80676	time=12.31it/s
+2023-07-01 14:09:42,512 epoch=39	global_step=15600	loss=-540704.43750	loss_avg=-532634.84669	acc=0.00000	acc_top1_avg=0.01097	acc_top5_avg=0.05458	lr=0.01000	gn=545.93500	time=12.31it/s
+2023-07-01 14:09:45,909 ====================Eval====================
+2023-07-01 14:09:48,494 epoch=39	global_step=15640	loss=45183.71094	test_loss_avg=47252.89814	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.01it/s
+2023-07-01 14:09:48,651 epoch=39	global_step=15640	loss=45183.71094	test_loss_avg=47252.89814	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.01it/s
+2023-07-01 14:09:48,651 curr_acc	0.0098
+2023-07-01 14:09:48,651 BEST_ACC	0.0098
+2023-07-01 14:09:48,651 curr_acc_top5	0.0488
+2023-07-01 14:09:48,651 BEST_ACC_top5	0.0488
+2023-07-01 14:09:48,651 Model Saved!
+
+2023-07-01 14:09:48,651 ====================Training====================
+2023-07-01 14:09:54,119 epoch=40	global_step=15700	loss=-544026.31250	loss_avg=-543515.69479	acc=0.00000	acc_top1_avg=0.00937	acc_top5_avg=0.05247	lr=0.00100	gn=530.05511	time=12.31it/s
+2023-07-01 14:10:02,278 epoch=40	global_step=15800	loss=-545168.12500	loss_avg=-543781.32812	acc=0.00781	acc_top1_avg=0.00928	acc_top5_avg=0.05283	lr=0.00100	gn=561.11188	time=12.36it/s
+2023-07-01 14:10:10,440 epoch=40	global_step=15900	loss=-546032.12500	loss_avg=-544290.53966	acc=0.00000	acc_top1_avg=0.01001	acc_top5_avg=0.05312	lr=0.00100	gn=2125.55371	time=12.32it/s
+2023-07-01 14:10:18,600 epoch=40	global_step=16000	loss=-547007.93750	loss_avg=-544657.25365	acc=0.03125	acc_top1_avg=0.01029	acc_top5_avg=0.05430	lr=0.00100	gn=680.10895	time=12.31it/s
+2023-07-01 14:10:21,269 ====================Eval====================
+2023-07-01 14:10:24,023 epoch=40	global_step=16031	loss=45876.91406	test_loss_avg=49549.98232	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.49it/s
+2023-07-01 14:10:24,023 curr_acc	0.0098
+2023-07-01 14:10:24,023 BEST_ACC	0.0098
+2023-07-01 14:10:24,024 curr_acc_top5	0.0488
+2023-07-01 14:10:24,024 BEST_ACC_top5	0.0488
+2023-07-01 14:10:24,024 Model Saved!
+
+2023-07-01 14:10:24,024 ====================Training====================
+2023-07-01 14:10:30,256 epoch=41	global_step=16100	loss=-543461.43750	loss_avg=-546431.62500	acc=0.01562	acc_top1_avg=0.01030	acc_top5_avg=0.05389	lr=0.00100	gn=561.16125	time=12.28it/s
+2023-07-01 14:10:38,414 epoch=41	global_step=16200	loss=-550527.93750	loss_avg=-547043.31990	acc=0.03125	acc_top1_avg=0.01105	acc_top5_avg=0.05423	lr=0.00100	gn=544.85718	time=12.33it/s
+2023-07-01 14:10:46,575 epoch=41	global_step=16300	loss=-551016.25000	loss_avg=-547371.02556	acc=0.03125	acc_top1_avg=0.01109	acc_top5_avg=0.05422	lr=0.00100	gn=572.24377	time=12.35it/s
+2023-07-01 14:10:54,736 epoch=41	global_step=16400	loss=-548818.56250	loss_avg=-547690.30488	acc=0.02344	acc_top1_avg=0.01122	acc_top5_avg=0.05460	lr=0.00100	gn=80803.14062	time=12.35it/s
+2023-07-01 14:10:56,668 ====================Eval====================
+2023-07-01 14:10:59,424 epoch=41	global_step=16422	loss=46000.65234	test_loss_avg=49837.09150	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.08it/s
+2023-07-01 14:10:59,424 curr_acc	0.0098
+2023-07-01 14:10:59,424 BEST_ACC	0.0098
+2023-07-01 14:10:59,424 curr_acc_top5	0.0488
+2023-07-01 14:10:59,424 BEST_ACC_top5	0.0488
+2023-07-01 14:10:59,424 Model Saved!
+
+2023-07-01 14:10:59,425 ====================Training====================
+2023-07-01 14:11:06,448 epoch=42	global_step=16500	loss=-545244.56250	loss_avg=-549890.34455	acc=0.00000	acc_top1_avg=0.01122	acc_top5_avg=0.05619	lr=0.00100	gn=542.26263	time=12.30it/s
+2023-07-01 14:11:14,607 epoch=42	global_step=16600	loss=-551516.12500	loss_avg=-550265.38167	acc=0.00781	acc_top1_avg=0.01088	acc_top5_avg=0.05596	lr=0.00100	gn=599.25958	time=12.32it/s
+2023-07-01 14:11:22,767 epoch=42	global_step=16700	loss=-554344.43750	loss_avg=-550782.95054	acc=0.01562	acc_top1_avg=0.01059	acc_top5_avg=0.05460	lr=0.00100	gn=3405.06348	time=12.28it/s
+2023-07-01 14:11:30,930 epoch=42	global_step=16800	loss=-553313.31250	loss_avg=-551135.76273	acc=0.00000	acc_top1_avg=0.01081	acc_top5_avg=0.05438	lr=0.00100	gn=570.23901	time=12.32it/s
+2023-07-01 14:11:32,138 ====================Eval====================
+2023-07-01 14:11:33,867 epoch=42	global_step=16813	loss=48823.16016	test_loss_avg=50158.39687	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05156	time=20.41it/s
+2023-07-01 14:11:34,926 epoch=42	global_step=16813	loss=46433.54688	test_loss_avg=50096.86094	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.75it/s
+2023-07-01 14:11:34,927 curr_acc	0.0098
+2023-07-01 14:11:34,927 BEST_ACC	0.0098
+2023-07-01 14:11:34,927 curr_acc_top5	0.0488
+2023-07-01 14:11:34,927 BEST_ACC_top5	0.0488
+2023-07-01 14:11:34,927 Model Saved!
+
+2023-07-01 14:11:34,927 ====================Training====================
+2023-07-01 14:11:42,688 epoch=43	global_step=16900	loss=-554813.00000	loss_avg=-553522.54310	acc=0.01562	acc_top1_avg=0.01239	acc_top5_avg=0.05657	lr=0.00100	gn=537.72644	time=12.32it/s
+2023-07-01 14:11:50,848 epoch=43	global_step=17000	loss=-556927.68750	loss_avg=-553605.68683	acc=0.01562	acc_top1_avg=0.01145	acc_top5_avg=0.05368	lr=0.00100	gn=50869.97266	time=12.31it/s
+2023-07-01 14:11:59,013 epoch=43	global_step=17100	loss=-555483.12500	loss_avg=-553944.95427	acc=0.00000	acc_top1_avg=0.01102	acc_top5_avg=0.05341	lr=0.00100	gn=547.86658	time=12.31it/s
+2023-07-01 14:12:07,173 epoch=43	global_step=17200	loss=-555272.75000	loss_avg=-554454.77697	acc=0.00781	acc_top1_avg=0.01106	acc_top5_avg=0.05434	lr=0.00100	gn=704.72296	time=12.34it/s
+2023-07-01 14:12:07,631 ====================Eval====================
+2023-07-01 14:12:10,355 epoch=43	global_step=17204	loss=46910.12109	test_loss_avg=50722.92607	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.05it/s
+2023-07-01 14:12:10,356 curr_acc	0.0098
+2023-07-01 14:12:10,356 BEST_ACC	0.0098
+2023-07-01 14:12:10,356 curr_acc_top5	0.0488
+2023-07-01 14:12:10,356 BEST_ACC_top5	0.0488
+2023-07-01 14:12:10,356 Model Saved!
+
+2023-07-01 14:12:10,356 ====================Training====================
+2023-07-01 14:12:18,774 epoch=44	global_step=17300	loss=-554799.43750	loss_avg=-556483.78776	acc=0.00781	acc_top1_avg=0.01115	acc_top5_avg=0.05583	lr=0.00100	gn=647.58533	time=12.32it/s
+2023-07-01 14:12:26,946 epoch=44	global_step=17400	loss=-557931.12500	loss_avg=-556710.42124	acc=0.00781	acc_top1_avg=0.01000	acc_top5_avg=0.05337	lr=0.00100	gn=536.94183	time=12.31it/s
+2023-07-01 14:12:35,107 epoch=44	global_step=17500	loss=-558676.75000	loss_avg=-557292.68117	acc=0.00781	acc_top1_avg=0.01006	acc_top5_avg=0.05371	lr=0.00100	gn=527.59631	time=12.30it/s
+2023-07-01 14:12:43,002 ====================Eval====================
+2023-07-01 14:12:45,633 epoch=44	global_step=17595	loss=47176.67578	test_loss_avg=51060.32695	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.44it/s
+2023-07-01 14:12:45,804 epoch=44	global_step=17595	loss=47176.67578	test_loss_avg=51060.32695	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.44it/s
+2023-07-01 14:12:45,805 curr_acc	0.0098
+2023-07-01 14:12:45,805 BEST_ACC	0.0098
+2023-07-01 14:12:45,805 curr_acc_top5	0.0488
+2023-07-01 14:12:45,805 BEST_ACC_top5	0.0488
+2023-07-01 14:12:45,805 Model Saved!
+
+2023-07-01 14:12:45,805 ====================Training====================
+2023-07-01 14:12:46,856 epoch=45	global_step=17600	loss=-559667.50000	loss_avg=-560461.93750	acc=0.02344	acc_top1_avg=0.01875	acc_top5_avg=0.05781	lr=0.00100	gn=549.64783	time=12.31it/s
+2023-07-01 14:12:55,024 epoch=45	global_step=17700	loss=-561187.75000	loss_avg=-560239.22381	acc=0.00781	acc_top1_avg=0.01042	acc_top5_avg=0.05342	lr=0.00100	gn=47701.75000	time=12.29it/s
+2023-07-01 14:13:03,184 epoch=45	global_step=17800	loss=-560771.00000	loss_avg=-560616.42470	acc=0.00000	acc_top1_avg=0.01048	acc_top5_avg=0.05370	lr=0.00100	gn=11160.56738	time=12.31it/s
+2023-07-01 14:13:11,356 epoch=45	global_step=17900	loss=-562662.25000	loss_avg=-561165.51496	acc=0.00000	acc_top1_avg=0.01035	acc_top5_avg=0.05461	lr=0.00100	gn=576.46960	time=12.32it/s
+2023-07-01 14:13:18,510 ====================Eval====================
+2023-07-01 14:13:21,258 epoch=45	global_step=17986	loss=47573.26562	test_loss_avg=51586.07412	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.80it/s
+2023-07-01 14:13:21,258 curr_acc	0.0098
+2023-07-01 14:13:21,258 BEST_ACC	0.0098
+2023-07-01 14:13:21,258 curr_acc_top5	0.0488
+2023-07-01 14:13:21,258 BEST_ACC_top5	0.0488
+2023-07-01 14:13:21,258 Model Saved!
+
+2023-07-01 14:13:21,258 ====================Training====================
+2023-07-01 14:13:23,102 epoch=46	global_step=18000	loss=-563639.93750	loss_avg=-563186.07589	acc=0.00781	acc_top1_avg=0.00893	acc_top5_avg=0.05525	lr=0.00100	gn=575.12695	time=12.36it/s
+2023-07-01 14:13:31,264 epoch=46	global_step=18100	loss=-563571.87500	loss_avg=-563490.55702	acc=0.00000	acc_top1_avg=0.01165	acc_top5_avg=0.05400	lr=0.00100	gn=579.58698	time=12.33it/s
+2023-07-01 14:13:39,442 epoch=46	global_step=18200	loss=-565896.00000	loss_avg=-563928.82155	acc=0.00000	acc_top1_avg=0.01095	acc_top5_avg=0.05330	lr=0.00100	gn=550.37048	time=12.32it/s
+2023-07-01 14:13:47,618 epoch=46	global_step=18300	loss=-568859.75000	loss_avg=-564480.39132	acc=0.04688	acc_top1_avg=0.01087	acc_top5_avg=0.05359	lr=0.00100	gn=561.95844	time=12.32it/s
+2023-07-01 14:13:54,055 ====================Eval====================
+2023-07-01 14:13:56,796 epoch=46	global_step=18377	loss=48202.32031	test_loss_avg=51843.61240	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.49it/s
+2023-07-01 14:13:56,796 curr_acc	0.0098
+2023-07-01 14:13:56,797 BEST_ACC	0.0098
+2023-07-01 14:13:56,797 curr_acc_top5	0.0488
+2023-07-01 14:13:56,797 BEST_ACC_top5	0.0488
+2023-07-01 14:13:56,797 Model Saved!
+
+2023-07-01 14:13:56,797 ====================Training====================
+2023-07-01 14:13:59,251 epoch=47	global_step=18400	loss=-566131.18750	loss_avg=-566451.34239	acc=0.00000	acc_top1_avg=0.01087	acc_top5_avg=0.05469	lr=0.00100	gn=554.72992	time=12.28it/s
+2023-07-01 14:14:07,410 epoch=47	global_step=18500	loss=-567681.37500	loss_avg=-567340.53150	acc=0.00000	acc_top1_avg=0.00991	acc_top5_avg=0.05596	lr=0.00100	gn=891.49292	time=12.32it/s
+2023-07-01 14:14:15,586 epoch=47	global_step=18600	loss=-566312.50000	loss_avg=-567608.12220	acc=0.02344	acc_top1_avg=0.01093	acc_top5_avg=0.05518	lr=0.00100	gn=588.69232	time=12.30it/s
+2023-07-01 14:14:23,748 epoch=47	global_step=18700	loss=-569415.68750	loss_avg=-568098.25155	acc=0.01562	acc_top1_avg=0.01091	acc_top5_avg=0.05418	lr=0.00100	gn=574.56854	time=12.30it/s
+2023-07-01 14:14:29,436 ====================Eval====================
+2023-07-01 14:14:31,072 epoch=47	global_step=18768	loss=51278.18359	test_loss_avg=52689.72559	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05156	time=18.99it/s
+2023-07-01 14:14:32,135 epoch=47	global_step=18768	loss=48874.78516	test_loss_avg=52546.19297	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.08it/s
+2023-07-01 14:14:32,135 curr_acc	0.0098
+2023-07-01 14:14:32,135 BEST_ACC	0.0098
+2023-07-01 14:14:32,135 curr_acc_top5	0.0488
+2023-07-01 14:14:32,135 BEST_ACC_top5	0.0488
+2023-07-01 14:14:32,135 Model Saved!
+
+2023-07-01 14:14:32,135 ====================Training====================
+2023-07-01 14:14:35,402 epoch=48	global_step=18800	loss=-567579.37500	loss_avg=-569878.06836	acc=0.01562	acc_top1_avg=0.01147	acc_top5_avg=0.05005	lr=0.00100	gn=704.97522	time=12.35it/s
+2023-07-01 14:14:43,561 epoch=48	global_step=18900	loss=-571359.12500	loss_avg=-570122.85701	acc=0.00781	acc_top1_avg=0.01119	acc_top5_avg=0.05244	lr=0.00100	gn=718.03149	time=12.32it/s
+2023-07-01 14:14:51,721 epoch=48	global_step=19000	loss=-570668.81250	loss_avg=-570636.55523	acc=0.00781	acc_top1_avg=0.01061	acc_top5_avg=0.05348	lr=0.00100	gn=1912.37891	time=12.31it/s
+2023-07-01 14:14:59,899 epoch=48	global_step=19100	loss=-579087.43750	loss_avg=-571358.28181	acc=0.01562	acc_top1_avg=0.01108	acc_top5_avg=0.05417	lr=0.00100	gn=580.88727	time=12.30it/s
+2023-07-01 14:15:04,868 ====================Eval====================
+2023-07-01 14:15:07,641 epoch=48	global_step=19159	loss=48762.42188	test_loss_avg=52662.62559	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.06it/s
+2023-07-01 14:15:07,641 curr_acc	0.0098
+2023-07-01 14:15:07,641 BEST_ACC	0.0098
+2023-07-01 14:15:07,641 curr_acc_top5	0.0488
+2023-07-01 14:15:07,641 BEST_ACC_top5	0.0488
+2023-07-01 14:15:07,641 Model Saved!
+
+2023-07-01 14:15:07,642 ====================Training====================
+2023-07-01 14:15:11,624 epoch=49	global_step=19200	loss=-573634.93750	loss_avg=-574118.48933	acc=0.00781	acc_top1_avg=0.01086	acc_top5_avg=0.05373	lr=0.00100	gn=617.84479	time=12.30it/s
+2023-07-01 14:15:19,781 epoch=49	global_step=19300	loss=-574759.50000	loss_avg=-574099.08821	acc=0.00781	acc_top1_avg=0.00959	acc_top5_avg=0.05203	lr=0.00100	gn=564.14551	time=12.32it/s
+2023-07-01 14:15:27,941 epoch=49	global_step=19400	loss=-578309.12500	loss_avg=-574633.49326	acc=0.02344	acc_top1_avg=0.01034	acc_top5_avg=0.05368	lr=0.00100	gn=563.85284	time=12.27it/s
+2023-07-01 14:15:36,102 epoch=49	global_step=19500	loss=-575207.25000	loss_avg=-575123.76503	acc=0.02344	acc_top1_avg=0.01113	acc_top5_avg=0.05430	lr=0.00100	gn=545.30145	time=12.28it/s
+2023-07-01 14:15:40,337 ====================Eval====================
+2023-07-01 14:15:42,958 epoch=49	global_step=19550	loss=49394.59375	test_loss_avg=53005.59941	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.63it/s
+2023-07-01 14:15:43,123 epoch=49	global_step=19550	loss=49394.59375	test_loss_avg=53005.59941	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.63it/s
+2023-07-01 14:15:43,123 curr_acc	0.0098
+2023-07-01 14:15:43,123 BEST_ACC	0.0098
+2023-07-01 14:15:43,123 curr_acc_top5	0.0488
+2023-07-01 14:15:43,123 BEST_ACC_top5	0.0488
+2023-07-01 14:15:43,123 Model Saved!
+
+2023-07-01 14:15:43,124 ====================Training====================
+2023-07-01 14:15:47,861 epoch=50	global_step=19600	loss=-575537.00000	loss_avg=-577221.18750	acc=0.00781	acc_top1_avg=0.01094	acc_top5_avg=0.05156	lr=0.00100	gn=614.09442	time=12.35it/s
+2023-07-01 14:15:56,020 epoch=50	global_step=19700	loss=-577426.87500	loss_avg=-578260.25583	acc=0.01562	acc_top1_avg=0.01057	acc_top5_avg=0.05422	lr=0.00100	gn=220451.78125	time=12.30it/s
+2023-07-01 14:16:04,180 epoch=50	global_step=19800	loss=-580030.00000	loss_avg=-578597.09025	acc=0.00781	acc_top1_avg=0.01047	acc_top5_avg=0.05412	lr=0.00100	gn=69434.09375	time=12.31it/s
+2023-07-01 14:16:12,340 epoch=50	global_step=19900	loss=-584603.00000	loss_avg=-578945.86589	acc=0.01562	acc_top1_avg=0.01129	acc_top5_avg=0.05473	lr=0.00100	gn=550.39984	time=12.32it/s
+2023-07-01 14:16:15,815 ====================Eval====================
+2023-07-01 14:16:18,546 epoch=50	global_step=19941	loss=49616.24219	test_loss_avg=53633.76670	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=188.30it/s
+2023-07-01 14:16:18,546 curr_acc	0.0098
+2023-07-01 14:16:18,546 BEST_ACC	0.0098
+2023-07-01 14:16:18,546 curr_acc_top5	0.0488
+2023-07-01 14:16:18,546 BEST_ACC_top5	0.0488
+2023-07-01 14:16:18,546 Model Saved!
+
+2023-07-01 14:16:18,547 ====================Training====================
+2023-07-01 14:16:24,094 epoch=51	global_step=20000	loss=-580876.68750	loss_avg=-581770.24258	acc=0.00000	acc_top1_avg=0.01126	acc_top5_avg=0.05561	lr=0.00100	gn=582.92975	time=12.34it/s
+2023-07-01 14:16:32,253 epoch=51	global_step=20100	loss=-586209.43750	loss_avg=-581935.59631	acc=0.01562	acc_top1_avg=0.01037	acc_top5_avg=0.05302	lr=0.00100	gn=603.64441	time=12.33it/s
+2023-07-01 14:16:40,411 epoch=51	global_step=20200	loss=-583402.93750	loss_avg=-582491.51231	acc=0.00000	acc_top1_avg=0.01080	acc_top5_avg=0.05336	lr=0.00100	gn=620.51520	time=12.32it/s
+2023-07-01 14:16:48,569 epoch=51	global_step=20300	loss=-585730.87500	loss_avg=-582974.64432	acc=0.01562	acc_top1_avg=0.01095	acc_top5_avg=0.05408	lr=0.00100	gn=562.75153	time=12.32it/s
+2023-07-01 14:16:51,318 ====================Eval====================
+2023-07-01 14:16:54,059 epoch=51	global_step=20332	loss=49987.46484	test_loss_avg=53839.46172	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.35it/s
+2023-07-01 14:16:54,059 curr_acc	0.0098
+2023-07-01 14:16:54,059 BEST_ACC	0.0098
+2023-07-01 14:16:54,059 curr_acc_top5	0.0488
+2023-07-01 14:16:54,059 BEST_ACC_top5	0.0488
+2023-07-01 14:16:54,059 Model Saved!
+
+2023-07-01 14:16:54,059 ====================Training====================
+2023-07-01 14:17:00,287 epoch=52	global_step=20400	loss=-588191.87500	loss_avg=-585081.19118	acc=0.01562	acc_top1_avg=0.01183	acc_top5_avg=0.05009	lr=0.00100	gn=2453.07715	time=12.31it/s
+2023-07-01 14:17:08,446 epoch=52	global_step=20500	loss=-585216.25000	loss_avg=-585712.43266	acc=0.03125	acc_top1_avg=0.01116	acc_top5_avg=0.05441	lr=0.00100	gn=565.97052	time=12.31it/s
+2023-07-01 14:17:16,619 epoch=52	global_step=20600	loss=-590648.12500	loss_avg=-586215.98717	acc=0.00000	acc_top1_avg=0.01116	acc_top5_avg=0.05512	lr=0.00100	gn=566.77930	time=12.32it/s
+2023-07-01 14:17:24,777 epoch=52	global_step=20700	loss=-590331.31250	loss_avg=-586663.04637	acc=0.00000	acc_top1_avg=0.01100	acc_top5_avg=0.05431	lr=0.00100	gn=584.88696	time=12.30it/s
+2023-07-01 14:17:26,790 ====================Eval====================
+2023-07-01 14:17:28,437 epoch=52	global_step=20723	loss=53407.31641	test_loss_avg=54796.47988	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05156	time=21.64it/s
+2023-07-01 14:17:29,496 epoch=52	global_step=20723	loss=50628.59375	test_loss_avg=54703.96689	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.48it/s
+2023-07-01 14:17:29,496 curr_acc	0.0098
+2023-07-01 14:17:29,496 BEST_ACC	0.0098
+2023-07-01 14:17:29,496 curr_acc_top5	0.0488
+2023-07-01 14:17:29,496 BEST_ACC_top5	0.0488
+2023-07-01 14:17:29,496 Model Saved!
+
+2023-07-01 14:17:29,496 ====================Training====================
+2023-07-01 14:17:36,370 epoch=53	global_step=20800	loss=-588735.75000	loss_avg=-589110.55276	acc=0.00000	acc_top1_avg=0.01045	acc_top5_avg=0.05489	lr=0.00100	gn=613.51996	time=12.34it/s
+2023-07-01 14:17:44,529 epoch=53	global_step=20900	loss=-583714.43750	loss_avg=-589568.78566	acc=0.00000	acc_top1_avg=0.01099	acc_top5_avg=0.05478	lr=0.00100	gn=24269.48242	time=12.35it/s
+2023-07-01 14:17:52,700 epoch=53	global_step=21000	loss=-589029.25000	loss_avg=-590014.90230	acc=0.00000	acc_top1_avg=0.01100	acc_top5_avg=0.05378	lr=0.00100	gn=585.40179	time=12.31it/s
+2023-07-01 14:18:00,862 epoch=53	global_step=21100	loss=-594305.43750	loss_avg=-590473.17788	acc=0.03125	acc_top1_avg=0.01115	acc_top5_avg=0.05431	lr=0.00100	gn=6161.12793	time=12.32it/s
+2023-07-01 14:18:02,129 ====================Eval====================
+2023-07-01 14:18:04,860 epoch=53	global_step=21114	loss=50716.00000	test_loss_avg=54747.59785	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.82it/s
+2023-07-01 14:18:04,860 curr_acc	0.0098
+2023-07-01 14:18:04,860 BEST_ACC	0.0098
+2023-07-01 14:18:04,860 curr_acc_top5	0.0488
+2023-07-01 14:18:04,860 BEST_ACC_top5	0.0488
+2023-07-01 14:18:04,860 Model Saved!
+
+2023-07-01 14:18:04,861 ====================Training====================
+2023-07-01 14:18:12,525 epoch=54	global_step=21200	loss=-594235.31250	loss_avg=-592956.21439	acc=0.00000	acc_top1_avg=0.01063	acc_top5_avg=0.05305	lr=0.00100	gn=570.95526	time=12.31it/s
+2023-07-01 14:18:20,682 epoch=54	global_step=21300	loss=-592997.68750	loss_avg=-593426.52285	acc=0.00781	acc_top1_avg=0.01042	acc_top5_avg=0.05297	lr=0.00100	gn=580.63153	time=12.30it/s
+2023-07-01 14:18:28,855 epoch=54	global_step=21400	loss=-594574.50000	loss_avg=-594041.02382	acc=0.00781	acc_top1_avg=0.01068	acc_top5_avg=0.05351	lr=0.00100	gn=570.91913	time=12.32it/s
+2023-07-01 14:18:37,016 epoch=54	global_step=21500	loss=-597053.50000	loss_avg=-594446.86933	acc=0.00781	acc_top1_avg=0.01103	acc_top5_avg=0.05418	lr=0.00100	gn=567.15106	time=12.38it/s
+2023-07-01 14:18:37,553 ====================Eval====================
+2023-07-01 14:18:40,136 epoch=54	global_step=21505	loss=50965.75781	test_loss_avg=54722.80166	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.16it/s
+2023-07-01 14:18:40,295 epoch=54	global_step=21505	loss=50965.75781	test_loss_avg=54722.80166	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.16it/s
+2023-07-01 14:18:40,295 curr_acc	0.0098
+2023-07-01 14:18:40,295 BEST_ACC	0.0098
+2023-07-01 14:18:40,295 curr_acc_top5	0.0488
+2023-07-01 14:18:40,295 BEST_ACC_top5	0.0488
+2023-07-01 14:18:40,295 Model Saved!
+
+2023-07-01 14:18:40,295 ====================Training====================
+2023-07-01 14:18:48,656 epoch=55	global_step=21600	loss=-594684.25000	loss_avg=-596005.19079	acc=0.01562	acc_top1_avg=0.01151	acc_top5_avg=0.05247	lr=0.00100	gn=632.25891	time=12.32it/s
+2023-07-01 14:18:56,814 epoch=55	global_step=21700	loss=-600918.56250	loss_avg=-596803.72276	acc=0.02344	acc_top1_avg=0.01166	acc_top5_avg=0.05397	lr=0.00100	gn=581.42090	time=12.33it/s
+2023-07-01 14:19:04,977 epoch=55	global_step=21800	loss=-602300.56250	loss_avg=-597472.64513	acc=0.00000	acc_top1_avg=0.01120	acc_top5_avg=0.05429	lr=0.00100	gn=598.67651	time=12.33it/s
+2023-07-01 14:19:12,947 ====================Eval====================
+2023-07-01 14:19:15,697 epoch=55	global_step=21896	loss=51577.12500	test_loss_avg=55413.24248	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.02it/s
+2023-07-01 14:19:15,698 curr_acc	0.0098
+2023-07-01 14:19:15,698 BEST_ACC	0.0098
+2023-07-01 14:19:15,698 curr_acc_top5	0.0488
+2023-07-01 14:19:15,698 BEST_ACC_top5	0.0488
+2023-07-01 14:19:15,698 Model Saved!
+
+2023-07-01 14:19:15,698 ====================Training====================
+2023-07-01 14:19:16,593 epoch=56	global_step=21900	loss=-599716.75000	loss_avg=-599263.25000	acc=0.01562	acc_top1_avg=0.01172	acc_top5_avg=0.04297	lr=0.00100	gn=648.09503	time=10.88it/s
+2023-07-01 14:19:24,760 epoch=56	global_step=22000	loss=-600146.62500	loss_avg=-600564.93690	acc=0.01562	acc_top1_avg=0.01112	acc_top5_avg=0.05251	lr=0.00100	gn=583.65540	time=12.34it/s
+2023-07-01 14:19:32,922 epoch=56	global_step=22100	loss=-603534.00000	loss_avg=-601078.88603	acc=0.00000	acc_top1_avg=0.01126	acc_top5_avg=0.05480	lr=0.00100	gn=46314.89453	time=12.29it/s
+2023-07-01 14:19:41,083 epoch=56	global_step=22200	loss=-603468.43750	loss_avg=-601741.78433	acc=0.00000	acc_top1_avg=0.01136	acc_top5_avg=0.05456	lr=0.00100	gn=588.67853	time=12.30it/s
+2023-07-01 14:19:48,316 ====================Eval====================
+2023-07-01 14:19:51,037 epoch=56	global_step=22287	loss=51946.42969	test_loss_avg=55842.32842	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=193.26it/s
+2023-07-01 14:19:51,037 curr_acc	0.0098
+2023-07-01 14:19:51,037 BEST_ACC	0.0098
+2023-07-01 14:19:51,037 curr_acc_top5	0.0488
+2023-07-01 14:19:51,037 BEST_ACC_top5	0.0488
+2023-07-01 14:19:51,038 Model Saved!
+
+2023-07-01 14:19:51,038 ====================Training====================
+2023-07-01 14:19:52,683 epoch=57	global_step=22300	loss=-609275.25000	loss_avg=-603626.54327	acc=0.02344	acc_top1_avg=0.01022	acc_top5_avg=0.05409	lr=0.00100	gn=574.34583	time=12.33it/s
+2023-07-01 14:20:00,844 epoch=57	global_step=22400	loss=-607474.12500	loss_avg=-604456.67035	acc=0.01562	acc_top1_avg=0.01196	acc_top5_avg=0.05462	lr=0.00100	gn=34282.24219	time=12.33it/s
+2023-07-01 14:20:09,005 epoch=57	global_step=22500	loss=-604246.50000	loss_avg=-604729.23914	acc=0.00781	acc_top1_avg=0.01100	acc_top5_avg=0.05432	lr=0.00100	gn=568.58765	time=12.29it/s
+2023-07-01 14:20:17,169 epoch=57	global_step=22600	loss=-608041.87500	loss_avg=-605431.86062	acc=0.00781	acc_top1_avg=0.01106	acc_top5_avg=0.05446	lr=0.00100	gn=586.98248	time=12.30it/s
+2023-07-01 14:20:23,668 ====================Eval====================
+2023-07-01 14:20:25,284 epoch=57	global_step=22678	loss=55125.58594	test_loss_avg=56492.83672	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05156	time=21.41it/s
+2023-07-01 14:20:26,363 epoch=57	global_step=22678	loss=52028.03906	test_loss_avg=56355.35449	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.57it/s
+2023-07-01 14:20:26,363 curr_acc	0.0098
+2023-07-01 14:20:26,363 BEST_ACC	0.0098
+2023-07-01 14:20:26,363 curr_acc_top5	0.0488
+2023-07-01 14:20:26,363 BEST_ACC_top5	0.0488
+2023-07-01 14:20:26,363 Model Saved!
+
+2023-07-01 14:20:26,363 ====================Training====================
+2023-07-01 14:20:28,805 epoch=58	global_step=22700	loss=-611539.12500	loss_avg=-608515.64489	acc=0.00000	acc_top1_avg=0.00994	acc_top5_avg=0.05930	lr=0.00100	gn=12088.25586	time=12.33it/s
+2023-07-01 14:20:36,963 epoch=58	global_step=22800	loss=-612351.50000	loss_avg=-608384.33299	acc=0.01562	acc_top1_avg=0.00967	acc_top5_avg=0.05264	lr=0.00100	gn=621.91235	time=12.32it/s
+2023-07-01 14:20:45,122 epoch=58	global_step=22900	loss=-608961.50000	loss_avg=-608991.35304	acc=0.00000	acc_top1_avg=0.01066	acc_top5_avg=0.05507	lr=0.00100	gn=619.39661	time=12.30it/s
+2023-07-01 14:20:53,286 epoch=58	global_step=23000	loss=-611858.75000	loss_avg=-609588.39732	acc=0.01562	acc_top1_avg=0.01118	acc_top5_avg=0.05491	lr=0.00100	gn=602.69989	time=12.32it/s
+2023-07-01 14:20:59,055 ====================Eval====================
+2023-07-01 14:21:01,802 epoch=58	global_step=23069	loss=52543.51562	test_loss_avg=56702.62041	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.70it/s
+2023-07-01 14:21:01,802 curr_acc	0.0098
+2023-07-01 14:21:01,802 BEST_ACC	0.0098
+2023-07-01 14:21:01,802 curr_acc_top5	0.0488
+2023-07-01 14:21:01,802 BEST_ACC_top5	0.0488
+2023-07-01 14:21:01,802 Model Saved!
+
+2023-07-01 14:21:01,802 ====================Training====================
+2023-07-01 14:21:04,923 epoch=59	global_step=23100	loss=-610371.62500	loss_avg=-612093.24597	acc=0.02344	acc_top1_avg=0.00882	acc_top5_avg=0.05091	lr=0.00100	gn=622.17847	time=12.33it/s
+2023-07-01 14:21:13,081 epoch=59	global_step=23200	loss=-616343.12500	loss_avg=-612509.05725	acc=0.00781	acc_top1_avg=0.01050	acc_top5_avg=0.05355	lr=0.00100	gn=602.96033	time=12.30it/s
+2023-07-01 14:21:21,241 epoch=59	global_step=23300	loss=-616230.87500	loss_avg=-612996.39015	acc=0.03906	acc_top1_avg=0.01072	acc_top5_avg=0.05394	lr=0.00100	gn=85447.97656	time=12.33it/s
+2023-07-01 14:21:29,401 epoch=59	global_step=23400	loss=-614256.50000	loss_avg=-613569.94071	acc=0.00781	acc_top1_avg=0.01072	acc_top5_avg=0.05400	lr=0.00100	gn=591.65546	time=12.30it/s
+2023-07-01 14:21:34,434 ====================Eval====================
+2023-07-01 14:21:36,999 epoch=59	global_step=23460	loss=52957.39844	test_loss_avg=57470.01152	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=193.49it/s
+2023-07-01 14:21:37,150 epoch=59	global_step=23460	loss=52957.39844	test_loss_avg=57470.01152	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=193.49it/s
+2023-07-01 14:21:37,150 curr_acc	0.0098
+2023-07-01 14:21:37,150 BEST_ACC	0.0098
+2023-07-01 14:21:37,150 curr_acc_top5	0.0488
+2023-07-01 14:21:37,150 BEST_ACC_top5	0.0488
+2023-07-01 14:21:37,150 Model Saved!
+
+2023-07-01 14:21:37,151 ====================Training====================
+2023-07-01 14:21:41,025 epoch=60	global_step=23500	loss=-616562.12500	loss_avg=-616411.87500	acc=0.00781	acc_top1_avg=0.01016	acc_top5_avg=0.05605	lr=0.00100	gn=571.90948	time=12.33it/s
+2023-07-01 14:21:49,186 epoch=60	global_step=23600	loss=-614765.81250	loss_avg=-616616.02321	acc=0.00781	acc_top1_avg=0.01044	acc_top5_avg=0.05463	lr=0.00100	gn=731.32745	time=12.32it/s
+2023-07-01 14:21:57,360 epoch=60	global_step=23700	loss=-619207.87500	loss_avg=-617040.90573	acc=0.02344	acc_top1_avg=0.01074	acc_top5_avg=0.05404	lr=0.00100	gn=634.92188	time=12.33it/s
+2023-07-01 14:22:05,532 epoch=60	global_step=23800	loss=-623006.87500	loss_avg=-617546.24265	acc=0.00000	acc_top1_avg=0.01078	acc_top5_avg=0.05423	lr=0.00100	gn=593.78973	time=12.31it/s
+2023-07-01 14:22:09,833 ====================Eval====================
+2023-07-01 14:22:12,580 epoch=60	global_step=23851	loss=53117.11719	test_loss_avg=57542.11738	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=188.54it/s
+2023-07-01 14:22:12,581 curr_acc	0.0098
+2023-07-01 14:22:12,581 BEST_ACC	0.0098
+2023-07-01 14:22:12,581 curr_acc_top5	0.0488
+2023-07-01 14:22:12,581 BEST_ACC_top5	0.0488
+2023-07-01 14:22:12,581 Model Saved!
+
+2023-07-01 14:22:12,581 ====================Training====================
+2023-07-01 14:22:17,159 epoch=61	global_step=23900	loss=-624697.37500	loss_avg=-620178.86607	acc=0.02344	acc_top1_avg=0.01228	acc_top5_avg=0.05357	lr=0.00100	gn=13152.52148	time=12.30it/s
+2023-07-01 14:22:25,320 epoch=61	global_step=24000	loss=-620791.87500	loss_avg=-620483.45931	acc=0.00781	acc_top1_avg=0.01159	acc_top5_avg=0.05390	lr=0.00100	gn=568.55414	time=12.30it/s
+2023-07-01 14:22:33,486 epoch=61	global_step=24100	loss=-621670.87500	loss_avg=-621338.61872	acc=0.00781	acc_top1_avg=0.01148	acc_top5_avg=0.05475	lr=0.00100	gn=589.49622	time=12.31it/s
+2023-07-01 14:22:41,661 epoch=61	global_step=24200	loss=-626639.68750	loss_avg=-621816.30444	acc=0.00781	acc_top1_avg=0.01126	acc_top5_avg=0.05496	lr=0.00100	gn=582.53156	time=12.29it/s
+2023-07-01 14:22:45,232 ====================Eval====================
+2023-07-01 14:22:47,929 epoch=61	global_step=24242	loss=53452.35156	test_loss_avg=57880.17822	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.01it/s
+2023-07-01 14:22:47,929 curr_acc	0.0098
+2023-07-01 14:22:47,929 BEST_ACC	0.0098
+2023-07-01 14:22:47,929 curr_acc_top5	0.0488
+2023-07-01 14:22:47,929 BEST_ACC_top5	0.0488
+2023-07-01 14:22:47,929 Model Saved!
+
+2023-07-01 14:22:47,929 ====================Training====================
+2023-07-01 14:22:53,276 epoch=62	global_step=24300	loss=-623309.87500	loss_avg=-624261.03017	acc=0.00781	acc_top1_avg=0.01010	acc_top5_avg=0.05415	lr=0.00100	gn=651.25055	time=12.32it/s
+2023-07-01 14:23:01,444 epoch=62	global_step=24400	loss=-627767.12500	loss_avg=-625331.15427	acc=0.02344	acc_top1_avg=0.01093	acc_top5_avg=0.05543	lr=0.00100	gn=617.05139	time=12.28it/s
+2023-07-01 14:23:09,621 epoch=62	global_step=24500	loss=-623563.75000	loss_avg=-625672.95615	acc=0.00781	acc_top1_avg=0.01099	acc_top5_avg=0.05535	lr=0.00100	gn=600.81567	time=12.32it/s
+2023-07-01 14:23:17,791 epoch=62	global_step=24600	loss=-631432.12500	loss_avg=-626138.67703	acc=0.02344	acc_top1_avg=0.01102	acc_top5_avg=0.05434	lr=0.00100	gn=618.93903	time=12.31it/s
+2023-07-01 14:23:20,603 ====================Eval====================
+2023-07-01 14:23:22,313 epoch=62	global_step=24633	loss=57165.11719	test_loss_avg=58464.96660	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05156	time=20.10it/s
+2023-07-01 14:23:23,370 epoch=62	global_step=24633	loss=54009.28516	test_loss_avg=58328.09619	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.41it/s
+2023-07-01 14:23:23,370 curr_acc	0.0098
+2023-07-01 14:23:23,370 BEST_ACC	0.0098
+2023-07-01 14:23:23,370 curr_acc_top5	0.0488
+2023-07-01 14:23:23,370 BEST_ACC_top5	0.0488
+2023-07-01 14:23:23,370 Model Saved!
+
+2023-07-01 14:23:23,371 ====================Training====================
+2023-07-01 14:23:29,390 epoch=63	global_step=24700	loss=-630024.37500	loss_avg=-628536.69403	acc=0.02344	acc_top1_avg=0.01119	acc_top5_avg=0.05469	lr=0.00100	gn=6881.79785	time=12.28it/s
+2023-07-01 14:23:37,553 epoch=63	global_step=24800	loss=-629032.06250	loss_avg=-629190.62313	acc=0.00000	acc_top1_avg=0.01062	acc_top5_avg=0.05338	lr=0.00100	gn=592.96881	time=12.30it/s
+2023-07-01 14:23:45,716 epoch=63	global_step=24900	loss=-634347.62500	loss_avg=-629930.90332	acc=0.00781	acc_top1_avg=0.01109	acc_top5_avg=0.05360	lr=0.00100	gn=603.09424	time=12.31it/s
+2023-07-01 14:23:53,894 epoch=63	global_step=25000	loss=-633709.62500	loss_avg=-630566.40497	acc=0.00000	acc_top1_avg=0.01113	acc_top5_avg=0.05394	lr=0.00100	gn=585.67218	time=12.30it/s
+2023-07-01 14:23:55,984 ====================Eval====================
+2023-07-01 14:23:58,709 epoch=63	global_step=25024	loss=54183.95312	test_loss_avg=58703.07012	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.79it/s
+2023-07-01 14:23:58,709 curr_acc	0.0098
+2023-07-01 14:23:58,709 BEST_ACC	0.0098
+2023-07-01 14:23:58,709 curr_acc_top5	0.0488
+2023-07-01 14:23:58,709 BEST_ACC_top5	0.0488
+2023-07-01 14:23:58,710 Model Saved!
+
+2023-07-01 14:23:58,710 ====================Training====================
+2023-07-01 14:24:05,548 epoch=64	global_step=25100	loss=-632743.56250	loss_avg=-633501.12911	acc=0.00000	acc_top1_avg=0.01151	acc_top5_avg=0.05510	lr=0.00100	gn=580.07440	time=12.32it/s
+2023-07-01 14:24:13,710 epoch=64	global_step=25200	loss=-635720.25000	loss_avg=-633747.54545	acc=0.00781	acc_top1_avg=0.01145	acc_top5_avg=0.05469	lr=0.00100	gn=610.32135	time=12.32it/s
+2023-07-01 14:24:21,871 epoch=64	global_step=25300	loss=-637343.25000	loss_avg=-634216.97577	acc=0.00781	acc_top1_avg=0.01121	acc_top5_avg=0.05384	lr=0.00100	gn=605.29510	time=12.33it/s
+2023-07-01 14:24:30,036 epoch=64	global_step=25400	loss=-633701.50000	loss_avg=-634739.29870	acc=0.02344	acc_top1_avg=0.01110	acc_top5_avg=0.05427	lr=0.00100	gn=609.92566	time=12.31it/s
+2023-07-01 14:24:31,397 ====================Eval====================
+2023-07-01 14:24:34,003 epoch=64	global_step=25415	loss=54405.00391	test_loss_avg=59100.03828	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.16it/s
+2023-07-01 14:24:34,156 epoch=64	global_step=25415	loss=54405.00391	test_loss_avg=59100.03828	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.16it/s
+2023-07-01 14:24:34,156 curr_acc	0.0098
+2023-07-01 14:24:34,156 BEST_ACC	0.0098
+2023-07-01 14:24:34,156 curr_acc_top5	0.0488
+2023-07-01 14:24:34,156 BEST_ACC_top5	0.0488
+2023-07-01 14:24:34,156 Model Saved!
+
+2023-07-01 14:24:34,156 ====================Training====================
+2023-07-01 14:24:41,724 epoch=65	global_step=25500	loss=-632083.12500	loss_avg=-637341.68088	acc=0.01562	acc_top1_avg=0.01011	acc_top5_avg=0.05248	lr=0.00100	gn=583.20099	time=12.31it/s
+2023-07-01 14:24:49,903 epoch=65	global_step=25600	loss=-639003.12500	loss_avg=-638017.15034	acc=0.00000	acc_top1_avg=0.01060	acc_top5_avg=0.05338	lr=0.00100	gn=593.63599	time=12.30it/s
+2023-07-01 14:24:58,065 epoch=65	global_step=25700	loss=-637859.62500	loss_avg=-638631.55855	acc=0.01562	acc_top1_avg=0.01121	acc_top5_avg=0.05419	lr=0.00100	gn=619.63843	time=12.33it/s
+2023-07-01 14:25:06,228 epoch=65	global_step=25800	loss=-642034.50000	loss_avg=-639143.02938	acc=0.00781	acc_top1_avg=0.01098	acc_top5_avg=0.05432	lr=0.00100	gn=64435.10547	time=12.30it/s
+2023-07-01 14:25:06,841 ====================Eval====================
+2023-07-01 14:25:09,613 epoch=65	global_step=25806	loss=55279.75391	test_loss_avg=59801.56855	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.61it/s
+2023-07-01 14:25:09,613 curr_acc	0.0098
+2023-07-01 14:25:09,613 BEST_ACC	0.0098
+2023-07-01 14:25:09,613 curr_acc_top5	0.0488
+2023-07-01 14:25:09,613 BEST_ACC_top5	0.0488
+2023-07-01 14:25:09,613 Model Saved!
+
+2023-07-01 14:25:09,613 ====================Training====================
+2023-07-01 14:25:17,911 epoch=66	global_step=25900	loss=-645103.75000	loss_avg=-640973.51729	acc=0.01562	acc_top1_avg=0.01155	acc_top5_avg=0.05194	lr=0.00100	gn=701.80072	time=12.30it/s
+2023-07-01 14:25:26,074 epoch=66	global_step=26000	loss=-644338.50000	loss_avg=-642307.15561	acc=0.00000	acc_top1_avg=0.01031	acc_top5_avg=0.05348	lr=0.00100	gn=599.63672	time=12.32it/s
+2023-07-01 14:25:34,235 epoch=66	global_step=26100	loss=-638191.00000	loss_avg=-642861.98554	acc=0.01562	acc_top1_avg=0.01082	acc_top5_avg=0.05440	lr=0.00100	gn=594.36163	time=12.28it/s
+2023-07-01 14:25:42,286 ====================Eval====================
+2023-07-01 14:25:44,986 epoch=66	global_step=26197	loss=55500.32031	test_loss_avg=59995.53027	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.05it/s
+2023-07-01 14:25:44,986 curr_acc	0.0098
+2023-07-01 14:25:44,986 BEST_ACC	0.0098
+2023-07-01 14:25:44,987 curr_acc_top5	0.0488
+2023-07-01 14:25:44,987 BEST_ACC_top5	0.0488
+2023-07-01 14:25:44,987 Model Saved!
+
+2023-07-01 14:25:44,987 ====================Training====================
+2023-07-01 14:25:45,798 epoch=67	global_step=26200	loss=-646767.75000	loss_avg=-645744.93750	acc=0.03906	acc_top1_avg=0.02083	acc_top5_avg=0.04948	lr=0.00100	gn=620.95007	time=11.84it/s
+2023-07-01 14:25:53,987 epoch=67	global_step=26300	loss=-649015.31250	loss_avg=-645176.33920	acc=0.00781	acc_top1_avg=0.01077	acc_top5_avg=0.05309	lr=0.00100	gn=597.16425	time=12.30it/s
+2023-07-01 14:26:02,149 epoch=67	global_step=26400	loss=-652727.81250	loss_avg=-645995.24107	acc=0.00781	acc_top1_avg=0.01112	acc_top5_avg=0.05507	lr=0.00100	gn=588.16528	time=12.30it/s
+2023-07-01 14:26:10,310 epoch=67	global_step=26500	loss=-650940.12500	loss_avg=-646451.29373	acc=0.00781	acc_top1_avg=0.01052	acc_top5_avg=0.05399	lr=0.00100	gn=715.13599	time=12.31it/s
+2023-07-01 14:26:17,632 ====================Eval====================
+2023-07-01 14:26:19,316 epoch=67	global_step=26588	loss=59214.13281	test_loss_avg=60505.35801	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05156	time=21.46it/s
+2023-07-01 14:26:20,368 epoch=67	global_step=26588	loss=55814.66406	test_loss_avg=60332.89287	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.06it/s
+2023-07-01 14:26:20,368 curr_acc	0.0098
+2023-07-01 14:26:20,368 BEST_ACC	0.0098
+2023-07-01 14:26:20,368 curr_acc_top5	0.0488
+2023-07-01 14:26:20,368 BEST_ACC_top5	0.0488
+2023-07-01 14:26:20,368 Model Saved!
+
+2023-07-01 14:26:20,368 ====================Training====================
+2023-07-01 14:26:21,911 epoch=68	global_step=26600	loss=-651659.62500	loss_avg=-650389.57812	acc=0.00781	acc_top1_avg=0.01042	acc_top5_avg=0.05859	lr=0.00100	gn=626.43549	time=12.33it/s
+2023-07-01 14:26:30,092 epoch=68	global_step=26700	loss=-645952.25000	loss_avg=-650044.92243	acc=0.01562	acc_top1_avg=0.01207	acc_top5_avg=0.05280	lr=0.00100	gn=113780.87500	time=12.31it/s
+2023-07-01 14:26:38,256 epoch=68	global_step=26800	loss=-651670.00000	loss_avg=-650179.69340	acc=0.00000	acc_top1_avg=0.01109	acc_top5_avg=0.05388	lr=0.00100	gn=5043.39111	time=12.32it/s
+2023-07-01 14:26:46,420 epoch=68	global_step=26900	loss=-655420.68750	loss_avg=-650728.53866	acc=0.02344	acc_top1_avg=0.01134	acc_top5_avg=0.05546	lr=0.00100	gn=592.83636	time=12.32it/s
+2023-07-01 14:26:53,020 ====================Eval====================
+2023-07-01 14:26:56,108 epoch=68	global_step=26979	loss=56240.21484	test_loss_avg=60735.47646	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.18it/s
+2023-07-01 14:26:56,108 curr_acc	0.0098
+2023-07-01 14:26:56,108 BEST_ACC	0.0098
+2023-07-01 14:26:56,108 curr_acc_top5	0.0488
+2023-07-01 14:26:56,108 BEST_ACC_top5	0.0488
+2023-07-01 14:26:56,108 Model Saved!
+
+2023-07-01 14:26:56,108 ====================Training====================
+2023-07-01 14:26:58,443 epoch=69	global_step=27000	loss=-656813.62500	loss_avg=-652575.80060	acc=0.00781	acc_top1_avg=0.01042	acc_top5_avg=0.05915	lr=0.00100	gn=621.08600	time=12.34it/s
+2023-07-01 14:27:06,606 epoch=69	global_step=27100	loss=-651188.62500	loss_avg=-653443.89618	acc=0.01562	acc_top1_avg=0.01091	acc_top5_avg=0.05411	lr=0.00100	gn=604.36963	time=12.30it/s
+2023-07-01 14:27:14,773 epoch=69	global_step=27200	loss=-657869.50000	loss_avg=-654319.15922	acc=0.01562	acc_top1_avg=0.01061	acc_top5_avg=0.05472	lr=0.00100	gn=624.61462	time=12.31it/s
+2023-07-01 14:27:22,938 epoch=69	global_step=27300	loss=-656863.18750	loss_avg=-654889.97897	acc=0.01562	acc_top1_avg=0.01088	acc_top5_avg=0.05481	lr=0.00100	gn=583.85095	time=12.30it/s
+2023-07-01 14:27:28,795 ====================Eval====================
+2023-07-01 14:27:31,357 epoch=69	global_step=27370	loss=56964.87500	test_loss_avg=61615.54004	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.57it/s
+2023-07-01 14:27:31,530 epoch=69	global_step=27370	loss=56964.87500	test_loss_avg=61615.54004	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.57it/s
+2023-07-01 14:27:31,530 curr_acc	0.0098
+2023-07-01 14:27:31,530 BEST_ACC	0.0098
+2023-07-01 14:27:31,530 curr_acc_top5	0.0488
+2023-07-01 14:27:31,530 BEST_ACC_top5	0.0488
+2023-07-01 14:27:31,530 Model Saved!
+
+2023-07-01 14:27:31,530 ====================Training====================
+2023-07-01 14:27:34,585 epoch=70	global_step=27400	loss=-659436.62500	loss_avg=-657453.51042	acc=0.00781	acc_top1_avg=0.01120	acc_top5_avg=0.05755	lr=0.00100	gn=725.14001	time=12.36it/s
+2023-07-01 14:27:42,749 epoch=70	global_step=27500	loss=-662647.18750	loss_avg=-657865.21298	acc=0.00781	acc_top1_avg=0.01130	acc_top5_avg=0.05643	lr=0.00100	gn=596.42218	time=12.32it/s
+2023-07-01 14:27:50,916 epoch=70	global_step=27600	loss=-659348.62500	loss_avg=-658512.02446	acc=0.01562	acc_top1_avg=0.01148	acc_top5_avg=0.05577	lr=0.00100	gn=592.48309	time=12.30it/s
+2023-07-01 14:27:59,086 epoch=70	global_step=27700	loss=-661704.12500	loss_avg=-659091.59015	acc=0.02344	acc_top1_avg=0.01127	acc_top5_avg=0.05426	lr=0.00100	gn=934.01599	time=12.32it/s
+2023-07-01 14:28:04,203 ====================Eval====================
+2023-07-01 14:28:06,921 epoch=70	global_step=27761	loss=56742.82422	test_loss_avg=61738.67783	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.99it/s
+2023-07-01 14:28:06,922 curr_acc	0.0098
+2023-07-01 14:28:06,922 BEST_ACC	0.0098
+2023-07-01 14:28:06,922 curr_acc_top5	0.0488
+2023-07-01 14:28:06,922 BEST_ACC_top5	0.0488
+2023-07-01 14:28:06,922 Model Saved!
+
+2023-07-01 14:28:06,922 ====================Training====================
+2023-07-01 14:28:10,733 epoch=71	global_step=27800	loss=-660031.12500	loss_avg=-661612.13462	acc=0.00000	acc_top1_avg=0.01162	acc_top5_avg=0.05449	lr=0.00100	gn=654.39630	time=12.34it/s
+2023-07-01 14:28:18,920 epoch=71	global_step=27900	loss=-657690.43750	loss_avg=-662059.25764	acc=0.01562	acc_top1_avg=0.01068	acc_top5_avg=0.05407	lr=0.00100	gn=650.78845	time=12.32it/s
+2023-07-01 14:28:27,100 epoch=71	global_step=28000	loss=-668972.12500	loss_avg=-662913.17286	acc=0.01562	acc_top1_avg=0.01138	acc_top5_avg=0.05544	lr=0.00100	gn=644.51300	time=12.26it/s
+2023-07-01 14:28:35,332 epoch=71	global_step=28100	loss=-661694.62500	loss_avg=-663393.44635	acc=0.00000	acc_top1_avg=0.01138	acc_top5_avg=0.05485	lr=0.00100	gn=912.72968	time=12.31it/s
+2023-07-01 14:28:39,718 ====================Eval====================
+2023-07-01 14:28:42,450 epoch=71	global_step=28152	loss=57580.68359	test_loss_avg=62238.10000	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.58it/s
+2023-07-01 14:28:42,450 curr_acc	0.0098
+2023-07-01 14:28:42,450 BEST_ACC	0.0098
+2023-07-01 14:28:42,450 curr_acc_top5	0.0488
+2023-07-01 14:28:42,450 BEST_ACC_top5	0.0488
+2023-07-01 14:28:42,450 Model Saved!
+
+2023-07-01 14:28:42,450 ====================Training====================
+2023-07-01 14:28:46,957 epoch=72	global_step=28200	loss=-661210.12500	loss_avg=-665869.17057	acc=0.00781	acc_top1_avg=0.01188	acc_top5_avg=0.05762	lr=0.00100	gn=599.70966	time=12.33it/s
+2023-07-01 14:28:55,121 epoch=72	global_step=28300	loss=-665106.75000	loss_avg=-666395.20059	acc=0.00781	acc_top1_avg=0.01109	acc_top5_avg=0.05595	lr=0.00100	gn=654.42810	time=12.30it/s
+2023-07-01 14:29:03,281 epoch=72	global_step=28400	loss=-670667.56250	loss_avg=-667135.94128	acc=0.01562	acc_top1_avg=0.01112	acc_top5_avg=0.05633	lr=0.00100	gn=615.31683	time=12.30it/s
+2023-07-01 14:29:11,452 epoch=72	global_step=28500	loss=-670677.87500	loss_avg=-667630.78287	acc=0.01562	acc_top1_avg=0.01114	acc_top5_avg=0.05449	lr=0.00100	gn=629.70068	time=12.34it/s
+2023-07-01 14:29:15,102 ====================Eval====================
+2023-07-01 14:29:16,762 epoch=72	global_step=28543	loss=61797.56641	test_loss_avg=63130.28262	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05098	time=20.27it/s
+2023-07-01 14:29:17,806 epoch=72	global_step=28543	loss=58117.84766	test_loss_avg=62921.64160	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04854	time=189.47it/s
+2023-07-01 14:29:17,806 curr_acc	0.0098
+2023-07-01 14:29:17,806 BEST_ACC	0.0098
+2023-07-01 14:29:17,806 curr_acc_top5	0.0485
+2023-07-01 14:29:17,806 BEST_ACC_top5	0.0488
+2023-07-01 14:29:17,806 Model Saved!
+
+2023-07-01 14:29:17,806 ====================Training====================
+2023-07-01 14:29:23,017 epoch=73	global_step=28600	loss=-669185.87500	loss_avg=-670524.53618	acc=0.00781	acc_top1_avg=0.01371	acc_top5_avg=0.05565	lr=0.00100	gn=744.84235	time=12.31it/s
+2023-07-01 14:29:31,179 epoch=73	global_step=28700	loss=-671915.87500	loss_avg=-670552.70303	acc=0.01562	acc_top1_avg=0.01189	acc_top5_avg=0.05533	lr=0.00100	gn=652.44714	time=12.32it/s
+2023-07-01 14:29:39,365 epoch=73	global_step=28800	loss=-674272.06250	loss_avg=-671081.03210	acc=0.00781	acc_top1_avg=0.01116	acc_top5_avg=0.05484	lr=0.00100	gn=666.18372	time=12.30it/s
+2023-07-01 14:29:47,540 epoch=73	global_step=28900	loss=-677363.18750	loss_avg=-671604.50245	acc=0.00781	acc_top1_avg=0.01129	acc_top5_avg=0.05429	lr=0.00100	gn=631.01953	time=12.32it/s
+2023-07-01 14:29:50,448 ====================Eval====================
+2023-07-01 14:29:53,169 epoch=73	global_step=28934	loss=58374.13281	test_loss_avg=63390.37334	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.93it/s
+2023-07-01 14:29:53,169 curr_acc	0.0098
+2023-07-01 14:29:53,169 BEST_ACC	0.0098
+2023-07-01 14:29:53,169 curr_acc_top5	0.0488
+2023-07-01 14:29:53,169 BEST_ACC_top5	0.0488
+2023-07-01 14:29:53,169 Model Saved!
+
+2023-07-01 14:29:53,169 ====================Training====================
+2023-07-01 14:29:59,204 epoch=74	global_step=29000	loss=-674793.68750	loss_avg=-674152.13542	acc=0.00000	acc_top1_avg=0.00994	acc_top5_avg=0.05433	lr=0.00100	gn=630.74615	time=12.31it/s
+2023-07-01 14:30:07,366 epoch=74	global_step=29100	loss=-671439.12500	loss_avg=-674824.43261	acc=0.00000	acc_top1_avg=0.01092	acc_top5_avg=0.05403	lr=0.00100	gn=3273.75903	time=12.30it/s
+2023-07-01 14:30:15,526 epoch=74	global_step=29200	loss=-675217.75000	loss_avg=-675612.63510	acc=0.00781	acc_top1_avg=0.01087	acc_top5_avg=0.05466	lr=0.00100	gn=712.72345	time=12.32it/s
+2023-07-01 14:30:23,687 epoch=74	global_step=29300	loss=-681018.50000	loss_avg=-676369.06113	acc=0.01562	acc_top1_avg=0.01106	acc_top5_avg=0.05460	lr=0.00100	gn=616.41150	time=12.29it/s
+2023-07-01 14:30:25,852 ====================Eval====================
+2023-07-01 14:30:28,395 epoch=74	global_step=29325	loss=58417.89453	test_loss_avg=63456.91045	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.63it/s
+2023-07-01 14:30:28,559 epoch=74	global_step=29325	loss=58417.89453	test_loss_avg=63456.91045	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.63it/s
+2023-07-01 14:30:28,559 curr_acc	0.0098
+2023-07-01 14:30:28,559 BEST_ACC	0.0098
+2023-07-01 14:30:28,559 curr_acc_top5	0.0488
+2023-07-01 14:30:28,559 BEST_ACC_top5	0.0488
+2023-07-01 14:30:28,559 Model Saved!
+
+2023-07-01 14:30:28,559 ====================Training====================
+2023-07-01 14:30:35,352 epoch=75	global_step=29400	loss=-681268.00000	loss_avg=-680058.04583	acc=0.00000	acc_top1_avg=0.01094	acc_top5_avg=0.05385	lr=0.00100	gn=609.91699	time=12.30it/s
+2023-07-01 14:30:43,513 epoch=75	global_step=29500	loss=-685098.06250	loss_avg=-680176.35536	acc=0.02344	acc_top1_avg=0.01138	acc_top5_avg=0.05509	lr=0.00100	gn=620.50116	time=12.33it/s
+2023-07-01 14:30:51,676 epoch=75	global_step=29600	loss=-680642.50000	loss_avg=-680803.88341	acc=0.02344	acc_top1_avg=0.01119	acc_top5_avg=0.05483	lr=0.00100	gn=626.31952	time=12.27it/s
+2023-07-01 14:30:59,841 epoch=75	global_step=29700	loss=-686125.56250	loss_avg=-681314.55450	acc=0.00000	acc_top1_avg=0.01121	acc_top5_avg=0.05471	lr=0.00100	gn=671.15674	time=12.29it/s
+2023-07-01 14:31:01,287 ====================Eval====================
+2023-07-01 14:31:03,992 epoch=75	global_step=29716	loss=58928.82031	test_loss_avg=63954.57715	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.75it/s
+2023-07-01 14:31:03,992 curr_acc	0.0098
+2023-07-01 14:31:03,992 BEST_ACC	0.0098
+2023-07-01 14:31:03,992 curr_acc_top5	0.0488
+2023-07-01 14:31:03,992 BEST_ACC_top5	0.0488
+2023-07-01 14:31:03,992 Model Saved!
+
+2023-07-01 14:31:03,992 ====================Training====================
+2023-07-01 14:31:11,498 epoch=76	global_step=29800	loss=-683088.93750	loss_avg=-683802.62426	acc=0.00781	acc_top1_avg=0.01004	acc_top5_avg=0.05227	lr=0.00100	gn=640.51282	time=12.37it/s
+2023-07-01 14:31:19,657 epoch=76	global_step=29900	loss=-686783.75000	loss_avg=-684713.59511	acc=0.00781	acc_top1_avg=0.01057	acc_top5_avg=0.05409	lr=0.00100	gn=696.66650	time=12.31it/s
+2023-07-01 14:31:27,823 epoch=76	global_step=30000	loss=-684617.31250	loss_avg=-685311.61466	acc=0.01562	acc_top1_avg=0.01084	acc_top5_avg=0.05334	lr=0.00100	gn=684.11761	time=12.31it/s
+2023-07-01 14:31:35,989 epoch=76	global_step=30100	loss=-688573.56250	loss_avg=-685901.16471	acc=0.01562	acc_top1_avg=0.01105	acc_top5_avg=0.05473	lr=0.00100	gn=609.68219	time=12.33it/s
+2023-07-01 14:31:36,698 ====================Eval====================
+2023-07-01 14:31:39,468 epoch=76	global_step=30107	loss=59104.17969	test_loss_avg=64374.14844	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.34it/s
+2023-07-01 14:31:39,468 curr_acc	0.0098
+2023-07-01 14:31:39,468 BEST_ACC	0.0098
+2023-07-01 14:31:39,468 curr_acc_top5	0.0488
+2023-07-01 14:31:39,468 BEST_ACC_top5	0.0488
+2023-07-01 14:31:39,468 Model Saved!
+
+2023-07-01 14:31:39,468 ====================Training====================
+2023-07-01 14:31:47,650 epoch=77	global_step=30200	loss=-688364.50000	loss_avg=-688824.41062	acc=0.02344	acc_top1_avg=0.01025	acc_top5_avg=0.05452	lr=0.00100	gn=612.38635	time=12.30it/s
+2023-07-01 14:31:55,814 epoch=77	global_step=30300	loss=-692792.62500	loss_avg=-689528.37338	acc=0.00000	acc_top1_avg=0.01024	acc_top5_avg=0.05388	lr=0.00100	gn=626.35510	time=12.29it/s
+2023-07-01 14:32:03,982 epoch=77	global_step=30400	loss=-695437.68750	loss_avg=-690081.56506	acc=0.00000	acc_top1_avg=0.01064	acc_top5_avg=0.05397	lr=0.00100	gn=620.14874	time=12.31it/s
+2023-07-01 14:32:12,114 ====================Eval====================
+2023-07-01 14:32:13,829 epoch=77	global_step=30498	loss=63420.55469	test_loss_avg=65025.44746	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=21.33it/s
+2023-07-01 14:32:14,902 epoch=77	global_step=30498	loss=59445.46484	test_loss_avg=64804.58496	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.04it/s
+2023-07-01 14:32:14,902 curr_acc	0.0098
+2023-07-01 14:32:14,902 BEST_ACC	0.0098
+2023-07-01 14:32:14,902 curr_acc_top5	0.0488
+2023-07-01 14:32:14,902 BEST_ACC_top5	0.0488
+2023-07-01 14:32:14,902 Model Saved!
+
+2023-07-01 14:32:14,902 ====================Training====================
+2023-07-01 14:32:15,670 epoch=78	global_step=30500	loss=-693331.50000	loss_avg=-693407.71875	acc=0.00000	acc_top1_avg=0.00391	acc_top5_avg=0.05469	lr=0.00100	gn=636.88818	time=12.12it/s
+2023-07-01 14:32:23,872 epoch=78	global_step=30600	loss=-692247.81250	loss_avg=-693407.37316	acc=0.00781	acc_top1_avg=0.00934	acc_top5_avg=0.05400	lr=0.00100	gn=638.20068	time=12.29it/s
+2023-07-01 14:32:32,039 epoch=78	global_step=30700	loss=-698150.00000	loss_avg=-693781.45452	acc=0.00781	acc_top1_avg=0.01048	acc_top5_avg=0.05318	lr=0.00100	gn=630.51208	time=12.31it/s
+2023-07-01 14:32:40,224 epoch=78	global_step=30800	loss=-698236.12500	loss_avg=-694237.20923	acc=0.00781	acc_top1_avg=0.01081	acc_top5_avg=0.05329	lr=0.00100	gn=647.07874	time=12.32it/s
+2023-07-01 14:32:47,637 ====================Eval====================
+2023-07-01 14:32:50,392 epoch=78	global_step=30889	loss=59952.31641	test_loss_avg=65297.48662	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=188.28it/s
+2023-07-01 14:32:50,393 curr_acc	0.0098
+2023-07-01 14:32:50,393 BEST_ACC	0.0098
+2023-07-01 14:32:50,393 curr_acc_top5	0.0488
+2023-07-01 14:32:50,393 BEST_ACC_top5	0.0488
+2023-07-01 14:32:50,393 Model Saved!
+
+2023-07-01 14:32:50,393 ====================Training====================
+2023-07-01 14:32:51,999 epoch=79	global_step=30900	loss=-697983.75000	loss_avg=-697943.57386	acc=0.00000	acc_top1_avg=0.00497	acc_top5_avg=0.04688	lr=0.00100	gn=619.06525	time=12.32it/s
+2023-07-01 14:33:00,163 epoch=79	global_step=31000	loss=-698531.75000	loss_avg=-698227.93018	acc=0.00781	acc_top1_avg=0.01218	acc_top5_avg=0.05807	lr=0.00100	gn=614.17291	time=12.31it/s
+2023-07-01 14:33:08,324 epoch=79	global_step=31100	loss=-699440.37500	loss_avg=-698615.59153	acc=0.00781	acc_top1_avg=0.01137	acc_top5_avg=0.05521	lr=0.00100	gn=652.59344	time=12.29it/s
+2023-07-01 14:33:16,500 epoch=79	global_step=31200	loss=-706339.75000	loss_avg=-699108.07174	acc=0.00000	acc_top1_avg=0.01105	acc_top5_avg=0.05499	lr=0.00100	gn=689.59052	time=12.32it/s
+2023-07-01 14:33:23,168 ====================Eval====================
+2023-07-01 14:33:25,734 epoch=79	global_step=31280	loss=60793.93359	test_loss_avg=66044.33955	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.14it/s
+2023-07-01 14:33:25,888 epoch=79	global_step=31280	loss=60793.93359	test_loss_avg=66044.33955	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.14it/s
+2023-07-01 14:33:25,888 curr_acc	0.0098
+2023-07-01 14:33:25,888 BEST_ACC	0.0098
+2023-07-01 14:33:25,888 curr_acc_top5	0.0488
+2023-07-01 14:33:25,888 BEST_ACC_top5	0.0488
+2023-07-01 14:33:25,888 Model Saved!
+
+2023-07-01 14:33:25,889 ====================Training====================
+2023-07-01 14:33:28,076 epoch=80	global_step=31300	loss=-697363.25000	loss_avg=-700500.82812	acc=0.00781	acc_top1_avg=0.00859	acc_top5_avg=0.05117	lr=0.00010	gn=610.18237	time=12.35it/s
+2023-07-01 14:33:36,240 epoch=80	global_step=31400	loss=-698081.62500	loss_avg=-700799.22552	acc=0.01562	acc_top1_avg=0.01029	acc_top5_avg=0.05475	lr=0.00010	gn=614.07068	time=12.30it/s
+2023-07-01 14:33:44,403 epoch=80	global_step=31500	loss=-703801.87500	loss_avg=-701040.95710	acc=0.02344	acc_top1_avg=0.01072	acc_top5_avg=0.05455	lr=0.00010	gn=14286.50391	time=12.29it/s
+2023-07-01 14:33:52,567 epoch=80	global_step=31600	loss=-710360.75000	loss_avg=-701069.05527	acc=0.00000	acc_top1_avg=0.01111	acc_top5_avg=0.05469	lr=0.00010	gn=628.06897	time=12.28it/s
+2023-07-01 14:33:58,491 ====================Eval====================
+2023-07-01 14:34:01,203 epoch=80	global_step=31671	loss=60678.15625	test_loss_avg=65867.08750	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.80it/s
+2023-07-01 14:34:01,203 curr_acc	0.0098
+2023-07-01 14:34:01,203 BEST_ACC	0.0098
+2023-07-01 14:34:01,203 curr_acc_top5	0.0488
+2023-07-01 14:34:01,203 BEST_ACC_top5	0.0488
+2023-07-01 14:34:01,203 Model Saved!
+
+2023-07-01 14:34:01,203 ====================Training====================
+2023-07-01 14:34:04,134 epoch=81	global_step=31700	loss=-700359.62500	loss_avg=-701309.61207	acc=0.00781	acc_top1_avg=0.01185	acc_top5_avg=0.05307	lr=0.00010	gn=612.73944	time=12.30it/s
+2023-07-01 14:34:12,294 epoch=81	global_step=31800	loss=-701654.87500	loss_avg=-701587.43750	acc=0.00781	acc_top1_avg=0.01151	acc_top5_avg=0.05420	lr=0.00010	gn=619.76752	time=12.30it/s
+2023-07-01 14:34:20,458 epoch=81	global_step=31900	loss=-702847.12500	loss_avg=-701418.85344	acc=0.01562	acc_top1_avg=0.01153	acc_top5_avg=0.05387	lr=0.00010	gn=726.41541	time=12.31it/s
+2023-07-01 14:34:28,618 epoch=81	global_step=32000	loss=-699755.93750	loss_avg=-701528.83625	acc=0.00000	acc_top1_avg=0.01107	acc_top5_avg=0.05447	lr=0.00010	gn=678.34839	time=12.30it/s
+2023-07-01 14:34:33,832 ====================Eval====================
+2023-07-01 14:34:36,622 epoch=81	global_step=32062	loss=61018.16406	test_loss_avg=66058.95107	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.57it/s
+2023-07-01 14:34:36,622 curr_acc	0.0098
+2023-07-01 14:34:36,622 BEST_ACC	0.0098
+2023-07-01 14:34:36,622 curr_acc_top5	0.0488
+2023-07-01 14:34:36,622 BEST_ACC_top5	0.0488
+2023-07-01 14:34:36,622 Model Saved!
+
+2023-07-01 14:34:36,622 ====================Training====================
+2023-07-01 14:34:40,332 epoch=82	global_step=32100	loss=-695674.62500	loss_avg=-702408.22697	acc=0.00000	acc_top1_avg=0.01316	acc_top5_avg=0.05633	lr=0.00010	gn=3186.34253	time=12.35it/s
+2023-07-01 14:34:48,490 epoch=82	global_step=32200	loss=-700645.12500	loss_avg=-702473.47464	acc=0.00781	acc_top1_avg=0.01223	acc_top5_avg=0.05554	lr=0.00010	gn=636.78192	time=12.32it/s
+2023-07-01 14:34:56,650 epoch=82	global_step=32300	loss=-703804.00000	loss_avg=-702360.18067	acc=0.00000	acc_top1_avg=0.01192	acc_top5_avg=0.05551	lr=0.00010	gn=620.10931	time=12.34it/s
+2023-07-01 14:35:04,814 epoch=82	global_step=32400	loss=-701380.62500	loss_avg=-702167.02848	acc=0.00000	acc_top1_avg=0.01116	acc_top5_avg=0.05471	lr=0.00010	gn=602.12683	time=12.33it/s
+2023-07-01 14:35:09,271 ====================Eval====================
+2023-07-01 14:35:10,950 epoch=82	global_step=32453	loss=64667.76172	test_loss_avg=66299.86250	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=21.71it/s
+2023-07-01 14:35:11,997 epoch=82	global_step=32453	loss=60876.26953	test_loss_avg=66065.61523	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.20it/s
+2023-07-01 14:35:11,997 curr_acc	0.0098
+2023-07-01 14:35:11,997 BEST_ACC	0.0098
+2023-07-01 14:35:11,997 curr_acc_top5	0.0488
+2023-07-01 14:35:11,997 BEST_ACC_top5	0.0488
+2023-07-01 14:35:11,997 Model Saved!
+
+2023-07-01 14:35:11,997 ====================Training====================
+2023-07-01 14:35:16,418 epoch=83	global_step=32500	loss=-701725.81250	loss_avg=-703299.75665	acc=0.00781	acc_top1_avg=0.01180	acc_top5_avg=0.05918	lr=0.00010	gn=622.13373	time=12.34it/s
+2023-07-01 14:35:24,576 epoch=83	global_step=32600	loss=-700727.68750	loss_avg=-702541.12160	acc=0.00781	acc_top1_avg=0.01153	acc_top5_avg=0.05618	lr=0.00010	gn=623.98138	time=12.35it/s
+2023-07-01 14:35:32,736 epoch=83	global_step=32700	loss=-702381.87500	loss_avg=-702485.22014	acc=0.00781	acc_top1_avg=0.01082	acc_top5_avg=0.05437	lr=0.00010	gn=710.89697	time=12.32it/s
+2023-07-01 14:35:40,896 epoch=83	global_step=32800	loss=-704234.25000	loss_avg=-702439.28350	acc=0.00000	acc_top1_avg=0.01085	acc_top5_avg=0.05399	lr=0.00010	gn=710.03931	time=12.31it/s
+2023-07-01 14:35:44,622 ====================Eval====================
+2023-07-01 14:35:47,349 epoch=83	global_step=32844	loss=61124.49609	test_loss_avg=66267.15127	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=188.30it/s
+2023-07-01 14:35:47,349 curr_acc	0.0098
+2023-07-01 14:35:47,349 BEST_ACC	0.0098
+2023-07-01 14:35:47,349 curr_acc_top5	0.0488
+2023-07-01 14:35:47,349 BEST_ACC_top5	0.0488
+2023-07-01 14:35:47,349 Model Saved!
+
+2023-07-01 14:35:47,349 ====================Training====================
+2023-07-01 14:35:52,514 epoch=84	global_step=32900	loss=-703483.56250	loss_avg=-703197.85826	acc=0.00781	acc_top1_avg=0.00893	acc_top5_avg=0.05190	lr=0.00010	gn=73178.60156	time=12.34it/s
+2023-07-01 14:36:00,675 epoch=84	global_step=33000	loss=-707816.12500	loss_avg=-703026.01843	acc=0.01562	acc_top1_avg=0.01142	acc_top5_avg=0.05524	lr=0.00010	gn=648.41626	time=12.33it/s
+2023-07-01 14:36:08,848 epoch=84	global_step=33100	loss=-699158.50000	loss_avg=-703129.63184	acc=0.01562	acc_top1_avg=0.01169	acc_top5_avg=0.05573	lr=0.00010	gn=373029.59375	time=12.34it/s
+2023-07-01 14:36:17,007 epoch=84	global_step=33200	loss=-700684.68750	loss_avg=-703097.88114	acc=0.01562	acc_top1_avg=0.01130	acc_top5_avg=0.05475	lr=0.00010	gn=599.17419	time=12.31it/s
+2023-07-01 14:36:20,002 ====================Eval====================
+2023-07-01 14:36:22,566 epoch=84	global_step=33235	loss=60898.06250	test_loss_avg=66197.84326	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.06it/s
+2023-07-01 14:36:22,721 epoch=84	global_step=33235	loss=60898.06250	test_loss_avg=66197.84326	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.06it/s
+2023-07-01 14:36:22,721 curr_acc	0.0098
+2023-07-01 14:36:22,721 BEST_ACC	0.0098
+2023-07-01 14:36:22,721 curr_acc_top5	0.0488
+2023-07-01 14:36:22,721 BEST_ACC_top5	0.0488
+2023-07-01 14:36:22,721 Model Saved!
+
+2023-07-01 14:36:22,722 ====================Training====================
+2023-07-01 14:36:28,609 epoch=85	global_step=33300	loss=-705345.37500	loss_avg=-703942.63750	acc=0.02344	acc_top1_avg=0.01370	acc_top5_avg=0.05950	lr=0.00010	gn=616.41119	time=12.36it/s
+2023-07-01 14:36:36,776 epoch=85	global_step=33400	loss=-700325.25000	loss_avg=-703799.02614	acc=0.01562	acc_top1_avg=0.01165	acc_top5_avg=0.05597	lr=0.00010	gn=643.75305	time=12.29it/s
+2023-07-01 14:36:44,948 epoch=85	global_step=33500	loss=-699036.62500	loss_avg=-703746.13443	acc=0.00781	acc_top1_avg=0.01179	acc_top5_avg=0.05495	lr=0.00010	gn=94259.96094	time=12.32it/s
+2023-07-01 14:36:53,109 epoch=85	global_step=33600	loss=-706816.18750	loss_avg=-703581.16130	acc=0.02344	acc_top1_avg=0.01113	acc_top5_avg=0.05462	lr=0.00010	gn=655.64862	time=12.30it/s
+2023-07-01 14:36:55,360 ====================Eval====================
+2023-07-01 14:36:58,076 epoch=85	global_step=33626	loss=61222.33594	test_loss_avg=66178.14678	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.69it/s
+2023-07-01 14:36:58,076 curr_acc	0.0098
+2023-07-01 14:36:58,076 BEST_ACC	0.0098
+2023-07-01 14:36:58,076 curr_acc_top5	0.0488
+2023-07-01 14:36:58,076 BEST_ACC_top5	0.0488
+2023-07-01 14:36:58,076 Model Saved!
+
+2023-07-01 14:36:58,076 ====================Training====================
+2023-07-01 14:37:04,738 epoch=86	global_step=33700	loss=-701562.37500	loss_avg=-703268.01605	acc=0.01562	acc_top1_avg=0.01087	acc_top5_avg=0.05585	lr=0.00010	gn=613.36462	time=12.31it/s
+2023-07-01 14:37:12,898 epoch=86	global_step=33800	loss=-702364.37500	loss_avg=-703454.53664	acc=0.00781	acc_top1_avg=0.01118	acc_top5_avg=0.05374	lr=0.00010	gn=777.93048	time=12.33it/s
+2023-07-01 14:37:21,061 epoch=86	global_step=33900	loss=-701157.75000	loss_avg=-703775.87614	acc=0.00000	acc_top1_avg=0.01101	acc_top5_avg=0.05523	lr=0.00010	gn=635.36938	time=12.31it/s
+2023-07-01 14:37:29,224 epoch=86	global_step=34000	loss=-705060.12500	loss_avg=-703750.33456	acc=0.02344	acc_top1_avg=0.01118	acc_top5_avg=0.05498	lr=0.00010	gn=689.42926	time=12.32it/s
+2023-07-01 14:37:30,746 ====================Eval====================
+2023-07-01 14:37:33,494 epoch=86	global_step=34017	loss=61108.67578	test_loss_avg=66156.04268	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.83it/s
+2023-07-01 14:37:33,494 curr_acc	0.0098
+2023-07-01 14:37:33,494 BEST_ACC	0.0098
+2023-07-01 14:37:33,494 curr_acc_top5	0.0488
+2023-07-01 14:37:33,494 BEST_ACC_top5	0.0488
+2023-07-01 14:37:33,494 Model Saved!
+
+2023-07-01 14:37:33,494 ====================Training====================
+2023-07-01 14:37:40,887 epoch=87	global_step=34100	loss=-704679.31250	loss_avg=-703605.62651	acc=0.00781	acc_top1_avg=0.01139	acc_top5_avg=0.05393	lr=0.00010	gn=13750.54395	time=12.32it/s
+2023-07-01 14:37:49,048 epoch=87	global_step=34200	loss=-706766.62500	loss_avg=-704094.64310	acc=0.00000	acc_top1_avg=0.01119	acc_top5_avg=0.05486	lr=0.00010	gn=656.25964	time=12.30it/s
+2023-07-01 14:37:57,211 epoch=87	global_step=34300	loss=-696835.18750	loss_avg=-704132.37964	acc=0.00000	acc_top1_avg=0.01137	acc_top5_avg=0.05491	lr=0.00010	gn=644.53552	time=12.30it/s
+2023-07-01 14:38:05,372 epoch=87	global_step=34400	loss=-706733.75000	loss_avg=-704163.42412	acc=0.00000	acc_top1_avg=0.01108	acc_top5_avg=0.05438	lr=0.00010	gn=647.59796	time=12.32it/s
+2023-07-01 14:38:06,161 ====================Eval====================
+2023-07-01 14:38:07,889 epoch=87	global_step=34408	loss=64756.96484	test_loss_avg=66376.01797	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=21.58it/s
+2023-07-01 14:38:08,951 epoch=87	global_step=34408	loss=61051.92188	test_loss_avg=66165.83828	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.05it/s
+2023-07-01 14:38:08,951 curr_acc	0.0098
+2023-07-01 14:38:08,951 BEST_ACC	0.0098
+2023-07-01 14:38:08,951 curr_acc_top5	0.0488
+2023-07-01 14:38:08,951 BEST_ACC_top5	0.0488
+2023-07-01 14:38:08,951 Model Saved!
+
+2023-07-01 14:38:08,951 ====================Training====================
+2023-07-01 14:38:17,079 epoch=88	global_step=34500	loss=-704551.62500	loss_avg=-704796.01630	acc=0.00000	acc_top1_avg=0.01180	acc_top5_avg=0.05715	lr=0.00010	gn=623.32550	time=12.31it/s
+2023-07-01 14:38:25,236 epoch=88	global_step=34600	loss=-707199.18750	loss_avg=-704660.04655	acc=0.01562	acc_top1_avg=0.01143	acc_top5_avg=0.05505	lr=0.00010	gn=89980.57031	time=12.30it/s
+2023-07-01 14:38:33,394 epoch=88	global_step=34700	loss=-706914.43750	loss_avg=-704627.63164	acc=0.00781	acc_top1_avg=0.01126	acc_top5_avg=0.05469	lr=0.00010	gn=667.99670	time=12.32it/s
+2023-07-01 14:38:41,604 ====================Eval====================
+2023-07-01 14:38:44,300 epoch=88	global_step=34799	loss=61474.59375	test_loss_avg=66258.73604	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.28it/s
+2023-07-01 14:38:44,301 curr_acc	0.0098
+2023-07-01 14:38:44,301 BEST_ACC	0.0098
+2023-07-01 14:38:44,301 curr_acc_top5	0.0488
+2023-07-01 14:38:44,301 BEST_ACC_top5	0.0488
+2023-07-01 14:38:44,301 Model Saved!
+
+2023-07-01 14:38:44,301 ====================Training====================
+2023-07-01 14:38:44,868 epoch=89	global_step=34800	loss=-704084.75000	loss_avg=-704084.75000	acc=0.00781	acc_top1_avg=0.00781	acc_top5_avg=0.03906	lr=0.00010	gn=640.25244	time=9.93it/s
+2023-07-01 14:38:53,133 epoch=89	global_step=34900	loss=-705871.18750	loss_avg=-704926.35272	acc=0.01562	acc_top1_avg=0.01098	acc_top5_avg=0.05685	lr=0.00010	gn=602.05524	time=12.32it/s
+2023-07-01 14:39:01,298 epoch=89	global_step=35000	loss=-709922.62500	loss_avg=-705037.40641	acc=0.01562	acc_top1_avg=0.01046	acc_top5_avg=0.05492	lr=0.00010	gn=715.99609	time=12.29it/s
+2023-07-01 14:39:09,461 epoch=89	global_step=35100	loss=-704686.62500	loss_avg=-705092.87687	acc=0.00781	acc_top1_avg=0.01077	acc_top5_avg=0.05482	lr=0.00010	gn=630.10370	time=12.34it/s
+2023-07-01 14:39:16,952 ====================Eval====================
+2023-07-01 14:39:19,555 epoch=89	global_step=35190	loss=61243.51562	test_loss_avg=66244.85869	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.42it/s
+2023-07-01 14:39:19,718 epoch=89	global_step=35190	loss=61243.51562	test_loss_avg=66244.85869	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.42it/s
+2023-07-01 14:39:19,718 curr_acc	0.0098
+2023-07-01 14:39:19,718 BEST_ACC	0.0098
+2023-07-01 14:39:19,718 curr_acc_top5	0.0488
+2023-07-01 14:39:19,718 BEST_ACC_top5	0.0488
+2023-07-01 14:39:19,718 Model Saved!
+
+2023-07-01 14:39:19,718 ====================Training====================
+2023-07-01 14:39:21,105 epoch=90	global_step=35200	loss=-701290.37500	loss_avg=-706555.98125	acc=0.00781	acc_top1_avg=0.00937	acc_top5_avg=0.05703	lr=0.00010	gn=4254.06982	time=12.31it/s
+2023-07-01 14:39:29,266 epoch=90	global_step=35300	loss=-704789.18750	loss_avg=-705680.57898	acc=0.03125	acc_top1_avg=0.01080	acc_top5_avg=0.05824	lr=0.00010	gn=682.57928	time=12.34it/s
+2023-07-01 14:39:37,430 epoch=90	global_step=35400	loss=-710821.37500	loss_avg=-705605.15595	acc=0.02344	acc_top1_avg=0.01112	acc_top5_avg=0.05703	lr=0.00010	gn=54934.41016	time=12.33it/s
+2023-07-01 14:39:45,607 epoch=90	global_step=35500	loss=-703967.25000	loss_avg=-705587.95262	acc=0.02344	acc_top1_avg=0.01127	acc_top5_avg=0.05544	lr=0.00010	gn=627.34015	time=12.32it/s
+2023-07-01 14:39:52,371 ====================Eval====================
+2023-07-01 14:39:55,106 epoch=90	global_step=35581	loss=61515.49609	test_loss_avg=66498.92959	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.21it/s
+2023-07-01 14:39:55,106 curr_acc	0.0098
+2023-07-01 14:39:55,106 BEST_ACC	0.0098
+2023-07-01 14:39:55,106 curr_acc_top5	0.0488
+2023-07-01 14:39:55,106 BEST_ACC_top5	0.0488
+2023-07-01 14:39:55,106 Model Saved!
+
+2023-07-01 14:39:55,106 ====================Training====================
+2023-07-01 14:39:57,399 epoch=91	global_step=35600	loss=-702849.62500	loss_avg=-705111.69079	acc=0.00000	acc_top1_avg=0.01151	acc_top5_avg=0.04688	lr=0.00010	gn=625.14960	time=12.31it/s
+2023-07-01 14:40:05,559 epoch=91	global_step=35700	loss=-703421.50000	loss_avg=-705373.47637	acc=0.00781	acc_top1_avg=0.01050	acc_top5_avg=0.05410	lr=0.00010	gn=4278.66895	time=12.30it/s
+2023-07-01 14:40:13,720 epoch=91	global_step=35800	loss=-708741.18750	loss_avg=-705736.75942	acc=0.00000	acc_top1_avg=0.01060	acc_top5_avg=0.05412	lr=0.00010	gn=635.46173	time=12.32it/s
+2023-07-01 14:40:21,881 epoch=91	global_step=35900	loss=-704645.50000	loss_avg=-705854.16438	acc=0.00781	acc_top1_avg=0.01075	acc_top5_avg=0.05415	lr=0.00010	gn=627.02765	time=12.32it/s
+2023-07-01 14:40:27,898 ====================Eval====================
+2023-07-01 14:40:30,672 epoch=91	global_step=35972	loss=61549.47656	test_loss_avg=66571.26533	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.09it/s
+2023-07-01 14:40:30,672 curr_acc	0.0098
+2023-07-01 14:40:30,672 BEST_ACC	0.0098
+2023-07-01 14:40:30,672 curr_acc_top5	0.0488
+2023-07-01 14:40:30,672 BEST_ACC_top5	0.0488
+2023-07-01 14:40:30,672 Model Saved!
+
+2023-07-01 14:40:30,672 ====================Training====================
+2023-07-01 14:40:33,547 epoch=92	global_step=36000	loss=-704969.25000	loss_avg=-705910.35268	acc=0.00781	acc_top1_avg=0.01172	acc_top5_avg=0.05301	lr=0.00010	gn=637.95410	time=12.32it/s
+2023-07-01 14:40:41,706 epoch=92	global_step=36100	loss=-702303.25000	loss_avg=-706300.94141	acc=0.00000	acc_top1_avg=0.01068	acc_top5_avg=0.05359	lr=0.00010	gn=675.31287	time=12.35it/s
+2023-07-01 14:40:49,867 epoch=92	global_step=36200	loss=-706416.25000	loss_avg=-706540.79304	acc=0.00000	acc_top1_avg=0.01155	acc_top5_avg=0.05407	lr=0.00010	gn=638.12207	time=12.31it/s
+2023-07-01 14:40:58,026 epoch=92	global_step=36300	loss=-704832.50000	loss_avg=-706644.91845	acc=0.00000	acc_top1_avg=0.01124	acc_top5_avg=0.05452	lr=0.00010	gn=64790.14062	time=12.31it/s
+2023-07-01 14:41:03,321 ====================Eval====================
+2023-07-01 14:41:04,981 epoch=92	global_step=36363	loss=65335.33203	test_loss_avg=66807.67910	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=19.01it/s
+2023-07-01 14:41:06,041 epoch=92	global_step=36363	loss=61589.23047	test_loss_avg=66604.08145	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.32it/s
+2023-07-01 14:41:06,041 curr_acc	0.0098
+2023-07-01 14:41:06,041 BEST_ACC	0.0098
+2023-07-01 14:41:06,041 curr_acc_top5	0.0488
+2023-07-01 14:41:06,041 BEST_ACC_top5	0.0488
+2023-07-01 14:41:06,041 Model Saved!
+
+2023-07-01 14:41:06,041 ====================Training====================
+2023-07-01 14:41:09,653 epoch=93	global_step=36400	loss=-702787.68750	loss_avg=-706261.15034	acc=0.00000	acc_top1_avg=0.01056	acc_top5_avg=0.05490	lr=0.00010	gn=640.24329	time=12.32it/s
+2023-07-01 14:41:17,816 epoch=93	global_step=36500	loss=-706387.12500	loss_avg=-706364.73677	acc=0.00000	acc_top1_avg=0.01180	acc_top5_avg=0.05691	lr=0.00010	gn=639.54407	time=12.31it/s
+2023-07-01 14:41:25,983 epoch=93	global_step=36600	loss=-705721.18750	loss_avg=-706625.42616	acc=0.00781	acc_top1_avg=0.01061	acc_top5_avg=0.05515	lr=0.00010	gn=595.87982	time=12.33it/s
+2023-07-01 14:41:34,164 epoch=93	global_step=36700	loss=-710947.93750	loss_avg=-706620.80805	acc=0.00781	acc_top1_avg=0.01092	acc_top5_avg=0.05483	lr=0.00010	gn=653.39703	time=12.31it/s
+2023-07-01 14:41:38,705 ====================Eval====================
+2023-07-01 14:41:41,459 epoch=93	global_step=36754	loss=61565.75391	test_loss_avg=66553.89941	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.84it/s
+2023-07-01 14:41:41,459 curr_acc	0.0098
+2023-07-01 14:41:41,459 BEST_ACC	0.0098
+2023-07-01 14:41:41,459 curr_acc_top5	0.0488
+2023-07-01 14:41:41,459 BEST_ACC_top5	0.0488
+2023-07-01 14:41:41,459 Model Saved!
+
+2023-07-01 14:41:41,459 ====================Training====================
+2023-07-01 14:41:46,014 epoch=94	global_step=36800	loss=-709744.12500	loss_avg=-706993.41440	acc=0.02344	acc_top1_avg=0.01053	acc_top5_avg=0.05503	lr=0.00010	gn=1790.27600	time=12.32it/s
+2023-07-01 14:41:54,177 epoch=94	global_step=36900	loss=-709450.37500	loss_avg=-707578.59204	acc=0.01562	acc_top1_avg=0.01108	acc_top5_avg=0.05640	lr=0.00010	gn=678.40997	time=12.32it/s
+2023-07-01 14:42:02,340 epoch=94	global_step=37000	loss=-707105.31250	loss_avg=-707411.30971	acc=0.02344	acc_top1_avg=0.01083	acc_top5_avg=0.05593	lr=0.00010	gn=611.09314	time=12.32it/s
+2023-07-01 14:42:10,516 epoch=94	global_step=37100	loss=-707593.62500	loss_avg=-707382.64595	acc=0.01562	acc_top1_avg=0.01102	acc_top5_avg=0.05460	lr=0.00010	gn=607.85968	time=12.30it/s
+2023-07-01 14:42:14,343 ====================Eval====================
+2023-07-01 14:42:16,971 epoch=94	global_step=37145	loss=61311.73828	test_loss_avg=66545.70840	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.28it/s
+2023-07-01 14:42:17,131 epoch=94	global_step=37145	loss=61311.73828	test_loss_avg=66545.70840	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.28it/s
+2023-07-01 14:42:17,131 curr_acc	0.0098
+2023-07-01 14:42:17,131 BEST_ACC	0.0098
+2023-07-01 14:42:17,131 curr_acc_top5	0.0488
+2023-07-01 14:42:17,132 BEST_ACC_top5	0.0488
+2023-07-01 14:42:17,132 Model Saved!
+
+2023-07-01 14:42:17,132 ====================Training====================
+2023-07-01 14:42:22,342 epoch=95	global_step=37200	loss=-708312.18750	loss_avg=-707232.17614	acc=0.00000	acc_top1_avg=0.01080	acc_top5_avg=0.05426	lr=0.00010	gn=681.88104	time=12.32it/s
+2023-07-01 14:42:30,518 epoch=95	global_step=37300	loss=-708792.12500	loss_avg=-707449.12218	acc=0.00781	acc_top1_avg=0.01184	acc_top5_avg=0.05368	lr=0.00010	gn=629.68713	time=12.31it/s
+2023-07-01 14:42:38,683 epoch=95	global_step=37400	loss=-710929.50000	loss_avg=-707667.07206	acc=0.01562	acc_top1_avg=0.01149	acc_top5_avg=0.05414	lr=0.00010	gn=767.83020	time=12.29it/s
+2023-07-01 14:42:46,849 epoch=95	global_step=37500	loss=-711815.37500	loss_avg=-707744.73662	acc=0.00000	acc_top1_avg=0.01109	acc_top5_avg=0.05427	lr=0.00010	gn=598.05157	time=12.29it/s
+2023-07-01 14:42:49,928 ====================Eval====================
+2023-07-01 14:42:52,627 epoch=95	global_step=37536	loss=61399.07422	test_loss_avg=66385.64434	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.99it/s
+2023-07-01 14:42:52,627 curr_acc	0.0098
+2023-07-01 14:42:52,627 BEST_ACC	0.0098
+2023-07-01 14:42:52,627 curr_acc_top5	0.0488
+2023-07-01 14:42:52,627 BEST_ACC_top5	0.0488
+2023-07-01 14:42:52,627 Model Saved!
+
+2023-07-01 14:42:52,628 ====================Training====================
+2023-07-01 14:42:58,447 epoch=96	global_step=37600	loss=-707579.37500	loss_avg=-708189.96191	acc=0.00000	acc_top1_avg=0.01013	acc_top5_avg=0.05383	lr=0.00010	gn=669.36206	time=12.36it/s
+2023-07-01 14:43:06,622 epoch=96	global_step=37700	loss=-706875.00000	loss_avg=-707927.88872	acc=0.00781	acc_top1_avg=0.01124	acc_top5_avg=0.05612	lr=0.00010	gn=614.94672	time=12.32it/s
+2023-07-01 14:43:14,784 epoch=96	global_step=37800	loss=-710831.50000	loss_avg=-708083.88329	acc=0.02344	acc_top1_avg=0.01110	acc_top5_avg=0.05531	lr=0.00010	gn=621.19562	time=12.33it/s
+2023-07-01 14:43:22,945 epoch=96	global_step=37900	loss=-707311.12500	loss_avg=-708073.77661	acc=0.03125	acc_top1_avg=0.01099	acc_top5_avg=0.05419	lr=0.00010	gn=623.11908	time=12.35it/s
+2023-07-01 14:43:25,278 ====================Eval====================
+2023-07-01 14:43:28,022 epoch=96	global_step=37927	loss=61773.06250	test_loss_avg=66940.19521	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=187.26it/s
+2023-07-01 14:43:28,022 curr_acc	0.0098
+2023-07-01 14:43:28,022 BEST_ACC	0.0098
+2023-07-01 14:43:28,022 curr_acc_top5	0.0488
+2023-07-01 14:43:28,022 BEST_ACC_top5	0.0488
+2023-07-01 14:43:28,022 Model Saved!
+
+2023-07-01 14:43:28,022 ====================Training====================
+2023-07-01 14:43:34,558 epoch=97	global_step=38000	loss=-706357.37500	loss_avg=-707892.63356	acc=0.00000	acc_top1_avg=0.01134	acc_top5_avg=0.05437	lr=0.00010	gn=1091.66797	time=12.33it/s
+2023-07-01 14:43:42,720 epoch=97	global_step=38100	loss=-710642.37500	loss_avg=-708155.67883	acc=0.02344	acc_top1_avg=0.01021	acc_top5_avg=0.05360	lr=0.00010	gn=643.70599	time=12.32it/s
+2023-07-01 14:43:50,881 epoch=97	global_step=38200	loss=-712351.12500	loss_avg=-708398.72276	acc=0.02344	acc_top1_avg=0.01128	acc_top5_avg=0.05572	lr=0.00010	gn=610.56976	time=12.32it/s
+2023-07-01 14:43:59,043 epoch=97	global_step=38300	loss=-701320.37500	loss_avg=-708467.60975	acc=0.00000	acc_top1_avg=0.01129	acc_top5_avg=0.05490	lr=0.00010	gn=682.40649	time=12.31it/s
+2023-07-01 14:44:00,646 ====================Eval====================
+2023-07-01 14:44:02,318 epoch=97	global_step=38318	loss=65513.88281	test_loss_avg=67132.66699	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=16.42it/s
+2023-07-01 14:44:03,394 epoch=97	global_step=38318	loss=61762.40625	test_loss_avg=66922.42324	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.55it/s
+2023-07-01 14:44:03,394 curr_acc	0.0098
+2023-07-01 14:44:03,394 BEST_ACC	0.0098
+2023-07-01 14:44:03,394 curr_acc_top5	0.0488
+2023-07-01 14:44:03,394 BEST_ACC_top5	0.0488
+2023-07-01 14:44:03,394 Model Saved!
+
+2023-07-01 14:44:03,395 ====================Training====================
+2023-07-01 14:44:10,699 epoch=98	global_step=38400	loss=-703552.00000	loss_avg=-708762.53277	acc=0.00781	acc_top1_avg=0.01315	acc_top5_avg=0.05450	lr=0.00010	gn=629.07434	time=12.32it/s
+2023-07-01 14:44:18,862 epoch=98	global_step=38500	loss=-710218.00000	loss_avg=-708711.53880	acc=0.00000	acc_top1_avg=0.01133	acc_top5_avg=0.05288	lr=0.00010	gn=772.25391	time=12.30it/s
+2023-07-01 14:44:27,052 epoch=98	global_step=38600	loss=-708023.31250	loss_avg=-708912.25355	acc=0.00781	acc_top1_avg=0.01141	acc_top5_avg=0.05452	lr=0.00010	gn=634.77704	time=12.27it/s
+2023-07-01 14:44:35,221 epoch=98	global_step=38700	loss=-704263.81250	loss_avg=-708908.64545	acc=0.00000	acc_top1_avg=0.01113	acc_top5_avg=0.05450	lr=0.00010	gn=643.14185	time=12.34it/s
+2023-07-01 14:44:36,096 ====================Eval====================
+2023-07-01 14:44:38,840 epoch=98	global_step=38709	loss=61509.83203	test_loss_avg=66690.86611	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.95it/s
+2023-07-01 14:44:38,840 curr_acc	0.0098
+2023-07-01 14:44:38,840 BEST_ACC	0.0098
+2023-07-01 14:44:38,840 curr_acc_top5	0.0488
+2023-07-01 14:44:38,840 BEST_ACC_top5	0.0488
+2023-07-01 14:44:38,840 Model Saved!
+
+2023-07-01 14:44:38,841 ====================Training====================
+2023-07-01 14:44:46,920 epoch=99	global_step=38800	loss=-708752.00000	loss_avg=-709319.00687	acc=0.00781	acc_top1_avg=0.01185	acc_top5_avg=0.05675	lr=0.00010	gn=293254.43750	time=12.30it/s
+2023-07-01 14:44:55,087 epoch=99	global_step=38900	loss=-708231.62500	loss_avg=-709164.67245	acc=0.02344	acc_top1_avg=0.01133	acc_top5_avg=0.05661	lr=0.00010	gn=637.52191	time=12.30it/s
+2023-07-01 14:45:03,251 epoch=99	global_step=39000	loss=-711067.81250	loss_avg=-709329.57904	acc=0.00000	acc_top1_avg=0.01117	acc_top5_avg=0.05514	lr=0.00010	gn=635.83704	time=12.32it/s
+2023-07-01 14:45:11,391 epoch=99	global_step=39100	loss=-716829.31250	loss_avg=-709406.85918	acc=0.01250	acc_top1_avg=0.01104	acc_top5_avg=0.05457	lr=0.00010	gn=690.06232	time=17.72it/s
+2023-07-01 14:45:11,553 ====================Eval====================
+2023-07-01 14:45:14,129 epoch=99	global_step=39100	loss=61674.19141	test_loss_avg=66959.88320	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.29it/s
+2023-07-01 14:45:14,276 epoch=99	global_step=39100	loss=61674.19141	test_loss_avg=66959.88320	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.29it/s
+2023-07-01 14:45:14,277 curr_acc	0.0098
+2023-07-01 14:45:14,277 BEST_ACC	0.0098
+2023-07-01 14:45:14,277 curr_acc_top5	0.0488
+2023-07-01 14:45:14,277 BEST_ACC_top5	0.0488
+2023-07-01 14:45:14,277 Model Saved!
+
+2023-07-01 14:45:14,277 ====================Training====================
+2023-07-01 14:45:23,065 epoch=100	global_step=39200	loss=-710021.50000	loss_avg=-709263.92063	acc=0.01562	acc_top1_avg=0.01086	acc_top5_avg=0.05484	lr=0.00010	gn=750.97223	time=12.29it/s
+2023-07-01 14:45:31,227 epoch=100	global_step=39300	loss=-709964.50000	loss_avg=-709556.47469	acc=0.00781	acc_top1_avg=0.01141	acc_top5_avg=0.05555	lr=0.00010	gn=652.52997	time=12.37it/s
+2023-07-01 14:45:39,389 epoch=100	global_step=39400	loss=-706837.87500	loss_avg=-709613.98500	acc=0.00781	acc_top1_avg=0.01086	acc_top5_avg=0.05453	lr=0.00010	gn=629.31738	time=12.32it/s
+2023-07-01 14:45:46,971 ====================Eval====================
+2023-07-01 14:45:49,657 epoch=100	global_step=39491	loss=61563.29688	test_loss_avg=66738.24951	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.35it/s
+2023-07-01 14:45:49,657 curr_acc	0.0098
+2023-07-01 14:45:49,657 BEST_ACC	0.0098
+2023-07-01 14:45:49,657 curr_acc_top5	0.0488
+2023-07-01 14:45:49,657 BEST_ACC_top5	0.0488
+2023-07-01 14:45:49,657 Model Saved!
+
+2023-07-01 14:45:49,657 ====================Training====================
+2023-07-01 14:45:51,053 epoch=101	global_step=39500	loss=-715475.75000	loss_avg=-711122.60417	acc=0.01562	acc_top1_avg=0.01215	acc_top5_avg=0.04861	lr=0.00010	gn=733.33386	time=12.32it/s
+2023-07-01 14:45:59,213 epoch=101	global_step=39600	loss=-709594.87500	loss_avg=-710568.60665	acc=0.00000	acc_top1_avg=0.01054	acc_top5_avg=0.05505	lr=0.00010	gn=649.22260	time=12.33it/s
+2023-07-01 14:46:07,375 epoch=101	global_step=39700	loss=-713493.31250	loss_avg=-710138.25179	acc=0.01562	acc_top1_avg=0.01054	acc_top5_avg=0.05413	lr=0.00010	gn=626.71106	time=12.29it/s
+2023-07-01 14:46:15,538 epoch=101	global_step=39800	loss=-708845.25000	loss_avg=-710128.12763	acc=0.01562	acc_top1_avg=0.01077	acc_top5_avg=0.05418	lr=0.00010	gn=601.14679	time=12.33it/s
+2023-07-01 14:46:22,361 ====================Eval====================
+2023-07-01 14:46:25,163 epoch=101	global_step=39882	loss=61833.78906	test_loss_avg=66701.71113	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.37it/s
+2023-07-01 14:46:25,163 curr_acc	0.0098
+2023-07-01 14:46:25,163 BEST_ACC	0.0098
+2023-07-01 14:46:25,163 curr_acc_top5	0.0488
+2023-07-01 14:46:25,163 BEST_ACC_top5	0.0488
+2023-07-01 14:46:25,163 Model Saved!
+
+2023-07-01 14:46:25,163 ====================Training====================
+2023-07-01 14:46:27,291 epoch=102	global_step=39900	loss=-711828.62500	loss_avg=-711199.96875	acc=0.01562	acc_top1_avg=0.01259	acc_top5_avg=0.06380	lr=0.00010	gn=650.98895	time=12.32it/s
+2023-07-01 14:46:35,451 epoch=102	global_step=40000	loss=-712656.62500	loss_avg=-710355.54343	acc=0.00781	acc_top1_avg=0.01119	acc_top5_avg=0.05661	lr=0.00010	gn=652.52386	time=12.28it/s
+2023-07-01 14:46:43,610 epoch=102	global_step=40100	loss=-709824.18750	loss_avg=-710388.88704	acc=0.01562	acc_top1_avg=0.01072	acc_top5_avg=0.05533	lr=0.00010	gn=764.15710	time=12.33it/s
+2023-07-01 14:46:51,770 epoch=102	global_step=40200	loss=-710103.81250	loss_avg=-710461.72406	acc=0.00000	acc_top1_avg=0.01061	acc_top5_avg=0.05429	lr=0.00010	gn=664.47095	time=12.32it/s
+2023-07-01 14:46:57,861 ====================Eval====================
+2023-07-01 14:46:59,526 epoch=102	global_step=40273	loss=65553.01562	test_loss_avg=67120.42617	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=21.47it/s
+2023-07-01 14:47:00,594 epoch=102	global_step=40273	loss=61897.03125	test_loss_avg=66900.12646	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.89it/s
+2023-07-01 14:47:00,594 curr_acc	0.0098
+2023-07-01 14:47:00,594 BEST_ACC	0.0098
+2023-07-01 14:47:00,594 curr_acc_top5	0.0488
+2023-07-01 14:47:00,594 BEST_ACC_top5	0.0488
+2023-07-01 14:47:00,594 Model Saved!
+
+2023-07-01 14:47:00,594 ====================Training====================
+2023-07-01 14:47:03,527 epoch=103	global_step=40300	loss=-714422.00000	loss_avg=-710786.65509	acc=0.00781	acc_top1_avg=0.00839	acc_top5_avg=0.05527	lr=0.00010	gn=2886.00684	time=12.32it/s
+2023-07-01 14:47:11,685 epoch=103	global_step=40400	loss=-712629.00000	loss_avg=-710811.87844	acc=0.00781	acc_top1_avg=0.01120	acc_top5_avg=0.05684	lr=0.00010	gn=648.70673	time=12.30it/s
+2023-07-01 14:47:19,845 epoch=103	global_step=40500	loss=-714173.43750	loss_avg=-711008.76267	acc=0.01562	acc_top1_avg=0.01119	acc_top5_avg=0.05631	lr=0.00010	gn=639.23846	time=12.31it/s
+2023-07-01 14:47:28,009 epoch=103	global_step=40600	loss=-710896.75000	loss_avg=-710964.28421	acc=0.00000	acc_top1_avg=0.01099	acc_top5_avg=0.05514	lr=0.00010	gn=661.44690	time=12.31it/s
+2023-07-01 14:47:33,377 ====================Eval====================
+2023-07-01 14:47:36,112 epoch=103	global_step=40664	loss=61767.74609	test_loss_avg=66891.52441	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.79it/s
+2023-07-01 14:47:36,112 curr_acc	0.0098
+2023-07-01 14:47:36,112 BEST_ACC	0.0098
+2023-07-01 14:47:36,112 curr_acc_top5	0.0488
+2023-07-01 14:47:36,112 BEST_ACC_top5	0.0488
+2023-07-01 14:47:36,112 Model Saved!
+
+2023-07-01 14:47:36,113 ====================Training====================
+2023-07-01 14:47:39,654 epoch=104	global_step=40700	loss=-707954.18750	loss_avg=-711545.92188	acc=0.00000	acc_top1_avg=0.01324	acc_top5_avg=0.05404	lr=0.00010	gn=151312.93750	time=12.30it/s
+2023-07-01 14:47:47,818 epoch=104	global_step=40800	loss=-711690.37500	loss_avg=-711586.57215	acc=0.00000	acc_top1_avg=0.01068	acc_top5_avg=0.05262	lr=0.00010	gn=644.16870	time=12.32it/s
+2023-07-01 14:47:55,980 epoch=104	global_step=40900	loss=-710940.31250	loss_avg=-711505.79370	acc=0.00781	acc_top1_avg=0.01082	acc_top5_avg=0.05399	lr=0.00010	gn=626.86340	time=12.32it/s
+2023-07-01 14:48:04,155 epoch=104	global_step=41000	loss=-715998.06250	loss_avg=-711555.71838	acc=0.00781	acc_top1_avg=0.01090	acc_top5_avg=0.05392	lr=0.00010	gn=662.21356	time=12.32it/s
+2023-07-01 14:48:08,783 ====================Eval====================
+2023-07-01 14:48:11,376 epoch=104	global_step=41055	loss=62196.55469	test_loss_avg=67343.81611	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.62it/s
+2023-07-01 14:48:11,536 epoch=104	global_step=41055	loss=62196.55469	test_loss_avg=67343.81611	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.62it/s
+2023-07-01 14:48:11,537 curr_acc	0.0098
+2023-07-01 14:48:11,537 BEST_ACC	0.0098
+2023-07-01 14:48:11,537 curr_acc_top5	0.0488
+2023-07-01 14:48:11,537 BEST_ACC_top5	0.0488
+2023-07-01 14:48:11,537 Model Saved!
+
+2023-07-01 14:48:11,537 ====================Training====================
+2023-07-01 14:48:15,815 epoch=105	global_step=41100	loss=-710998.25000	loss_avg=-711281.05000	acc=0.00781	acc_top1_avg=0.00972	acc_top5_avg=0.05052	lr=0.00010	gn=4364.33936	time=12.30it/s
+2023-07-01 14:48:23,977 epoch=105	global_step=41200	loss=-704395.50000	loss_avg=-711388.29957	acc=0.00781	acc_top1_avg=0.01056	acc_top5_avg=0.05307	lr=0.00010	gn=634.97455	time=12.30it/s
+2023-07-01 14:48:32,143 epoch=105	global_step=41300	loss=-718405.00000	loss_avg=-711796.19311	acc=0.01562	acc_top1_avg=0.01138	acc_top5_avg=0.05529	lr=0.00010	gn=638.85370	time=12.31it/s
+2023-07-01 14:48:40,307 epoch=105	global_step=41400	loss=-711251.87500	loss_avg=-711967.53406	acc=0.01562	acc_top1_avg=0.01125	acc_top5_avg=0.05448	lr=0.00010	gn=5987.31201	time=12.30it/s
+2023-07-01 14:48:44,203 ====================Eval====================
+2023-07-01 14:48:46,963 epoch=105	global_step=41446	loss=61901.32812	test_loss_avg=66805.40869	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.24it/s
+2023-07-01 14:48:46,964 curr_acc	0.0098
+2023-07-01 14:48:46,964 BEST_ACC	0.0098
+2023-07-01 14:48:46,964 curr_acc_top5	0.0488
+2023-07-01 14:48:46,964 BEST_ACC_top5	0.0488
+2023-07-01 14:48:46,964 Model Saved!
+
+2023-07-01 14:48:46,964 ====================Training====================
+2023-07-01 14:48:51,953 epoch=106	global_step=41500	loss=-710584.56250	loss_avg=-712481.22801	acc=0.01562	acc_top1_avg=0.01157	acc_top5_avg=0.05802	lr=0.00010	gn=841.99988	time=12.30it/s
+2023-07-01 14:49:00,118 epoch=106	global_step=41600	loss=-708395.25000	loss_avg=-711915.38474	acc=0.00781	acc_top1_avg=0.01136	acc_top5_avg=0.05342	lr=0.00010	gn=970.46924	time=12.31it/s
+2023-07-01 14:49:08,281 epoch=106	global_step=41700	loss=-714343.62500	loss_avg=-712158.54257	acc=0.00781	acc_top1_avg=0.01150	acc_top5_avg=0.05444	lr=0.00010	gn=629.47064	time=12.32it/s
+2023-07-01 14:49:16,447 epoch=106	global_step=41800	loss=-712516.62500	loss_avg=-712241.91437	acc=0.00781	acc_top1_avg=0.01141	acc_top5_avg=0.05469	lr=0.00010	gn=630.97821	time=12.33it/s
+2023-07-01 14:49:19,607 ====================Eval====================
+2023-07-01 14:49:22,352 epoch=106	global_step=41837	loss=62234.45312	test_loss_avg=67307.22266	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=188.09it/s
+2023-07-01 14:49:22,352 curr_acc	0.0098
+2023-07-01 14:49:22,352 BEST_ACC	0.0098
+2023-07-01 14:49:22,352 curr_acc_top5	0.0488
+2023-07-01 14:49:22,352 BEST_ACC_top5	0.0488
+2023-07-01 14:49:22,352 Model Saved!
+
+2023-07-01 14:49:22,352 ====================Training====================
+2023-07-01 14:49:28,117 epoch=107	global_step=41900	loss=-714825.06250	loss_avg=-712583.64881	acc=0.03125	acc_top1_avg=0.01017	acc_top5_avg=0.05320	lr=0.00010	gn=63179.04297	time=12.33it/s
+2023-07-01 14:49:36,278 epoch=107	global_step=42000	loss=-713609.87500	loss_avg=-712464.32170	acc=0.01562	acc_top1_avg=0.01026	acc_top5_avg=0.05296	lr=0.00010	gn=72019.46875	time=12.32it/s
+2023-07-01 14:49:44,441 epoch=107	global_step=42100	loss=-713050.06250	loss_avg=-712522.67087	acc=0.00781	acc_top1_avg=0.01060	acc_top5_avg=0.05380	lr=0.00010	gn=650.66791	time=12.33it/s
+2023-07-01 14:49:52,602 epoch=107	global_step=42200	loss=-709500.00000	loss_avg=-712673.39859	acc=0.00000	acc_top1_avg=0.01078	acc_top5_avg=0.05434	lr=0.00010	gn=612.73676	time=12.31it/s
+2023-07-01 14:49:55,036 ====================Eval====================
+2023-07-01 14:49:56,667 epoch=107	global_step=42228	loss=65813.17188	test_loss_avg=67399.44219	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=20.52it/s
+2023-07-01 14:49:57,725 epoch=107	global_step=42228	loss=61965.85938	test_loss_avg=67193.57305	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.56it/s
+2023-07-01 14:49:57,726 curr_acc	0.0098
+2023-07-01 14:49:57,726 BEST_ACC	0.0098
+2023-07-01 14:49:57,726 curr_acc_top5	0.0488
+2023-07-01 14:49:57,726 BEST_ACC_top5	0.0488
+2023-07-01 14:49:57,726 Model Saved!
+
+2023-07-01 14:49:57,726 ====================Training====================
+2023-07-01 14:50:04,196 epoch=108	global_step=42300	loss=-713092.00000	loss_avg=-712747.75000	acc=0.00781	acc_top1_avg=0.01302	acc_top5_avg=0.05859	lr=0.00010	gn=725.76483	time=12.32it/s
+2023-07-01 14:50:12,355 epoch=108	global_step=42400	loss=-713228.68750	loss_avg=-713197.55378	acc=0.00000	acc_top1_avg=0.01145	acc_top5_avg=0.05487	lr=0.00010	gn=614.33185	time=12.34it/s
+2023-07-01 14:50:20,517 epoch=108	global_step=42500	loss=-717368.75000	loss_avg=-713170.66131	acc=0.01562	acc_top1_avg=0.01091	acc_top5_avg=0.05400	lr=0.00010	gn=736.56073	time=12.33it/s
+2023-07-01 14:50:28,678 epoch=108	global_step=42600	loss=-713943.81250	loss_avg=-713266.92456	acc=0.02344	acc_top1_avg=0.01117	acc_top5_avg=0.05483	lr=0.00010	gn=4295.61182	time=12.32it/s
+2023-07-01 14:50:30,355 ====================Eval====================
+2023-07-01 14:50:33,112 epoch=108	global_step=42619	loss=61893.42969	test_loss_avg=66946.33994	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.71it/s
+2023-07-01 14:50:33,112 curr_acc	0.0098
+2023-07-01 14:50:33,112 BEST_ACC	0.0098
+2023-07-01 14:50:33,112 curr_acc_top5	0.0488
+2023-07-01 14:50:33,112 BEST_ACC_top5	0.0488
+2023-07-01 14:50:33,112 Model Saved!
+
+2023-07-01 14:50:33,112 ====================Training====================
+2023-07-01 14:50:40,296 epoch=109	global_step=42700	loss=-716957.43750	loss_avg=-713837.84182	acc=0.01562	acc_top1_avg=0.01080	acc_top5_avg=0.05498	lr=0.00010	gn=605.19318	time=12.31it/s
+2023-07-01 14:50:48,473 epoch=109	global_step=42800	loss=-715310.31250	loss_avg=-713800.69993	acc=0.03125	acc_top1_avg=0.01157	acc_top5_avg=0.05538	lr=0.00010	gn=762.69934	time=12.28it/s
+2023-07-01 14:50:56,647 epoch=109	global_step=42900	loss=-710732.12500	loss_avg=-713709.53536	acc=0.02344	acc_top1_avg=0.01134	acc_top5_avg=0.05460	lr=0.00010	gn=640.45520	time=12.32it/s
+2023-07-01 14:51:04,817 epoch=109	global_step=43000	loss=-708760.87500	loss_avg=-713683.30381	acc=0.00781	acc_top1_avg=0.01107	acc_top5_avg=0.05440	lr=0.00010	gn=639.94012	time=12.27it/s
+2023-07-01 14:51:05,775 ====================Eval====================
+2023-07-01 14:51:08,305 epoch=109	global_step=43010	loss=62015.23438	test_loss_avg=67182.56758	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.38it/s
+2023-07-01 14:51:08,472 epoch=109	global_step=43010	loss=62015.23438	test_loss_avg=67182.56758	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.38it/s
+2023-07-01 14:51:08,472 curr_acc	0.0098
+2023-07-01 14:51:08,472 BEST_ACC	0.0098
+2023-07-01 14:51:08,472 curr_acc_top5	0.0488
+2023-07-01 14:51:08,472 BEST_ACC_top5	0.0488
+2023-07-01 14:51:08,472 Model Saved!
+
+2023-07-01 14:51:08,472 ====================Training====================
+2023-07-01 14:51:16,390 epoch=110	global_step=43100	loss=-709898.87500	loss_avg=-713609.63333	acc=0.00000	acc_top1_avg=0.01033	acc_top5_avg=0.05304	lr=0.00010	gn=625.67816	time=12.33it/s
+2023-07-01 14:51:24,550 epoch=110	global_step=43200	loss=-714974.56250	loss_avg=-713886.98092	acc=0.00781	acc_top1_avg=0.01086	acc_top5_avg=0.05387	lr=0.00010	gn=769.64624	time=12.33it/s
+2023-07-01 14:51:32,715 epoch=110	global_step=43300	loss=-712643.18750	loss_avg=-714178.60043	acc=0.01562	acc_top1_avg=0.01134	acc_top5_avg=0.05445	lr=0.00010	gn=632.17053	time=12.29it/s
+2023-07-01 14:51:40,879 epoch=110	global_step=43400	loss=-711094.00000	loss_avg=-714263.91731	acc=0.00781	acc_top1_avg=0.01102	acc_top5_avg=0.05449	lr=0.00010	gn=62741.17969	time=12.32it/s
+2023-07-01 14:51:41,092 ====================Eval====================
+2023-07-01 14:51:43,823 epoch=110	global_step=43401	loss=61984.85547	test_loss_avg=67113.02832	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.17it/s
+2023-07-01 14:51:43,823 curr_acc	0.0098
+2023-07-01 14:51:43,823 BEST_ACC	0.0098
+2023-07-01 14:51:43,823 curr_acc_top5	0.0488
+2023-07-01 14:51:43,823 BEST_ACC_top5	0.0488
+2023-07-01 14:51:43,823 Model Saved!
+
+2023-07-01 14:51:43,823 ====================Training====================
+2023-07-01 14:51:52,528 epoch=111	global_step=43500	loss=-716139.12500	loss_avg=-714916.15025	acc=0.01562	acc_top1_avg=0.01184	acc_top5_avg=0.05642	lr=0.00010	gn=652.68140	time=12.31it/s
+2023-07-01 14:52:00,689 epoch=111	global_step=43600	loss=-715053.37500	loss_avg=-714664.85898	acc=0.00781	acc_top1_avg=0.01084	acc_top5_avg=0.05563	lr=0.00010	gn=650.37347	time=12.25it/s
+2023-07-01 14:52:08,851 epoch=111	global_step=43700	loss=-719098.06250	loss_avg=-714607.26819	acc=0.01562	acc_top1_avg=0.01100	acc_top5_avg=0.05487	lr=0.00010	gn=646.46027	time=12.28it/s
+2023-07-01 14:52:16,517 ====================Eval====================
+2023-07-01 14:52:19,275 epoch=111	global_step=43792	loss=62064.60156	test_loss_avg=67344.17930	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.30it/s
+2023-07-01 14:52:19,275 curr_acc	0.0098
+2023-07-01 14:52:19,275 BEST_ACC	0.0098
+2023-07-01 14:52:19,275 curr_acc_top5	0.0488
+2023-07-01 14:52:19,275 BEST_ACC_top5	0.0488
+2023-07-01 14:52:19,275 Model Saved!
+
+2023-07-01 14:52:19,275 ====================Training====================
+2023-07-01 14:52:20,545 epoch=112	global_step=43800	loss=-711774.25000	loss_avg=-715520.17969	acc=0.00000	acc_top1_avg=0.01074	acc_top5_avg=0.05566	lr=0.00010	gn=961.52930	time=12.32it/s
+2023-07-01 14:52:28,721 epoch=112	global_step=43900	loss=-713734.43750	loss_avg=-714767.67419	acc=0.00000	acc_top1_avg=0.01100	acc_top5_avg=0.05404	lr=0.00010	gn=607.63196	time=12.29it/s
+2023-07-01 14:52:36,895 epoch=112	global_step=44000	loss=-713784.37500	loss_avg=-715122.53185	acc=0.01562	acc_top1_avg=0.01085	acc_top5_avg=0.05585	lr=0.00010	gn=610.40900	time=12.33it/s
+2023-07-01 14:52:45,058 epoch=112	global_step=44100	loss=-716305.25000	loss_avg=-714883.66619	acc=0.00781	acc_top1_avg=0.01078	acc_top5_avg=0.05497	lr=0.00010	gn=849.46240	time=12.30it/s
+2023-07-01 14:52:51,971 ====================Eval====================
+2023-07-01 14:52:53,644 epoch=112	global_step=44183	loss=66248.72656	test_loss_avg=67712.27520	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=21.34it/s
+2023-07-01 14:52:54,700 epoch=112	global_step=44183	loss=62205.63672	test_loss_avg=67515.02861	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.92it/s
+2023-07-01 14:52:54,700 curr_acc	0.0098
+2023-07-01 14:52:54,700 BEST_ACC	0.0098
+2023-07-01 14:52:54,700 curr_acc_top5	0.0488
+2023-07-01 14:52:54,700 BEST_ACC_top5	0.0488
+2023-07-01 14:52:54,700 Model Saved!
+
+2023-07-01 14:52:54,701 ====================Training====================
+2023-07-01 14:52:56,639 epoch=113	global_step=44200	loss=-715358.68750	loss_avg=-712617.50735	acc=0.00000	acc_top1_avg=0.00965	acc_top5_avg=0.05423	lr=0.00010	gn=681.77161	time=12.31it/s
+2023-07-01 14:53:04,803 epoch=113	global_step=44300	loss=-713207.50000	loss_avg=-714623.52831	acc=0.01562	acc_top1_avg=0.01002	acc_top5_avg=0.05329	lr=0.00010	gn=611.88885	time=12.32it/s
+2023-07-01 14:53:12,964 epoch=113	global_step=44400	loss=-717783.75000	loss_avg=-715398.92483	acc=0.00000	acc_top1_avg=0.01040	acc_top5_avg=0.05454	lr=0.00010	gn=628.38782	time=12.29it/s
+2023-07-01 14:53:21,141 epoch=113	global_step=44500	loss=-714251.81250	loss_avg=-715518.17744	acc=0.02344	acc_top1_avg=0.01107	acc_top5_avg=0.05459	lr=0.00010	gn=629.63599	time=12.30it/s
+2023-07-01 14:53:27,320 ====================Eval====================
+2023-07-01 14:53:30,035 epoch=113	global_step=44574	loss=62273.98047	test_loss_avg=67469.56602	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.95it/s
+2023-07-01 14:53:30,035 curr_acc	0.0098
+2023-07-01 14:53:30,035 BEST_ACC	0.0098
+2023-07-01 14:53:30,035 curr_acc_top5	0.0488
+2023-07-01 14:53:30,035 BEST_ACC_top5	0.0488
+2023-07-01 14:53:30,035 Model Saved!
+
+2023-07-01 14:53:30,036 ====================Training====================
+2023-07-01 14:53:32,797 epoch=114	global_step=44600	loss=-719783.25000	loss_avg=-716678.12260	acc=0.00000	acc_top1_avg=0.01112	acc_top5_avg=0.05739	lr=0.00010	gn=711.95618	time=12.32it/s
+2023-07-01 14:53:40,959 epoch=114	global_step=44700	loss=-717877.06250	loss_avg=-716207.74752	acc=0.01562	acc_top1_avg=0.01246	acc_top5_avg=0.05599	lr=0.00010	gn=625.15875	time=12.28it/s
+2023-07-01 14:53:49,121 epoch=114	global_step=44800	loss=-719226.56250	loss_avg=-715976.20603	acc=0.00781	acc_top1_avg=0.01224	acc_top5_avg=0.05566	lr=0.00010	gn=631.37183	time=12.30it/s
+2023-07-01 14:53:57,284 epoch=114	global_step=44900	loss=-710781.68750	loss_avg=-715924.06998	acc=0.01562	acc_top1_avg=0.01110	acc_top5_avg=0.05471	lr=0.00010	gn=612.85449	time=12.31it/s
+2023-07-01 14:54:02,731 ====================Eval====================
+2023-07-01 14:54:05,304 epoch=114	global_step=44965	loss=62485.40234	test_loss_avg=67623.40352	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.34it/s
+2023-07-01 14:54:05,459 epoch=114	global_step=44965	loss=62485.40234	test_loss_avg=67623.40352	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.34it/s
+2023-07-01 14:54:05,459 curr_acc	0.0098
+2023-07-01 14:54:05,459 BEST_ACC	0.0098
+2023-07-01 14:54:05,475 curr_acc_top5	0.0488
+2023-07-01 14:54:05,475 BEST_ACC_top5	0.0488
+2023-07-01 14:54:05,475 Model Saved!
+
+2023-07-01 14:54:05,475 ====================Training====================
+2023-07-01 14:54:08,933 epoch=115	global_step=45000	loss=-715848.00000	loss_avg=-715898.05179	acc=0.00781	acc_top1_avg=0.01049	acc_top5_avg=0.05112	lr=0.00010	gn=630.15247	time=12.33it/s
+2023-07-01 14:54:17,090 epoch=115	global_step=45100	loss=-721728.37500	loss_avg=-715864.95833	acc=0.00000	acc_top1_avg=0.01036	acc_top5_avg=0.05231	lr=0.00010	gn=718.44598	time=12.33it/s
+2023-07-01 14:54:25,249 epoch=115	global_step=45200	loss=-712012.68750	loss_avg=-716038.92394	acc=0.00781	acc_top1_avg=0.01054	acc_top5_avg=0.05356	lr=0.00010	gn=624.95782	time=12.37it/s
+2023-07-01 14:54:33,412 epoch=115	global_step=45300	loss=-713291.50000	loss_avg=-716101.20187	acc=0.02344	acc_top1_avg=0.01047	acc_top5_avg=0.05399	lr=0.00010	gn=653.74323	time=12.30it/s
+2023-07-01 14:54:38,129 ====================Eval====================
+2023-07-01 14:54:40,840 epoch=115	global_step=45356	loss=62557.73047	test_loss_avg=67433.28447	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.68it/s
+2023-07-01 14:54:40,840 curr_acc	0.0098
+2023-07-01 14:54:40,840 BEST_ACC	0.0098
+2023-07-01 14:54:40,840 curr_acc_top5	0.0488
+2023-07-01 14:54:40,840 BEST_ACC_top5	0.0488
+2023-07-01 14:54:40,840 Model Saved!
+
+2023-07-01 14:54:40,840 ====================Training====================
+2023-07-01 14:54:45,029 epoch=116	global_step=45400	loss=-719093.75000	loss_avg=-716558.13778	acc=0.00000	acc_top1_avg=0.01012	acc_top5_avg=0.05522	lr=0.00010	gn=697.17737	time=12.30it/s
+2023-07-01 14:54:53,213 epoch=116	global_step=45500	loss=-716014.62500	loss_avg=-716575.75217	acc=0.00000	acc_top1_avg=0.01112	acc_top5_avg=0.05518	lr=0.00010	gn=332755.12500	time=12.32it/s
+2023-07-01 14:55:01,375 epoch=116	global_step=45600	loss=-719894.37500	loss_avg=-716612.29559	acc=0.01562	acc_top1_avg=0.01140	acc_top5_avg=0.05456	lr=0.00010	gn=796.51794	time=12.32it/s
+2023-07-01 14:55:09,537 epoch=116	global_step=45700	loss=-720588.31250	loss_avg=-716632.53997	acc=0.00781	acc_top1_avg=0.01101	acc_top5_avg=0.05407	lr=0.00010	gn=634.98236	time=12.33it/s
+2023-07-01 14:55:13,510 ====================Eval====================
+2023-07-01 14:55:16,213 epoch=116	global_step=45747	loss=62448.00391	test_loss_avg=67673.09111	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.59it/s
+2023-07-01 14:55:16,213 curr_acc	0.0098
+2023-07-01 14:55:16,213 BEST_ACC	0.0098
+2023-07-01 14:55:16,213 curr_acc_top5	0.0488
+2023-07-01 14:55:16,213 BEST_ACC_top5	0.0488
+2023-07-01 14:55:16,213 Model Saved!
+
+2023-07-01 14:55:16,213 ====================Training====================
+2023-07-01 14:55:21,198 epoch=117	global_step=45800	loss=-717377.18750	loss_avg=-716873.71934	acc=0.00000	acc_top1_avg=0.01179	acc_top5_avg=0.05395	lr=0.00010	gn=644.62354	time=12.32it/s
+2023-07-01 14:55:29,358 epoch=117	global_step=45900	loss=-716433.50000	loss_avg=-717130.74346	acc=0.00781	acc_top1_avg=0.01134	acc_top5_avg=0.05484	lr=0.00010	gn=691.33136	time=12.29it/s
+2023-07-01 14:55:37,521 epoch=117	global_step=46000	loss=-714941.81250	loss_avg=-717215.28730	acc=0.00781	acc_top1_avg=0.01109	acc_top5_avg=0.05521	lr=0.00010	gn=622.82153	time=12.32it/s
+2023-07-01 14:55:45,691 epoch=117	global_step=46100	loss=-728669.81250	loss_avg=-717270.16625	acc=0.00781	acc_top1_avg=0.01111	acc_top5_avg=0.05491	lr=0.00010	gn=5752.32031	time=12.31it/s
+2023-07-01 14:55:48,944 ====================Eval====================
+2023-07-01 14:55:50,763 epoch=117	global_step=46138	loss=66284.14062	test_loss_avg=67777.00879	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=20.60it/s
+2023-07-01 14:55:51,836 epoch=117	global_step=46138	loss=62605.07422	test_loss_avg=67541.56455	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.44it/s
+2023-07-01 14:55:51,836 curr_acc	0.0098
+2023-07-01 14:55:51,836 BEST_ACC	0.0098
+2023-07-01 14:55:51,836 curr_acc_top5	0.0488
+2023-07-01 14:55:51,836 BEST_ACC_top5	0.0488
+2023-07-01 14:55:51,836 Model Saved!
+
+2023-07-01 14:55:51,837 ====================Training====================
+2023-07-01 14:55:57,516 epoch=118	global_step=46200	loss=-718567.56250	loss_avg=-717366.22177	acc=0.01562	acc_top1_avg=0.01235	acc_top5_avg=0.05607	lr=0.00010	gn=680.70844	time=12.32it/s
+2023-07-01 14:56:05,682 epoch=118	global_step=46300	loss=-717118.18750	loss_avg=-717323.49344	acc=0.00000	acc_top1_avg=0.01114	acc_top5_avg=0.05483	lr=0.00010	gn=621.24182	time=12.30it/s
+2023-07-01 14:56:13,843 epoch=118	global_step=46400	loss=-720273.12500	loss_avg=-717407.25215	acc=0.00000	acc_top1_avg=0.01103	acc_top5_avg=0.05412	lr=0.00010	gn=724.87695	time=12.28it/s
+2023-07-01 14:56:22,007 epoch=118	global_step=46500	loss=-721818.56250	loss_avg=-717641.05007	acc=0.01562	acc_top1_avg=0.01081	acc_top5_avg=0.05482	lr=0.00010	gn=641.38733	time=12.31it/s
+2023-07-01 14:56:24,510 ====================Eval====================
+2023-07-01 14:56:27,224 epoch=118	global_step=46529	loss=62729.66406	test_loss_avg=67842.00615	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=193.19it/s
+2023-07-01 14:56:27,224 curr_acc	0.0098
+2023-07-01 14:56:27,224 BEST_ACC	0.0098
+2023-07-01 14:56:27,225 curr_acc_top5	0.0488
+2023-07-01 14:56:27,225 BEST_ACC_top5	0.0488
+2023-07-01 14:56:27,225 Model Saved!
+
+2023-07-01 14:56:27,225 ====================Training====================
+2023-07-01 14:56:33,745 epoch=119	global_step=46600	loss=-719963.50000	loss_avg=-717988.23680	acc=0.02344	acc_top1_avg=0.01133	acc_top5_avg=0.05183	lr=0.00010	gn=622.91724	time=12.31it/s
+2023-07-01 14:56:41,908 epoch=119	global_step=46700	loss=-718873.43750	loss_avg=-718099.60892	acc=0.01562	acc_top1_avg=0.01101	acc_top5_avg=0.05332	lr=0.00010	gn=647.33795	time=12.31it/s
+2023-07-01 14:56:50,075 epoch=119	global_step=46800	loss=-718690.25000	loss_avg=-718197.68981	acc=0.00781	acc_top1_avg=0.01093	acc_top5_avg=0.05423	lr=0.00010	gn=728.71881	time=12.26it/s
+2023-07-01 14:56:58,239 epoch=119	global_step=46900	loss=-724161.87500	loss_avg=-718248.90246	acc=0.00781	acc_top1_avg=0.01110	acc_top5_avg=0.05462	lr=0.00010	gn=670.03113	time=12.29it/s
+2023-07-01 14:57:00,004 ====================Eval====================
+2023-07-01 14:57:02,591 epoch=119	global_step=46920	loss=62562.10156	test_loss_avg=67561.94580	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.21it/s
+2023-07-01 14:57:02,758 epoch=119	global_step=46920	loss=62562.10156	test_loss_avg=67561.94580	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.21it/s
+2023-07-01 14:57:02,758 curr_acc	0.0098
+2023-07-01 14:57:02,758 BEST_ACC	0.0098
+2023-07-01 14:57:02,758 curr_acc_top5	0.0488
+2023-07-01 14:57:02,758 BEST_ACC_top5	0.0488
+2023-07-01 14:57:02,758 Model Saved!
+
+2023-07-01 14:57:02,758 ====================Training====================
+2023-07-01 14:57:09,908 epoch=120	global_step=47000	loss=-720233.31250	loss_avg=-718033.69297	acc=0.02344	acc_top1_avg=0.01104	acc_top5_avg=0.05342	lr=0.00010	gn=641.59564	time=12.29it/s
+2023-07-01 14:57:18,070 epoch=120	global_step=47100	loss=-718261.81250	loss_avg=-718539.69965	acc=0.01562	acc_top1_avg=0.01141	acc_top5_avg=0.05621	lr=0.00010	gn=606.29224	time=12.31it/s
+2023-07-01 14:57:26,242 epoch=120	global_step=47200	loss=-717057.93750	loss_avg=-718390.67835	acc=0.01562	acc_top1_avg=0.01108	acc_top5_avg=0.05488	lr=0.00010	gn=629.45758	time=12.32it/s
+2023-07-01 14:57:34,406 epoch=120	global_step=47300	loss=-718668.56250	loss_avg=-718534.67829	acc=0.01562	acc_top1_avg=0.01112	acc_top5_avg=0.05475	lr=0.00010	gn=762.10101	time=12.28it/s
+2023-07-01 14:57:35,439 ====================Eval====================
+2023-07-01 14:57:38,171 epoch=120	global_step=47311	loss=62761.99219	test_loss_avg=67705.39629	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.89it/s
+2023-07-01 14:57:38,171 curr_acc	0.0098
+2023-07-01 14:57:38,171 BEST_ACC	0.0098
+2023-07-01 14:57:38,171 curr_acc_top5	0.0488
+2023-07-01 14:57:38,171 BEST_ACC_top5	0.0488
+2023-07-01 14:57:38,171 Model Saved!
+
+2023-07-01 14:57:38,171 ====================Training====================
+2023-07-01 14:57:46,041 epoch=121	global_step=47400	loss=-719984.12500	loss_avg=-718396.64747	acc=0.00000	acc_top1_avg=0.01150	acc_top5_avg=0.05460	lr=0.00010	gn=655.09570	time=12.33it/s
+2023-07-01 14:57:54,249 epoch=121	global_step=47500	loss=-722615.93750	loss_avg=-718743.79993	acc=0.00781	acc_top1_avg=0.01079	acc_top5_avg=0.05436	lr=0.00010	gn=14621.97168	time=12.31it/s
+2023-07-01 14:58:02,409 epoch=121	global_step=47600	loss=-716544.50000	loss_avg=-718856.56358	acc=0.00000	acc_top1_avg=0.01122	acc_top5_avg=0.05461	lr=0.00010	gn=642.09991	time=12.33it/s
+2023-07-01 14:58:10,570 epoch=121	global_step=47700	loss=-717714.75000	loss_avg=-718912.25835	acc=0.01562	acc_top1_avg=0.01105	acc_top5_avg=0.05449	lr=0.00010	gn=645.04742	time=12.34it/s
+2023-07-01 14:58:10,861 ====================Eval====================
+2023-07-01 14:58:13,589 epoch=121	global_step=47702	loss=62749.39062	test_loss_avg=67766.28789	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.97it/s
+2023-07-01 14:58:13,589 curr_acc	0.0098
+2023-07-01 14:58:13,589 BEST_ACC	0.0098
+2023-07-01 14:58:13,589 curr_acc_top5	0.0488
+2023-07-01 14:58:13,589 BEST_ACC_top5	0.0488
+2023-07-01 14:58:13,589 Model Saved!
+
+2023-07-01 14:58:13,589 ====================Training====================
+2023-07-01 14:58:22,195 epoch=122	global_step=47800	loss=-719069.25000	loss_avg=-719041.20217	acc=0.01562	acc_top1_avg=0.01164	acc_top5_avg=0.05748	lr=0.00010	gn=647.22656	time=12.32it/s
+2023-07-01 14:58:30,356 epoch=122	global_step=47900	loss=-721758.62500	loss_avg=-719163.18371	acc=0.00000	acc_top1_avg=0.01109	acc_top5_avg=0.05449	lr=0.00010	gn=292833.37500	time=12.32it/s
+2023-07-01 14:58:38,545 epoch=122	global_step=48000	loss=-723597.56250	loss_avg=-719235.35340	acc=0.00781	acc_top1_avg=0.01104	acc_top5_avg=0.05408	lr=0.00010	gn=649.89465	time=12.29it/s
+2023-07-01 14:58:46,274 ====================Eval====================
+2023-07-01 14:58:47,961 epoch=122	global_step=48093	loss=66422.57812	test_loss_avg=68063.40859	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=19.90it/s
+2023-07-01 14:58:49,023 epoch=122	global_step=48093	loss=62734.56641	test_loss_avg=67835.37510	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.11it/s
+2023-07-01 14:58:49,023 curr_acc	0.0098
+2023-07-01 14:58:49,023 BEST_ACC	0.0098
+2023-07-01 14:58:49,023 curr_acc_top5	0.0488
+2023-07-01 14:58:49,023 BEST_ACC_top5	0.0488
+2023-07-01 14:58:49,023 Model Saved!
+
+2023-07-01 14:58:49,023 ====================Training====================
+2023-07-01 14:58:50,178 epoch=123	global_step=48100	loss=-723728.50000	loss_avg=-719032.37500	acc=0.02344	acc_top1_avg=0.01004	acc_top5_avg=0.05469	lr=0.00010	gn=741.98901	time=12.30it/s
+2023-07-01 14:58:58,340 epoch=123	global_step=48200	loss=-722753.37500	loss_avg=-719303.77687	acc=0.00000	acc_top1_avg=0.01000	acc_top5_avg=0.05476	lr=0.00010	gn=671.16284	time=12.30it/s
+2023-07-01 14:59:06,504 epoch=123	global_step=48300	loss=-724762.25000	loss_avg=-719831.29287	acc=0.02344	acc_top1_avg=0.01087	acc_top5_avg=0.05435	lr=0.00010	gn=643.62073	time=12.32it/s
+2023-07-01 14:59:14,662 epoch=123	global_step=48400	loss=-717724.06250	loss_avg=-719653.14882	acc=0.00781	acc_top1_avg=0.01079	acc_top5_avg=0.05492	lr=0.00010	gn=963.98083	time=12.31it/s
+2023-07-01 14:59:21,654 ====================Eval====================
+2023-07-01 14:59:24,401 epoch=123	global_step=48484	loss=62832.67188	test_loss_avg=67941.96426	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.58it/s
+2023-07-01 14:59:24,401 curr_acc	0.0098
+2023-07-01 14:59:24,401 BEST_ACC	0.0098
+2023-07-01 14:59:24,401 curr_acc_top5	0.0488
+2023-07-01 14:59:24,401 BEST_ACC_top5	0.0488
+2023-07-01 14:59:24,401 Model Saved!
+
+2023-07-01 14:59:24,401 ====================Training====================
+2023-07-01 14:59:26,255 epoch=124	global_step=48500	loss=-721186.12500	loss_avg=-720592.31641	acc=0.00000	acc_top1_avg=0.00830	acc_top5_avg=0.05225	lr=0.00010	gn=634.35071	time=12.33it/s
+2023-07-01 14:59:34,417 epoch=124	global_step=48600	loss=-723590.87500	loss_avg=-720175.86800	acc=0.00781	acc_top1_avg=0.01017	acc_top5_avg=0.05280	lr=0.00010	gn=669.17566	time=12.32it/s
+2023-07-01 14:59:42,609 epoch=124	global_step=48700	loss=-721249.43750	loss_avg=-720404.62558	acc=0.00781	acc_top1_avg=0.01045	acc_top5_avg=0.05407	lr=0.00010	gn=620.13806	time=12.35it/s
+2023-07-01 14:59:50,773 epoch=124	global_step=48800	loss=-724311.12500	loss_avg=-720368.85364	acc=0.01562	acc_top1_avg=0.01085	acc_top5_avg=0.05437	lr=0.00010	gn=639.48798	time=12.30it/s
+2023-07-01 14:59:57,035 ====================Eval====================
+2023-07-01 14:59:59,634 epoch=124	global_step=48875	loss=62662.99219	test_loss_avg=67887.22930	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.30it/s
+2023-07-01 14:59:59,799 epoch=124	global_step=48875	loss=62662.99219	test_loss_avg=67887.22930	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.30it/s
+2023-07-01 14:59:59,799 curr_acc	0.0098
+2023-07-01 14:59:59,799 BEST_ACC	0.0098
+2023-07-01 14:59:59,799 curr_acc_top5	0.0488
+2023-07-01 14:59:59,799 BEST_ACC_top5	0.0488
+2023-07-01 14:59:59,799 Model Saved!
+
+2023-07-01 14:59:59,799 ====================Training====================
+2023-07-01 15:00:02,503 epoch=125	global_step=48900	loss=-715028.00000	loss_avg=-720566.96500	acc=0.00781	acc_top1_avg=0.01375	acc_top5_avg=0.06062	lr=0.00010	gn=671.71466	time=12.32it/s
+2023-07-01 15:00:10,676 epoch=125	global_step=49000	loss=-713660.25000	loss_avg=-720920.78200	acc=0.00781	acc_top1_avg=0.01081	acc_top5_avg=0.05456	lr=0.00010	gn=618.71301	time=12.33it/s
+2023-07-01 15:00:18,840 epoch=125	global_step=49100	loss=-723522.00000	loss_avg=-720842.37111	acc=0.03125	acc_top1_avg=0.01122	acc_top5_avg=0.05566	lr=0.00010	gn=671.72522	time=12.24it/s
+2023-07-01 15:00:27,016 epoch=125	global_step=49200	loss=-722841.93750	loss_avg=-720830.16288	acc=0.00781	acc_top1_avg=0.01118	acc_top5_avg=0.05493	lr=0.00010	gn=949.83826	time=12.38it/s
+2023-07-01 15:00:32,537 ====================Eval====================
+2023-07-01 15:00:35,294 epoch=125	global_step=49266	loss=62654.99609	test_loss_avg=67887.82725	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.22it/s
+2023-07-01 15:00:35,294 curr_acc	0.0098
+2023-07-01 15:00:35,294 BEST_ACC	0.0098
+2023-07-01 15:00:35,294 curr_acc_top5	0.0488
+2023-07-01 15:00:35,294 BEST_ACC_top5	0.0488
+2023-07-01 15:00:35,294 Model Saved!
+
+2023-07-01 15:00:35,295 ====================Training====================
+2023-07-01 15:00:38,702 epoch=126	global_step=49300	loss=-719620.37500	loss_avg=-722359.11581	acc=0.01562	acc_top1_avg=0.00896	acc_top5_avg=0.05584	lr=0.00010	gn=619.42352	time=12.30it/s
+2023-07-01 15:00:46,864 epoch=126	global_step=49400	loss=-720343.06250	loss_avg=-721227.61521	acc=0.02344	acc_top1_avg=0.01014	acc_top5_avg=0.05201	lr=0.00010	gn=6917.09375	time=12.37it/s
+2023-07-01 15:00:55,028 epoch=126	global_step=49500	loss=-722822.25000	loss_avg=-721081.25534	acc=0.02344	acc_top1_avg=0.01065	acc_top5_avg=0.05372	lr=0.00010	gn=27949.36914	time=12.31it/s
+2023-07-01 15:01:03,194 epoch=126	global_step=49600	loss=-723984.12500	loss_avg=-721147.16841	acc=0.03125	acc_top1_avg=0.01078	acc_top5_avg=0.05394	lr=0.00010	gn=672.39026	time=12.37it/s
+2023-07-01 15:01:07,984 ====================Eval====================
+2023-07-01 15:01:10,686 epoch=126	global_step=49657	loss=62617.37500	test_loss_avg=67785.79023	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.78it/s
+2023-07-01 15:01:10,686 curr_acc	0.0098
+2023-07-01 15:01:10,686 BEST_ACC	0.0098
+2023-07-01 15:01:10,686 curr_acc_top5	0.0488
+2023-07-01 15:01:10,686 BEST_ACC_top5	0.0488
+2023-07-01 15:01:10,686 Model Saved!
+
+2023-07-01 15:01:10,687 ====================Training====================
+2023-07-01 15:01:14,783 epoch=127	global_step=49700	loss=-721657.87500	loss_avg=-721069.50581	acc=0.00781	acc_top1_avg=0.00836	acc_top5_avg=0.05015	lr=0.00010	gn=621.49518	time=12.33it/s
+2023-07-01 15:01:22,944 epoch=127	global_step=49800	loss=-722870.00000	loss_avg=-721530.34965	acc=0.02344	acc_top1_avg=0.01098	acc_top5_avg=0.05278	lr=0.00010	gn=656.81171	time=12.31it/s
+2023-07-01 15:01:31,104 epoch=127	global_step=49900	loss=-724640.37500	loss_avg=-721579.30041	acc=0.00000	acc_top1_avg=0.01109	acc_top5_avg=0.05321	lr=0.00010	gn=652.59033	time=12.30it/s
+2023-07-01 15:01:39,279 epoch=127	global_step=50000	loss=-723674.50000	loss_avg=-721633.66727	acc=0.02344	acc_top1_avg=0.01096	acc_top5_avg=0.05400	lr=0.00010	gn=613.09387	time=12.29it/s
+2023-07-01 15:01:43,346 ====================Eval====================
+2023-07-01 15:01:45,073 epoch=127	global_step=50048	loss=66725.75781	test_loss_avg=68347.67344	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=19.98it/s
+2023-07-01 15:01:46,135 epoch=127	global_step=50048	loss=62844.41797	test_loss_avg=68118.66113	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.30it/s
+2023-07-01 15:01:46,135 curr_acc	0.0098
+2023-07-01 15:01:46,135 BEST_ACC	0.0098
+2023-07-01 15:01:46,135 curr_acc_top5	0.0488
+2023-07-01 15:01:46,135 BEST_ACC_top5	0.0488
+2023-07-01 15:01:46,135 Model Saved!
+
+2023-07-01 15:01:46,135 ====================Training====================
+2023-07-01 15:01:50,991 epoch=128	global_step=50100	loss=-718805.12500	loss_avg=-722139.42428	acc=0.02344	acc_top1_avg=0.00916	acc_top5_avg=0.05649	lr=0.00010	gn=659.50604	time=12.31it/s
+2023-07-01 15:01:59,153 epoch=128	global_step=50200	loss=-720766.75000	loss_avg=-722276.95189	acc=0.02344	acc_top1_avg=0.01054	acc_top5_avg=0.05592	lr=0.00010	gn=1851.26624	time=12.31it/s
+2023-07-01 15:02:07,317 epoch=128	global_step=50300	loss=-730550.62500	loss_avg=-722441.97941	acc=0.01562	acc_top1_avg=0.01163	acc_top5_avg=0.05686	lr=0.00010	gn=662.68182	time=12.29it/s
+2023-07-01 15:02:15,478 epoch=128	global_step=50400	loss=-724475.37500	loss_avg=-722318.82812	acc=0.00000	acc_top1_avg=0.01125	acc_top5_avg=0.05471	lr=0.00010	gn=621.26709	time=12.31it/s
+2023-07-01 15:02:18,795 ====================Eval====================
+2023-07-01 15:02:21,673 epoch=128	global_step=50439	loss=62989.29297	test_loss_avg=68148.47402	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.86it/s
+2023-07-01 15:02:21,673 curr_acc	0.0098
+2023-07-01 15:02:21,673 BEST_ACC	0.0098
+2023-07-01 15:02:21,673 curr_acc_top5	0.0488
+2023-07-01 15:02:21,673 BEST_ACC_top5	0.0488
+2023-07-01 15:02:21,673 Model Saved!
+
+2023-07-01 15:02:21,673 ====================Training====================
+2023-07-01 15:02:27,253 epoch=129	global_step=50500	loss=-725070.06250	loss_avg=-722940.04918	acc=0.00781	acc_top1_avg=0.01178	acc_top5_avg=0.05751	lr=0.00010	gn=653.48016	time=12.30it/s
+2023-07-01 15:02:35,417 epoch=129	global_step=50600	loss=-724990.75000	loss_avg=-722517.63121	acc=0.00000	acc_top1_avg=0.01169	acc_top5_avg=0.05420	lr=0.00010	gn=9497.09375	time=12.33it/s
+2023-07-01 15:02:43,580 epoch=129	global_step=50700	loss=-726184.50000	loss_avg=-722619.64248	acc=0.01562	acc_top1_avg=0.01116	acc_top5_avg=0.05430	lr=0.00010	gn=623.03662	time=12.30it/s
+2023-07-01 15:02:51,745 epoch=129	global_step=50800	loss=-721245.12500	loss_avg=-722715.19616	acc=0.00781	acc_top1_avg=0.01134	acc_top5_avg=0.05482	lr=0.00010	gn=645.27289	time=12.32it/s
+2023-07-01 15:02:54,336 ====================Eval====================
+2023-07-01 15:02:56,909 epoch=129	global_step=50830	loss=62950.45703	test_loss_avg=68062.94287	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.84it/s
+2023-07-01 15:02:57,078 epoch=129	global_step=50830	loss=62950.45703	test_loss_avg=68062.94287	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.84it/s
+2023-07-01 15:02:57,078 curr_acc	0.0098
+2023-07-01 15:02:57,079 BEST_ACC	0.0098
+2023-07-01 15:02:57,079 curr_acc_top5	0.0488
+2023-07-01 15:02:57,079 BEST_ACC_top5	0.0488
+2023-07-01 15:02:57,079 Model Saved!
+
+2023-07-01 15:02:57,079 ====================Training====================
+2023-07-01 15:03:03,370 epoch=130	global_step=50900	loss=-718272.56250	loss_avg=-722663.65268	acc=0.00781	acc_top1_avg=0.01083	acc_top5_avg=0.05190	lr=0.00010	gn=4583.74512	time=12.31it/s
+2023-07-01 15:03:11,536 epoch=130	global_step=51000	loss=-721732.56250	loss_avg=-723011.74779	acc=0.00000	acc_top1_avg=0.01098	acc_top5_avg=0.05414	lr=0.00010	gn=637.49310	time=12.29it/s
+2023-07-01 15:03:19,702 epoch=130	global_step=51100	loss=-725853.06250	loss_avg=-723069.71157	acc=0.02344	acc_top1_avg=0.01146	acc_top5_avg=0.05448	lr=0.00010	gn=625.63922	time=12.28it/s
+2023-07-01 15:03:27,880 epoch=130	global_step=51200	loss=-715822.62500	loss_avg=-723224.50051	acc=0.00781	acc_top1_avg=0.01104	acc_top5_avg=0.05441	lr=0.00010	gn=624.61267	time=12.32it/s
+2023-07-01 15:03:29,716 ====================Eval====================
+2023-07-01 15:03:32,481 epoch=130	global_step=51221	loss=62897.10938	test_loss_avg=68043.52852	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=188.87it/s
+2023-07-01 15:03:32,481 curr_acc	0.0098
+2023-07-01 15:03:32,481 BEST_ACC	0.0098
+2023-07-01 15:03:32,481 curr_acc_top5	0.0488
+2023-07-01 15:03:32,481 BEST_ACC_top5	0.0488
+2023-07-01 15:03:32,482 Model Saved!
+
+2023-07-01 15:03:32,482 ====================Training====================
+2023-07-01 15:03:39,597 epoch=131	global_step=51300	loss=-727094.12500	loss_avg=-724062.07278	acc=0.00781	acc_top1_avg=0.01058	acc_top5_avg=0.05528	lr=0.00010	gn=651.60657	time=12.30it/s
+2023-07-01 15:03:47,779 epoch=131	global_step=51400	loss=-722663.00000	loss_avg=-723788.03876	acc=0.00000	acc_top1_avg=0.01091	acc_top5_avg=0.05504	lr=0.00010	gn=706.43835	time=12.29it/s
+2023-07-01 15:03:55,943 epoch=131	global_step=51500	loss=-723592.31250	loss_avg=-723865.57773	acc=0.00781	acc_top1_avg=0.01081	acc_top5_avg=0.05505	lr=0.00010	gn=660.98499	time=12.30it/s
+2023-07-01 15:04:04,110 epoch=131	global_step=51600	loss=-725030.00000	loss_avg=-723815.38308	acc=0.00000	acc_top1_avg=0.01103	acc_top5_avg=0.05481	lr=0.00010	gn=624.48859	time=12.31it/s
+2023-07-01 15:04:05,229 ====================Eval====================
+2023-07-01 15:04:07,964 epoch=131	global_step=51612	loss=62977.03125	test_loss_avg=68097.03350	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.63it/s
+2023-07-01 15:04:07,964 curr_acc	0.0098
+2023-07-01 15:04:07,964 BEST_ACC	0.0098
+2023-07-01 15:04:07,964 curr_acc_top5	0.0488
+2023-07-01 15:04:07,964 BEST_ACC_top5	0.0488
+2023-07-01 15:04:07,964 Model Saved!
+
+2023-07-01 15:04:07,964 ====================Training====================
+2023-07-01 15:04:15,875 epoch=132	global_step=51700	loss=-729642.00000	loss_avg=-723882.08381	acc=0.00781	acc_top1_avg=0.00906	acc_top5_avg=0.05389	lr=0.00010	gn=69226.88281	time=12.33it/s
+2023-07-01 15:04:24,037 epoch=132	global_step=51800	loss=-723442.00000	loss_avg=-723885.76795	acc=0.00781	acc_top1_avg=0.01039	acc_top5_avg=0.05440	lr=0.00010	gn=647.82318	time=12.31it/s
+2023-07-01 15:04:32,203 epoch=132	global_step=51900	loss=-728778.37500	loss_avg=-724145.90690	acc=0.03125	acc_top1_avg=0.01072	acc_top5_avg=0.05509	lr=0.00010	gn=646.14801	time=12.32it/s
+2023-07-01 15:04:40,366 epoch=132	global_step=52000	loss=-724432.12500	loss_avg=-724229.05010	acc=0.00781	acc_top1_avg=0.01107	acc_top5_avg=0.05447	lr=0.00010	gn=667.52612	time=12.33it/s
+2023-07-01 15:04:40,761 ====================Eval====================
+2023-07-01 15:04:42,460 epoch=132	global_step=52003	loss=66619.53906	test_loss_avg=68223.98262	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=20.90it/s
+2023-07-01 15:04:43,524 epoch=132	global_step=52003	loss=62751.59375	test_loss_avg=68008.67686	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.41it/s
+2023-07-01 15:04:43,524 curr_acc	0.0098
+2023-07-01 15:04:43,524 BEST_ACC	0.0098
+2023-07-01 15:04:43,524 curr_acc_top5	0.0488
+2023-07-01 15:04:43,524 BEST_ACC_top5	0.0488
+2023-07-01 15:04:43,524 Model Saved!
+
+2023-07-01 15:04:43,524 ====================Training====================
+2023-07-01 15:04:52,017 epoch=133	global_step=52100	loss=-723426.25000	loss_avg=-724385.32152	acc=0.00781	acc_top1_avg=0.01007	acc_top5_avg=0.05638	lr=0.00010	gn=619.87164	time=12.30it/s
+2023-07-01 15:05:00,178 epoch=133	global_step=52200	loss=-731189.12500	loss_avg=-724547.78807	acc=0.01562	acc_top1_avg=0.01039	acc_top5_avg=0.05544	lr=0.00010	gn=709.68469	time=12.30it/s
+2023-07-01 15:05:08,340 epoch=133	global_step=52300	loss=-730742.43750	loss_avg=-724732.63889	acc=0.01562	acc_top1_avg=0.01068	acc_top5_avg=0.05477	lr=0.00010	gn=663.41827	time=12.32it/s
+2023-07-01 15:05:16,168 ====================Eval====================
+2023-07-01 15:05:18,900 epoch=133	global_step=52394	loss=63052.49609	test_loss_avg=68277.14141	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.68it/s
+2023-07-01 15:05:18,900 curr_acc	0.0098
+2023-07-01 15:05:18,900 BEST_ACC	0.0098
+2023-07-01 15:05:18,900 curr_acc_top5	0.0488
+2023-07-01 15:05:18,900 BEST_ACC_top5	0.0488
+2023-07-01 15:05:18,900 Model Saved!
+
+2023-07-01 15:05:18,900 ====================Training====================
+2023-07-01 15:05:19,933 epoch=134	global_step=52400	loss=-724700.62500	loss_avg=-725126.44792	acc=0.00781	acc_top1_avg=0.00651	acc_top5_avg=0.05729	lr=0.00010	gn=627.48718	time=11.40it/s
+2023-07-01 15:05:28,093 epoch=134	global_step=52500	loss=-722028.06250	loss_avg=-725179.79127	acc=0.00781	acc_top1_avg=0.01069	acc_top5_avg=0.05270	lr=0.00010	gn=255878.68750	time=12.30it/s
+2023-07-01 15:05:36,260 epoch=134	global_step=52600	loss=-731387.62500	loss_avg=-725260.79248	acc=0.01562	acc_top1_avg=0.01066	acc_top5_avg=0.05370	lr=0.00010	gn=650.06689	time=12.30it/s
+2023-07-01 15:05:44,421 epoch=134	global_step=52700	loss=-722612.06250	loss_avg=-725238.85825	acc=0.00000	acc_top1_avg=0.01077	acc_top5_avg=0.05448	lr=0.00010	gn=655.70502	time=12.34it/s
+2023-07-01 15:05:51,495 ====================Eval====================
+2023-07-01 15:05:54,041 epoch=134	global_step=52785	loss=62985.99609	test_loss_avg=68350.46865	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.72it/s
+2023-07-01 15:05:54,198 epoch=134	global_step=52785	loss=62985.99609	test_loss_avg=68350.46865	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.72it/s
+2023-07-01 15:05:54,198 curr_acc	0.0098
+2023-07-01 15:05:54,198 BEST_ACC	0.0098
+2023-07-01 15:05:54,198 curr_acc_top5	0.0488
+2023-07-01 15:05:54,198 BEST_ACC_top5	0.0488
+2023-07-01 15:05:54,198 Model Saved!
+
+2023-07-01 15:05:54,198 ====================Training====================
+2023-07-01 15:05:56,083 epoch=135	global_step=52800	loss=-728159.00000	loss_avg=-725691.10000	acc=0.00000	acc_top1_avg=0.00937	acc_top5_avg=0.05417	lr=0.00010	gn=661.17139	time=12.33it/s
+2023-07-01 15:06:04,252 epoch=135	global_step=52900	loss=-725581.75000	loss_avg=-725385.84185	acc=0.03125	acc_top1_avg=0.01128	acc_top5_avg=0.05360	lr=0.00010	gn=724.03998	time=12.30it/s
+2023-07-01 15:06:12,413 epoch=135	global_step=53000	loss=-721439.87500	loss_avg=-725416.06570	acc=0.01562	acc_top1_avg=0.01105	acc_top5_avg=0.05323	lr=0.00010	gn=632.30682	time=12.27it/s
+2023-07-01 15:06:20,575 epoch=135	global_step=53100	loss=-729966.00000	loss_avg=-725668.79702	acc=0.00000	acc_top1_avg=0.01124	acc_top5_avg=0.05419	lr=0.00010	gn=684.38947	time=12.32it/s
+2023-07-01 15:06:26,904 ====================Eval====================
+2023-07-01 15:06:29,567 epoch=135	global_step=53176	loss=62947.51172	test_loss_avg=68151.88203	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.52it/s
+2023-07-01 15:06:29,567 curr_acc	0.0098
+2023-07-01 15:06:29,567 BEST_ACC	0.0098
+2023-07-01 15:06:29,567 curr_acc_top5	0.0488
+2023-07-01 15:06:29,567 BEST_ACC_top5	0.0488
+2023-07-01 15:06:29,567 Model Saved!
+
+2023-07-01 15:06:29,568 ====================Training====================
+2023-07-01 15:06:32,153 epoch=136	global_step=53200	loss=-728154.18750	loss_avg=-724685.95052	acc=0.01562	acc_top1_avg=0.00684	acc_top5_avg=0.04590	lr=0.00010	gn=617.75391	time=12.33it/s
+2023-07-01 15:06:40,325 epoch=136	global_step=53300	loss=-724031.43750	loss_avg=-725872.97631	acc=0.01562	acc_top1_avg=0.01115	acc_top5_avg=0.05267	lr=0.00010	gn=625.26398	time=12.32it/s
+2023-07-01 15:06:48,484 epoch=136	global_step=53400	loss=-724687.75000	loss_avg=-725872.28683	acc=0.00781	acc_top1_avg=0.01088	acc_top5_avg=0.05259	lr=0.00010	gn=631.73346	time=12.32it/s
+2023-07-01 15:06:56,646 epoch=136	global_step=53500	loss=-719667.31250	loss_avg=-726002.86844	acc=0.00781	acc_top1_avg=0.01102	acc_top5_avg=0.05339	lr=0.00010	gn=620.59491	time=12.32it/s
+2023-07-01 15:07:02,248 ====================Eval====================
+2023-07-01 15:07:04,976 epoch=136	global_step=53567	loss=62811.37109	test_loss_avg=68090.71230	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.27it/s
+2023-07-01 15:07:04,976 curr_acc	0.0098
+2023-07-01 15:07:04,976 BEST_ACC	0.0098
+2023-07-01 15:07:04,976 curr_acc_top5	0.0488
+2023-07-01 15:07:04,976 BEST_ACC_top5	0.0488
+2023-07-01 15:07:04,976 Model Saved!
+
+2023-07-01 15:07:04,977 ====================Training====================
+2023-07-01 15:07:08,233 epoch=137	global_step=53600	loss=-729367.75000	loss_avg=-726803.69129	acc=0.01562	acc_top1_avg=0.00829	acc_top5_avg=0.05303	lr=0.00010	gn=656.94189	time=12.32it/s
+2023-07-01 15:07:16,392 epoch=137	global_step=53700	loss=-726785.12500	loss_avg=-726818.92152	acc=0.00000	acc_top1_avg=0.01028	acc_top5_avg=0.05387	lr=0.00010	gn=615.00134	time=12.29it/s
+2023-07-01 15:07:24,554 epoch=137	global_step=53800	loss=-730821.00000	loss_avg=-726952.59791	acc=0.00781	acc_top1_avg=0.01080	acc_top5_avg=0.05543	lr=0.00010	gn=640.40643	time=12.32it/s
+2023-07-01 15:07:32,728 epoch=137	global_step=53900	loss=-722155.50000	loss_avg=-726746.55687	acc=0.00000	acc_top1_avg=0.01067	acc_top5_avg=0.05457	lr=0.00010	gn=615.51166	time=12.31it/s
+2023-07-01 15:07:37,594 ====================Eval====================
+2023-07-01 15:07:39,291 epoch=137	global_step=53958	loss=66996.59375	test_loss_avg=68586.10273	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=15.29it/s
+2023-07-01 15:07:40,353 epoch=137	global_step=53958	loss=63286.17578	test_loss_avg=68377.46309	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.02it/s
+2023-07-01 15:07:40,353 curr_acc	0.0098
+2023-07-01 15:07:40,353 BEST_ACC	0.0098
+2023-07-01 15:07:40,353 curr_acc_top5	0.0488
+2023-07-01 15:07:40,353 BEST_ACC_top5	0.0488
+2023-07-01 15:07:40,353 Model Saved!
+
+2023-07-01 15:07:40,353 ====================Training====================
+2023-07-01 15:07:44,398 epoch=138	global_step=54000	loss=-728741.31250	loss_avg=-727075.15625	acc=0.02344	acc_top1_avg=0.00949	acc_top5_avg=0.05301	lr=0.00010	gn=651.77380	time=12.32it/s
+2023-07-01 15:07:52,559 epoch=138	global_step=54100	loss=-719823.87500	loss_avg=-726711.05854	acc=0.00000	acc_top1_avg=0.01106	acc_top5_avg=0.05496	lr=0.00010	gn=629.71497	time=12.31it/s
+2023-07-01 15:08:00,719 epoch=138	global_step=54200	loss=-729396.25000	loss_avg=-727081.82722	acc=0.01562	acc_top1_avg=0.01072	acc_top5_avg=0.05453	lr=0.00010	gn=718.93103	time=12.26it/s
+2023-07-01 15:08:08,879 epoch=138	global_step=54300	loss=-725491.00000	loss_avg=-727134.28911	acc=0.00000	acc_top1_avg=0.01099	acc_top5_avg=0.05414	lr=0.00010	gn=645.45087	time=12.31it/s
+2023-07-01 15:08:13,016 ====================Eval====================
+2023-07-01 15:08:15,745 epoch=138	global_step=54349	loss=63084.81250	test_loss_avg=68397.60488	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=193.05it/s
+2023-07-01 15:08:15,745 curr_acc	0.0098
+2023-07-01 15:08:15,745 BEST_ACC	0.0098
+2023-07-01 15:08:15,745 curr_acc_top5	0.0488
+2023-07-01 15:08:15,745 BEST_ACC_top5	0.0488
+2023-07-01 15:08:15,745 Model Saved!
+
+2023-07-01 15:08:15,746 ====================Training====================
+2023-07-01 15:08:20,490 epoch=139	global_step=54400	loss=-725772.56250	loss_avg=-727576.13603	acc=0.02344	acc_top1_avg=0.01256	acc_top5_avg=0.05484	lr=0.00010	gn=623.64301	time=12.37it/s
+2023-07-01 15:08:28,651 epoch=139	global_step=54500	loss=-726061.87500	loss_avg=-727410.11424	acc=0.00000	acc_top1_avg=0.01133	acc_top5_avg=0.05427	lr=0.00010	gn=716.92798	time=12.32it/s
+2023-07-01 15:08:36,826 epoch=139	global_step=54600	loss=-724655.06250	loss_avg=-727522.23257	acc=0.00781	acc_top1_avg=0.01130	acc_top5_avg=0.05525	lr=0.00010	gn=682.61847	time=12.31it/s
+2023-07-01 15:08:44,983 epoch=139	global_step=54700	loss=-729431.00000	loss_avg=-727525.85239	acc=0.03906	acc_top1_avg=0.01108	acc_top5_avg=0.05495	lr=0.00010	gn=643.36749	time=12.32it/s
+2023-07-01 15:08:48,400 ====================Eval====================
+2023-07-01 15:08:50,988 epoch=139	global_step=54740	loss=63274.42188	test_loss_avg=68610.82979	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.27it/s
+2023-07-01 15:08:51,193 epoch=139	global_step=54740	loss=63274.42188	test_loss_avg=68610.82979	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=192.27it/s
+2023-07-01 15:08:51,193 curr_acc	0.0098
+2023-07-01 15:08:51,194 BEST_ACC	0.0098
+2023-07-01 15:08:51,194 curr_acc_top5	0.0488
+2023-07-01 15:08:51,194 BEST_ACC_top5	0.0488
+2023-07-01 15:08:51,194 Model Saved!
+
+2023-07-01 15:08:51,194 ====================Training====================
+2023-07-01 15:08:56,697 epoch=140	global_step=54800	loss=-730909.75000	loss_avg=-727978.66250	acc=0.01562	acc_top1_avg=0.01120	acc_top5_avg=0.05195	lr=0.00010	gn=684.80292	time=12.31it/s
+2023-07-01 15:09:04,856 epoch=140	global_step=54900	loss=-729038.50000	loss_avg=-727970.93672	acc=0.00781	acc_top1_avg=0.01104	acc_top5_avg=0.05420	lr=0.00010	gn=630.47827	time=12.33it/s
+2023-07-01 15:09:13,016 epoch=140	global_step=55000	loss=-724998.37500	loss_avg=-727917.92716	acc=0.00781	acc_top1_avg=0.01118	acc_top5_avg=0.05511	lr=0.00010	gn=649.91071	time=12.35it/s
+2023-07-01 15:09:21,176 epoch=140	global_step=55100	loss=-726141.56250	loss_avg=-727891.13854	acc=0.00000	acc_top1_avg=0.01105	acc_top5_avg=0.05473	lr=0.00010	gn=657.82074	time=12.37it/s
+2023-07-01 15:09:23,836 ====================Eval====================
+2023-07-01 15:09:26,591 epoch=140	global_step=55131	loss=63061.57812	test_loss_avg=68509.31416	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.26it/s
+2023-07-01 15:09:26,592 curr_acc	0.0098
+2023-07-01 15:09:26,592 BEST_ACC	0.0098
+2023-07-01 15:09:26,592 curr_acc_top5	0.0488
+2023-07-01 15:09:26,592 BEST_ACC_top5	0.0488
+2023-07-01 15:09:26,592 Model Saved!
+
+2023-07-01 15:09:26,592 ====================Training====================
+2023-07-01 15:09:32,844 epoch=141	global_step=55200	loss=-733150.87500	loss_avg=-727923.36594	acc=0.01562	acc_top1_avg=0.00996	acc_top5_avg=0.05220	lr=0.00010	gn=5418.67822	time=12.33it/s
+2023-07-01 15:09:41,015 epoch=141	global_step=55300	loss=-730724.93750	loss_avg=-728297.99889	acc=0.02344	acc_top1_avg=0.01040	acc_top5_avg=0.05404	lr=0.00010	gn=646.13507	time=12.32it/s
+2023-07-01 15:09:49,175 epoch=141	global_step=55400	loss=-730188.75000	loss_avg=-728314.83155	acc=0.00781	acc_top1_avg=0.01095	acc_top5_avg=0.05422	lr=0.00010	gn=618.59595	time=12.30it/s
+2023-07-01 15:09:57,363 epoch=141	global_step=55500	loss=-730442.81250	loss_avg=-728428.68496	acc=0.02344	acc_top1_avg=0.01107	acc_top5_avg=0.05422	lr=0.00010	gn=633.82764	time=12.31it/s
+2023-07-01 15:09:59,291 ====================Eval====================
+2023-07-01 15:10:02,043 epoch=141	global_step=55522	loss=63156.11328	test_loss_avg=68627.33711	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.34it/s
+2023-07-01 15:10:02,043 curr_acc	0.0098
+2023-07-01 15:10:02,043 BEST_ACC	0.0098
+2023-07-01 15:10:02,043 curr_acc_top5	0.0488
+2023-07-01 15:10:02,043 BEST_ACC_top5	0.0488
+2023-07-01 15:10:02,043 Model Saved!
+
+2023-07-01 15:10:02,043 ====================Training====================
+2023-07-01 15:10:09,042 epoch=142	global_step=55600	loss=-733180.50000	loss_avg=-728538.96875	acc=0.01562	acc_top1_avg=0.01062	acc_top5_avg=0.05178	lr=0.00010	gn=627.76526	time=12.31it/s
+2023-07-01 15:10:17,204 epoch=142	global_step=55700	loss=-722495.75000	loss_avg=-728657.50562	acc=0.00781	acc_top1_avg=0.01071	acc_top5_avg=0.05324	lr=0.00010	gn=627.11804	time=12.32it/s
+2023-07-01 15:10:25,378 epoch=142	global_step=55800	loss=-726717.12500	loss_avg=-728823.54384	acc=0.00781	acc_top1_avg=0.01096	acc_top5_avg=0.05438	lr=0.00010	gn=634.72076	time=12.35it/s
+2023-07-01 15:10:33,544 epoch=142	global_step=55900	loss=-728725.87500	loss_avg=-728919.32986	acc=0.01562	acc_top1_avg=0.01100	acc_top5_avg=0.05427	lr=0.00010	gn=637.97443	time=12.34it/s
+2023-07-01 15:10:34,747 ====================Eval====================
+2023-07-01 15:10:36,454 epoch=142	global_step=55913	loss=67254.45312	test_loss_avg=68790.82949	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=21.20it/s
+2023-07-01 15:10:37,519 epoch=142	global_step=55913	loss=63357.37891	test_loss_avg=68571.47256	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.51it/s
+2023-07-01 15:10:37,519 curr_acc	0.0098
+2023-07-01 15:10:37,519 BEST_ACC	0.0098
+2023-07-01 15:10:37,519 curr_acc_top5	0.0488
+2023-07-01 15:10:37,519 BEST_ACC_top5	0.0488
+2023-07-01 15:10:37,519 Model Saved!
+
+2023-07-01 15:10:37,519 ====================Training====================
+2023-07-01 15:10:45,197 epoch=143	global_step=56000	loss=-730321.81250	loss_avg=-729301.09052	acc=0.00000	acc_top1_avg=0.01015	acc_top5_avg=0.05244	lr=0.00010	gn=675.09668	time=12.29it/s
+2023-07-01 15:10:53,361 epoch=143	global_step=56100	loss=-730904.87500	loss_avg=-729387.70755	acc=0.00781	acc_top1_avg=0.01049	acc_top5_avg=0.05494	lr=0.00010	gn=638.00751	time=12.27it/s
+2023-07-01 15:11:01,521 epoch=143	global_step=56200	loss=-727109.50000	loss_avg=-729476.42574	acc=0.02344	acc_top1_avg=0.01111	acc_top5_avg=0.05499	lr=0.00010	gn=700.88373	time=12.31it/s
+2023-07-01 15:11:09,684 epoch=143	global_step=56300	loss=-727654.12500	loss_avg=-729395.90730	acc=0.01562	acc_top1_avg=0.01104	acc_top5_avg=0.05449	lr=0.00010	gn=647.68732	time=12.30it/s
+2023-07-01 15:11:10,148 ====================Eval====================
+2023-07-01 15:11:12,864 epoch=143	global_step=56304	loss=63726.74219	test_loss_avg=68988.88174	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=189.79it/s
+2023-07-01 15:11:12,865 curr_acc	0.0098
+2023-07-01 15:11:12,865 BEST_ACC	0.0098
+2023-07-01 15:11:12,865 curr_acc_top5	0.0488
+2023-07-01 15:11:12,865 BEST_ACC_top5	0.0488
+2023-07-01 15:11:12,865 Model Saved!
+
+2023-07-01 15:11:12,865 ====================Training====================
+2023-07-01 15:11:21,303 epoch=144	global_step=56400	loss=-730415.25000	loss_avg=-729417.57161	acc=0.00781	acc_top1_avg=0.01180	acc_top5_avg=0.05534	lr=0.00010	gn=625.22021	time=12.31it/s
+2023-07-01 15:11:29,467 epoch=144	global_step=56500	loss=-733669.37500	loss_avg=-729494.70695	acc=0.01562	acc_top1_avg=0.01120	acc_top5_avg=0.05401	lr=0.00010	gn=32506.31641	time=12.29it/s
+2023-07-01 15:11:37,655 epoch=144	global_step=56600	loss=-732325.18750	loss_avg=-729720.73649	acc=0.00781	acc_top1_avg=0.01087	acc_top5_avg=0.05384	lr=0.00010	gn=663.70410	time=12.30it/s
+2023-07-01 15:11:45,561 ====================Eval====================
+2023-07-01 15:11:48,152 epoch=144	global_step=56695	loss=63648.87891	test_loss_avg=68756.60137	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.78it/s
+2023-07-01 15:11:48,301 epoch=144	global_step=56695	loss=63648.87891	test_loss_avg=68756.60137	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=190.78it/s
+2023-07-01 15:11:48,301 curr_acc	0.0098
+2023-07-01 15:11:48,301 BEST_ACC	0.0098
+2023-07-01 15:11:48,301 curr_acc_top5	0.0488
+2023-07-01 15:11:48,301 BEST_ACC_top5	0.0488
+2023-07-01 15:11:48,301 Model Saved!
+
+2023-07-01 15:11:48,301 ====================Training====================
+2023-07-01 15:11:49,359 epoch=145	global_step=56700	loss=-729958.56250	loss_avg=-727550.32500	acc=0.02344	acc_top1_avg=0.01250	acc_top5_avg=0.04219	lr=0.00010	gn=656.46014	time=12.24it/s
+2023-07-01 15:11:57,533 epoch=145	global_step=56800	loss=-727583.37500	loss_avg=-730279.37798	acc=0.00781	acc_top1_avg=0.01131	acc_top5_avg=0.05223	lr=0.00010	gn=623.32825	time=12.32it/s
+2023-07-01 15:12:05,724 epoch=145	global_step=56900	loss=-733947.68750	loss_avg=-730088.97470	acc=0.02344	acc_top1_avg=0.01101	acc_top5_avg=0.05324	lr=0.00010	gn=770.28577	time=12.32it/s
+2023-07-01 15:12:13,892 epoch=145	global_step=57000	loss=-729564.25000	loss_avg=-730229.05430	acc=0.03125	acc_top1_avg=0.01081	acc_top5_avg=0.05366	lr=0.00010	gn=38295.07422	time=12.31it/s
+2023-07-01 15:12:21,057 ====================Eval====================
+2023-07-01 15:12:23,793 epoch=145	global_step=57086	loss=63423.49219	test_loss_avg=68618.87344	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.15it/s
+2023-07-01 15:12:23,793 curr_acc	0.0098
+2023-07-01 15:12:23,793 BEST_ACC	0.0098
+2023-07-01 15:12:23,793 curr_acc_top5	0.0488
+2023-07-01 15:12:23,793 BEST_ACC_top5	0.0488
+2023-07-01 15:12:23,793 Model Saved!
+
+2023-07-01 15:12:23,794 ====================Training====================
+2023-07-01 15:12:25,565 epoch=146	global_step=57100	loss=-725496.31250	loss_avg=-729562.62946	acc=0.00781	acc_top1_avg=0.01172	acc_top5_avg=0.04967	lr=0.00010	gn=75551.24219	time=12.29it/s
+2023-07-01 15:12:33,730 epoch=146	global_step=57200	loss=-731096.81250	loss_avg=-730782.95943	acc=0.01562	acc_top1_avg=0.01199	acc_top5_avg=0.05551	lr=0.00010	gn=697.41168	time=12.30it/s
+2023-07-01 15:12:41,893 epoch=146	global_step=57300	loss=-732220.31250	loss_avg=-730883.36741	acc=0.00000	acc_top1_avg=0.01081	acc_top5_avg=0.05458	lr=0.00010	gn=646.00244	time=12.34it/s
+2023-07-01 15:12:50,056 epoch=146	global_step=57400	loss=-730806.25000	loss_avg=-730673.40207	acc=0.01562	acc_top1_avg=0.01095	acc_top5_avg=0.05481	lr=0.00010	gn=687.56805	time=12.33it/s
+2023-07-01 15:12:56,499 ====================Eval====================
+2023-07-01 15:12:59,209 epoch=146	global_step=57477	loss=63466.27734	test_loss_avg=69044.47061	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.29it/s
+2023-07-01 15:12:59,209 curr_acc	0.0098
+2023-07-01 15:12:59,209 BEST_ACC	0.0098
+2023-07-01 15:12:59,209 curr_acc_top5	0.0488
+2023-07-01 15:12:59,209 BEST_ACC_top5	0.0488
+2023-07-01 15:12:59,209 Model Saved!
+
+2023-07-01 15:12:59,209 ====================Training====================
+2023-07-01 15:13:01,714 epoch=147	global_step=57500	loss=-730542.31250	loss_avg=-730682.60598	acc=0.02344	acc_top1_avg=0.00883	acc_top5_avg=0.05435	lr=0.00010	gn=640.17499	time=12.31it/s
+2023-07-01 15:13:09,885 epoch=147	global_step=57600	loss=-730828.25000	loss_avg=-731030.23780	acc=0.02344	acc_top1_avg=0.01092	acc_top5_avg=0.05265	lr=0.00010	gn=650.92627	time=12.30it/s
+2023-07-01 15:13:18,051 epoch=147	global_step=57700	loss=-729770.25000	loss_avg=-731204.90219	acc=0.00781	acc_top1_avg=0.01111	acc_top5_avg=0.05371	lr=0.00010	gn=790.20209	time=12.28it/s
+2023-07-01 15:13:26,216 epoch=147	global_step=57800	loss=-729781.00000	loss_avg=-731320.21575	acc=0.00000	acc_top1_avg=0.01134	acc_top5_avg=0.05445	lr=0.00010	gn=626.39014	time=12.32it/s
+2023-07-01 15:13:31,903 ====================Eval====================
+2023-07-01 15:13:33,582 epoch=147	global_step=57868	loss=66960.65625	test_loss_avg=68591.51836	acc=0.00781	test_acc_avg=0.00937	test_acc_top5_avg=0.05234	time=19.86it/s
+2023-07-01 15:13:34,639 epoch=147	global_step=57868	loss=63269.92188	test_loss_avg=68383.81621	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=188.15it/s
+2023-07-01 15:13:34,639 curr_acc	0.0098
+2023-07-01 15:13:34,639 BEST_ACC	0.0098
+2023-07-01 15:13:34,639 curr_acc_top5	0.0488
+2023-07-01 15:13:34,639 BEST_ACC_top5	0.0488
+2023-07-01 15:13:34,639 Model Saved!
+
+2023-07-01 15:13:34,640 ====================Training====================
+2023-07-01 15:13:37,843 epoch=148	global_step=57900	loss=-728336.87500	loss_avg=-731396.39453	acc=0.01562	acc_top1_avg=0.01099	acc_top5_avg=0.05420	lr=0.00010	gn=682.48157	time=12.33it/s
+2023-07-01 15:13:46,004 epoch=148	global_step=58000	loss=-731846.75000	loss_avg=-731360.08428	acc=0.00000	acc_top1_avg=0.01125	acc_top5_avg=0.05457	lr=0.00010	gn=687.52338	time=12.31it/s
+2023-07-01 15:13:54,164 epoch=148	global_step=58100	loss=-732743.18750	loss_avg=-731423.92484	acc=0.00781	acc_top1_avg=0.01108	acc_top5_avg=0.05523	lr=0.00010	gn=639.09259	time=12.31it/s
+2023-07-01 15:14:02,330 epoch=148	global_step=58200	loss=-734345.37500	loss_avg=-731618.12801	acc=0.01562	acc_top1_avg=0.01073	acc_top5_avg=0.05448	lr=0.00010	gn=632.99133	time=12.30it/s
+2023-07-01 15:14:07,294 ====================Eval====================
+2023-07-01 15:14:09,992 epoch=148	global_step=58259	loss=63548.94922	test_loss_avg=68778.40596	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=191.18it/s
+2023-07-01 15:14:09,993 curr_acc	0.0098
+2023-07-01 15:14:09,993 BEST_ACC	0.0098
+2023-07-01 15:14:09,993 curr_acc_top5	0.0488
+2023-07-01 15:14:09,993 BEST_ACC_top5	0.0488
+2023-07-01 15:14:09,993 Model Saved!
+
+2023-07-01 15:14:09,993 ====================Training====================
+2023-07-01 15:14:14,037 epoch=149	global_step=58300	loss=-730360.50000	loss_avg=-731898.05640	acc=0.00000	acc_top1_avg=0.00972	acc_top5_avg=0.05659	lr=0.00010	gn=633.81299	time=12.36it/s
+2023-07-01 15:14:22,199 epoch=149	global_step=58400	loss=-729681.87500	loss_avg=-731952.52970	acc=0.03125	acc_top1_avg=0.01152	acc_top5_avg=0.05552	lr=0.00010	gn=646.44147	time=12.33it/s
+2023-07-01 15:14:30,362 epoch=149	global_step=58500	loss=-732129.87500	loss_avg=-732047.33636	acc=0.00000	acc_top1_avg=0.01122	acc_top5_avg=0.05453	lr=0.00010	gn=678.03455	time=12.33it/s
+2023-07-01 15:14:38,550 epoch=149	global_step=58600	loss=-734301.75000	loss_avg=-731869.86840	acc=0.00781	acc_top1_avg=0.01095	acc_top5_avg=0.05469	lr=0.00010	gn=680.43427	time=12.32it/s
+2023-07-01 15:14:42,771 ====================Eval====================
+2023-07-01 15:14:45,359 epoch=149	global_step=58650	loss=63581.12891	test_loss_avg=68962.42139	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=193.44it/s
+2023-07-01 15:14:45,515 epoch=149	global_step=58650	loss=63581.12891	test_loss_avg=68962.42139	acc=0.00000	test_acc_avg=0.00977	test_acc_top5_avg=0.04883	time=193.44it/s
+2023-07-01 15:14:45,515 curr_acc	0.0098
+2023-07-01 15:14:45,515 BEST_ACC	0.0098
+2023-07-01 15:14:45,515 curr_acc_top5	0.0488
+2023-07-01 15:14:45,515 BEST_ACC_top5	0.0488
+2023-07-01 15:14:45,515 Model Saved!
+
